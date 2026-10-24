@@ -759,6 +759,18 @@ img, video {
   color: var(--color-emerald);
 }
 
+.pill-amber {
+  background: rgba(255, 169, 77, 0.18);
+  border: 1px solid var(--color-orange);
+  color: var(--color-orange);
+}
+
+.pill-coral {
+  background: rgba(255, 107, 107, 0.18);
+  border: 1px solid var(--color-coral);
+  color: var(--color-coral);
+}
+
 .pill-indicator {
   width: 6px;
   height: 6px;
@@ -1056,6 +1068,18 @@ img, video {
   background: rgba(56, 211, 159, 0.2);
   color: var(--color-emerald);
   border: 1px solid var(--color-emerald);
+}
+
+.status-orange {
+  background: rgba(255, 169, 77, 0.2);
+  color: var(--color-orange);
+  border: 1px solid var(--color-orange);
+}
+
+.status-red {
+  background: rgba(255, 107, 107, 0.2);
+  color: var(--color-coral);
+  border: 1px solid var(--color-coral);
 }
 
 .reading-quality-badge {

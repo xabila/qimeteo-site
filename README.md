@@ -2,7 +2,7 @@
 
 Vitrine web officielle et documentation de l'application **QiMétéo** pour iOS & iPadOS.
 
-> **QiMétéo** est une application iOS de météo énergétique quotidienne et de sélection de dates fastes basée sur les sagesses millénaires orientales (**Tong Shu**, **Qi Men Dun Jia** et **BaZi**). Elle traduit ces calculs complexes en un indicateur limpide accessible en 3 secondes : **Feu Vert** (Journée Porteuse), **Feu Orange** (Journée Calme) ou **Feu Rouge** (Journée de Prudence), avec ses Créneaux d'Or de 2 heures et sa boussole d'orientation stratégique.
+> **QiMétéo** est une application iOS de météo décisionnelle quotidienne et de sélection de dates fastes basée sur les sagesses millénaires orientales (**12 Officiers Tong Shu**, **Qi Men Dun Jia — Cycles Yin/Yang Dun**, **4 Piliers BaZi** et **Feng Shui Ming Gua**). Elle traduit ces calculs en un indicateur limpide accessible en 3 secondes : **Feu Vert**, **Feu Orange** ou **Feu Rouge**, avec ses **2 Créneaux Stratégiques de 2 heures par jour (garantis sans configuration négative)**, sa recherche de dates pour **7 intentions de projets**, sa boussole 8 Palais et le calcul de vos directions favorables à la maison (**orientation de la tête de lit & du bureau**).
 
 ---
 
