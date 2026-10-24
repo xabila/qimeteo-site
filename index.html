@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>QiMétéo — Météo des Décisions, Chance & Calendrier Énergétique (iPhone & iPad)</title>
+  <meta name="title" content="QiMétéo — Météo des Décisions, Chance & Calendrier Énergétique">
+  <meta name="description" content="Comme la météo avant de sortir, consultez QiMétéo chaque matin pour savoir si la journée est porteuse pour vos projets ! Feu Vert, Orange ou Rouge, Créneaux d'Or et Boussole.">
+  <meta name="keywords" content="QiMétéo, qimeteo, astrologie chinoise, tong shu, qi men dun jia, calendrier chance, bazi, bon jour contrat, boussole feng shui, meteo energetique, decision business amour">
+  <meta name="author" content="Xavier Larrodé">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qimeteo.app/">
+  <meta property="og:title" content="QiMétéo — La Météo de Vos Journées">
+  <meta property="og:description" content="Découvrez en 3 secondes si aujourd'hui est le bon jour pour signer, agir, voyager ou souffler. Sagesse millénaire traduite en langage clair.">
+  <meta property="og:image" content="https://qimeteo.app/assets/images/app_icon.png">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://qimeteo.app/">
+  <meta property="twitter:title" content="QiMétéo — La Météo de Vos Journées">
+  <meta property="twitter:description" content="Découvrez en 3 secondes (Feu Vert, Orange ou Rouge) si aujourd'hui est le bon jour pour vos projets.">
+  <meta property="twitter:image" content="https://qimeteo.app/assets/images/app_icon.png">
+
+  <!-- Canonical & Domain -->
+  <link rel="canonical" href="https://qimeteo.app/">
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/images/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b0a18">
+
+  <!-- Google Fonts: Outfit (Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Cinzel:wght@700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Application Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "QiMétéo",
+    "operatingSystem": "iOS, iPadOS",
+    "applicationCategory": "LifestyleApplication, ProductivityApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "description": "Application iOS de météo énergétique quotidienne et de sélection de dates fastes basée sur le Tong Shu et le Qi Men Dun Jia.",
+    "author": {
+      "@type": "Person",
+      "name": "Xavier Larrodé"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Cosmic Ambient Glows & Starfield -->
+  <div class="ambient-glow glow-gold" aria-hidden="true"></div>
+  <div class="ambient-glow glow-indigo" aria-hidden="true"></div>
+  <div class="ambient-glow glow-emerald" aria-hidden="true"></div>
+  <div class="stars-overlay" aria-hidden="true"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#hero" class="brand-link" aria-label="QiMétéo Accueil">
+        <img src="assets/images/app_icon.png" alt="QiMétéo Logo" class="brand-icon" width="42" height="42">
+        <div class="brand-text">
+          <span class="brand-name">QI<span class="text-gold">MÉTÉO</span></span>
+          <span class="brand-tag">MÉTÉO DES DÉCISIONS</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigation principale">
+        <a href="#concept" class="nav-link" data-i18n="nav_concept">Le Concept</a>
+        <a href="#simulator" class="nav-link" data-i18n="nav_simulator">12 Signes</a>
+        <a href="#features" class="nav-link" data-i18n="nav_features">Créneaux d'Or</a>
+        <a href="#duo" class="nav-link" data-i18n="nav_duo">Mode Duo</a>
+        <a href="#pricing" class="nav-link" data-i18n="nav_pricing">Pass PRO</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Switcher -->
+        <button type="button" class="lang-toggle-btn" id="lang-toggle" aria-label="Changer de langue">
+          <span id="lang-flag">🇫🇷</span>
+          <span id="lang-code">FR</span>
+        </button>
+
+        <!-- CTA Download App Store -->
+        <a href="https://apps.apple.com" target="_blank" rel="noopener" class="btn-store-nav" id="header-cta">
+          <svg class="apple-icon" viewBox="0 0 170 170" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.04-7.69-7.85-12-14.42-6.19-9.39-10.9-20.09-14.13-32.09-3.23-12-4.85-23.32-4.85-33.97 0-14.42 3.63-26.4 10.9-35.95 7.27-9.55 16.48-14.43 27.64-14.65 4.35 0 9.27 1.15 14.76 3.44 5.48 2.29 9.38 3.5 11.71 3.65 1.96-.15 5.92-1.36 11.89-3.65 5.97-2.29 10.88-3.32 14.73-3.08 13.43.83 23.94 5.96 31.54 15.4-11.89 7.27-17.7 17.1-17.44 29.49.27 9.8 4.18 18.06 11.74 24.78 7.56 6.72 16.48 10.45 26.77 11.2-.82 2.61-1.85 5.34-3.09 8.19zm-38.3-108.38c0-7.39 2.64-14.28 7.92-20.67 5.28-6.39 12-10.44 20.15-12.16.54 2.28.81 4.56.81 6.84 0 7.39-2.73 14.39-8.19 21-5.46 6.61-12.28 10.63-20.47 12.06-.11-2.39-.22-4.75-.22-7.07z"/>
+          </svg>
+          <span class="btn-store-text">
+            <small data-i18n="cta_dl_top">Télécharger sur</small>
+            <strong>App Store</strong>
+          </span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <nav class="mobile-nav">
+        <a href="#concept" class="mobile-nav-link" data-i18n="nav_concept">Le Concept</a>
+        <a href="#simulator" class="mobile-nav-link" data-i18n="nav_simulator">12 Signes</a>
+        <a href="#features" class="mobile-nav-link" data-i18n="nav_features">Créneaux d'Or</a>
+        <a href="#duo" class="mobile-nav-link" data-i18n="nav_duo">Mode Duo</a>
+        <a href="#pricing" class="mobile-nav-link" data-i18n="nav_pricing">Pass PRO</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-chip">
+            <span class="pulse-sparkle">✦</span>
+            <span class="chip-text" data-i18n="hero_chip">SAGESSE MILLÉNAIRE ORIENTALE • SIMPLE EN 3 SECONDES</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-title-main" data-i18n="hero_title_1">COMME LA MÉTÉO,</span>
+            <span class="hero-title-accent text-gradient-gold" data-i18n="hero_title_2">MAIS POUR VOS DÉCISIONS.</span>
+          </h1>
+
+          <p class="hero-description" data-i18n="hero_desc">
+            Comme vous regardez la météo avant de sortir pour savoir comment vous habiller, regardez QiMétéo chaque matin pour savoir si la journée est favorable à vos projets ! Feu Vert, Orange ou Rouge en 3 secondes.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="https://apps.apple.com" target="_blank" rel="noopener" class="btn-primary-gold" id="hero-btn-download">
+              <svg class="apple-icon" viewBox="0 0 170 170" width="22" height="22" fill="currentColor" aria-hidden="true">
+                <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.04-7.69-7.85-12-14.42-6.19-9.39-10.9-20.09-14.13-32.09-3.23-12-4.85-23.32-4.85-33.97 0-14.42 3.63-26.4 10.9-35.95 7.27-9.55 16.48-14.43 27.64-14.65 4.35 0 9.27 1.15 14.76 3.44 5.48 2.29 9.38 3.5 11.71 3.65 1.96-.15 5.92-1.36 11.89-3.65 5.97-2.29 10.88-3.32 14.73-3.08 13.43.83 23.94 5.96 31.54 15.4-11.89 7.27-17.7 17.1-17.44 29.49.27 9.8 4.18 18.06 11.74 24.78 7.56 6.72 16.48 10.45 26.77 11.2-.82 2.61-1.85 5.34-3.09 8.19zm-38.3-108.38c0-7.39 2.64-14.28 7.92-20.67 5.28-6.39 12-10.44 20.15-12.16.54 2.28.81 4.56.81 6.84 0 7.39-2.73 14.39-8.19 21-5.46 6.61-12.28 10.63-20.47 12.06-.11-2.39-.22-4.75-.22-7.07z"/>
+              </svg>
+              <div class="btn-label-group">
+                <span class="btn-micro" data-i18n="hero_btn_sub">Téléchargement Gratuit</span>
+                <span class="btn-title" data-i18n="hero_btn_main">Obtenir QiMétéo</span>
+              </div>
+            </a>
+
+            <a href="#concept" class="btn-outline-gold">
+              <span data-i18n="hero_btn_discover">Découvrir le Fonctionnement</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-dot dot-emerald"></span>
+              <span data-i18n="hero_pill_1">Feu Vert (Porteur) / Orange / Rouge</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-dot dot-gold"></span>
+              <span data-i18n="hero_pill_2">Créneaux d'Or de 2 Heures</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-dot dot-purple"></span>
+              <span data-i18n="hero_pill_3">Boussole d'Orientation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO MOCKUP & LIVE INTERACTIVE WEATHER CARD -->
+        <div class="hero-visual">
+          <div class="phone-mockup-wrapper">
+            
+            <!-- Floating Zodiac Sticker -->
+            <div class="sticker-float sticker-dragon" aria-hidden="true">
+              <img src="assets/zodiac/dragon.png" alt="Dragon Zodiaque" width="115" height="115">
+            </div>
+
+            <div class="sticker-float sticker-compass" aria-hidden="true">
+              <div class="compass-badge">
+                <span class="compass-needle">🧭</span>
+                <div class="compass-meta">
+                  <small>BOUSSOLE QI</small>
+                  <strong>Dos au N-E</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone Frame -->
+            <div class="phone-device-frame">
+              <div class="phone-dynamic-island">
+                <span class="cam-lens"></span>
+              </div>
+
+              <!-- Phone Screen (Cosmic Indigo) -->
+              <div class="phone-screen-content">
+                <div class="app-ui-header">
+                  <div class="app-header-date">
+                    <span class="date-badge">AUJOURD'HUI</span>
+                    <span class="date-text" id="live-date-header">24 Octobre</span>
+                  </div>
+                  <span class="app-user-avatar">🐲 Dragon</span>
+                </div>
+
+                <!-- Main Hero Weather Card -->
+                <div class="forecast-hero-card" id="interactive-forecast-card">
+                  <div class="card-status-pill pill-emerald" id="status-pill">
+                    <span class="pill-indicator"></span>
+                    <strong id="status-headline">FEU VERT • JOURNÉE PORTEUSE</strong>
+                  </div>
+
+                  <div class="score-circle-wrap">
+                    <div class="score-circle">
+                      <span class="score-val" id="score-val">88%</span>
+                      <span class="score-label">ALIGNEMENT</span>
+                    </div>
+                  </div>
+
+                  <p class="forecast-action-advice" id="forecast-action-advice">
+                    Le moment idéal pour signer un contrat ou un bail, demander une augmentation ou lancer un projet !
+                  </p>
+
+                  <div class="forecast-meta-grid">
+                    <div class="meta-item">
+                      <span class="meta-label">CRÉNEAU D'OR</span>
+                      <strong class="text-gold" id="slot-time">15h00 - 17h00</strong>
+                    </div>
+                    <div class="meta-item">
+                      <span class="meta-label">ORIENTATION</span>
+                      <strong class="text-emerald" id="slot-direction">Nord-Est (72°)</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mini Schedule Preview -->
+                <div class="mini-windows-box">
+                  <div class="window-row">
+                    <span class="time-tag text-gold">11h00 - 13h00</span>
+                    <span class="act-tag">Discussions & Contacts</span>
+                    <span class="rate-stars">★★★★</span>
+                  </div>
+                  <div class="window-row active-window">
+                    <span class="time-tag text-gold">15h00 - 17h00</span>
+                    <span class="act-tag">Signature & Succès</span>
+                    <span class="rate-stars text-gold">★★★★★</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="phone-glare" aria-hidden="true"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CORE CONCEPT SECTION -->
+    <section class="concept-section" id="concept">
+      <div class="section-container">
+        
+        <div class="section-header text-center">
+          <span class="badge-tag-gold" data-i18n="concept_badge">LA MÉTÉO DE VOS JOURNÉES</span>
+          <h2 class="section-title" data-i18n="concept_title">FEU VERT, ORANGE OU ROUGE EN 3 SECONDES</h2>
+          <p class="section-desc" data-i18n="concept_desc">
+            Pas besoin d'être expert en astrologie ou en Feng Shui. QiMétéo traduit la sagesse millénaire des calendriers orientaux en repères concrets pour agir avec confiance.
+          </p>
+        </div>
+
+        <div class="lights-grid">
+          
+          <!-- Feu Vert -->
+          <div class="light-card card-green">
+            <div class="light-signal signal-green">
+              <span class="signal-glow"></span>
+            </div>
+            <h3 class="light-title text-emerald" data-i18n="green_title">FEU VERT — Journée Porteuse</h3>
+            <p class="light-desc" data-i18n="green_desc">
+              Le moment idéal pour signer un bail ou un contrat, faire un achat important, demander une promotion, lancer un projet clé ou déclarer votre flamme.
+            </p>
+            <div class="light-action-tag" data-i18n="green_tag">Action & Lancement</div>
+          </div>
+
+          <!-- Feu Orange -->
+          <div class="light-card card-orange">
+            <div class="light-signal signal-orange">
+              <span class="signal-glow"></span>
+            </div>
+            <h3 class="light-title text-orange" data-i18n="orange_title">FEU ORANGE — Journée Calme</h3>
+            <p class="light-desc" data-i18n="orange_desc">
+              Parfait pour avancer tranquillement sur votre quotidien, ranger, trier, faire le point et préparer vos prochains dossiers sans pression inutile.
+            </p>
+            <div class="light-action-tag" data-i18n="orange_tag">Préparation & Rangement</div>
+          </div>
+
+          <!-- Feu Rouge -->
+          <div class="light-card card-red">
+            <div class="light-signal signal-red">
+              <span class="signal-glow"></span>
+            </div>
+            <h3 class="light-title text-coral" data-i18n="red_title">FEU ROUGE — Journée de Prudence</h3>
+            <p class="light-desc" data-i18n="red_desc">
+              Laissez passer l'orage sans culpabilité. Évitez les sujets qui fâchent, prenez soin de vous et reportez les décisions risquées au lendemain.
+            </p>
+            <div class="light-action-tag" data-i18n="red_tag">Prudence & Récupération</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERACTIVE 12 ZODIAC SIMULATOR -->
+    <section class="simulator-section" id="simulator">
+      <div class="section-container">
+        
+        <div class="section-header text-center">
+          <span class="badge-tag-indigo" data-i18n="sim_badge">TESTEZ VOTRE SIGNE CHINOIS</span>
+          <h2 class="section-title" data-i18n="sim_title">DÉCOUVREZ L'ÉNERGIE DE VOTRE SIGNE AUJOURD'HUI</h2>
+          <p class="section-desc" data-i18n="sim_desc">
+            Sélectionnez votre animal du zodiaque pour simuler la lecture du jour selon les 12 branches terrestres traditionnelles :
+          </p>
+        </div>
+
+        <div class="zodiac-picker-grid" id="zodiac-grid" role="tablist">
+          <button type="button" class="zodiac-btn" data-zodiac="rat" role="tab">
+            <img src="assets/zodiac/rat.png" alt="Rat" width="60" height="60">
+            <span>Rat</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="ox" role="tab">
+            <img src="assets/zodiac/ox.png" alt="Bœuf" width="60" height="60">
+            <span>Bœuf</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="tiger" role="tab">
+            <img src="assets/zodiac/tiger.png" alt="Tigre" width="60" height="60">
+            <span>Tigre</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="rabbit" role="tab">
+            <img src="assets/zodiac/rabbit.png" alt="Lièvre" width="60" height="60">
+            <span>Lièvre</span>
+          </button>
+          <button type="button" class="zodiac-btn active" data-zodiac="dragon" role="tab" aria-selected="true">
+            <img src="assets/zodiac/dragon.png" alt="Dragon" width="60" height="60">
+            <span>Dragon</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="snake" role="tab">
+            <img src="assets/zodiac/snake.png" alt="Serpent" width="60" height="60">
+            <span>Serpent</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="horse" role="tab">
+            <img src="assets/zodiac/horse.png" alt="Cheval" width="60" height="60">
+            <span>Cheval</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="goat" role="tab">
+            <img src="assets/zodiac/goat.png" alt="Chèvre" width="60" height="60">
+            <span>Chèvre</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="monkey" role="tab">
+            <img src="assets/zodiac/monkey.png" alt="Singe" width="60" height="60">
+            <span>Singe</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="rooster" role="tab">
+            <img src="assets/zodiac/rooster.png" alt="Coq" width="60" height="60">
+            <span>Coq</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="dog" role="tab">
+            <img src="assets/zodiac/dog.png" alt="Chien" width="60" height="60">
+            <span>Chien</span>
+          </button>
+          <button type="button" class="zodiac-btn" data-zodiac="pig" role="tab">
+            <img src="assets/zodiac/pig.png" alt="Cochon" width="60" height="60">
+            <span>Cochon</span>
+          </button>
+        </div>
+
+        <!-- Dynamic Reading Display -->
+        <div class="reading-result-card" id="zodiac-result-card">
+          <div class="reading-card-left">
+            <img src="assets/zodiac/dragon.png" alt="Dragon" class="reading-animal-img" id="reading-img" width="160" height="160">
+            <h3 class="reading-sign-title" id="reading-title">Dragon (辰)</h3>
+            <span class="reading-element-badge" id="reading-element">Élément Terre • Yang</span>
+          </div>
+
+          <div class="reading-card-right">
+            <div class="reading-status-row">
+              <span class="reading-status-indicator status-green" id="reading-status">Feu Vert (88%)</span>
+              <span class="reading-quality-badge" id="reading-quality">Journée d'Épanouissement</span>
+            </div>
+
+            <p class="reading-body-text" id="reading-text">
+              Les configurations astrales mettent en lumière vos initiatives. Votre présence est charismatique et convaincante. C'est le moment d'oser aborder les sujets majeurs et d'officialiser vos accords.
+            </p>
+
+            <div class="reading-details-grid">
+              <div class="reading-detail">
+                <span class="detail-label">Créneau d'Or :</span>
+                <strong id="reading-slot">15h00 - 17h00 (Heure du Singe)</strong>
+              </div>
+              <div class="reading-detail">
+                <span class="detail-label">Orientation Conseillée :</span>
+                <strong id="reading-dir">Dos au Nord-Est (72°)</strong>
+              </div>
+              <div class="reading-detail">
+                <span class="detail-label">Allié du Jour :</span>
+                <strong id="reading-ally">Singe & Coq</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KEY PILLARS: GOLDEN HOURS & COMPASS -->
+    <section class="features-section" id="features">
+      <div class="section-container">
+        
+        <div class="section-header text-center">
+          <span class="badge-tag-gold" data-i18n="feat_badge">PRÉCISION STRATÉGIQUE</span>
+          <h2 class="section-title" data-i18n="feat_title">LA BONNE HEURE & LE BON CÔTÉ OÙ S'ASSEOIR</h2>
+          <p class="section-desc" data-i18n="feat_desc">
+            Vous avez un coup de fil important, un entretien, un examen ou une négociation ? Ne laissez rien au hasard.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          
+          <div class="feature-card">
+            <div class="feature-icon">⏳</div>
+            <h3 class="feature-title" data-i18n="feat_1_title">Créneaux d'Or de 2 Heures</h3>
+            <p class="feature-desc" data-i18n="feat_1_desc">
+              Dans la journée, l'énergie fluctue toutes les deux heures (les 12 doubles heures chinoises). QiMétéo calcule précisément vos fenêtres de chance maximale pour caler vos rendez-vous cruciaux.
+            </p>
+            <div class="feature-tag">Timing Parfait</div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🧭</div>
+            <h3 class="feature-title" data-i18n="feat_2_title">Boussole de Placement Intégrée</h3>
+            <p class="feature-desc" data-i18n="feat_2_desc">
+              Selon le Qi Men Dun Jia, s'asseoir le dos orienté vers le bon secteur cardinal vous positionne dans le flux énergétique porteur. Ouvrez la boussole en direct pour orienter votre chaise en 2 secondes.
+            </p>
+            <div class="feature-tag">Qi Men Dun Jia</div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📅</div>
+            <h3 class="feature-title" data-i18n="feat_3_title">Planificateur 45 Jours par Projet</h3>
+            <p class="feature-desc" data-i18n="feat_3_desc">
+              Filtrez en 1 clic : Travail & Contrat, Argent & Achat, Famille & Amour, Santé, Voyage ou Déménagement. Trouvez la meilleure date du mois et synchronisez-la d'un geste avec votre Calendrier Apple.
+            </p>
+            <div class="feature-tag">Sync Apple Calendar</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DUO COMPATIBILITY & DUAL MODES -->
+    <section class="duo-section" id="duo">
+      <div class="section-container duo-layout">
+        
+        <div class="duo-text-col">
+          <span class="badge-tag-indigo" data-i18n="duo_badge">HARMONIE RELATIONNELLE</span>
+          <h2 class="section-title" data-i18n="duo_title">COMPATIBILITÉ & AFFINITÉ À DEUX (MODE DUO)</h2>
+          <p class="section-desc" data-i18n="duo_desc">
+            Comparez votre date de naissance avec celle de votre conjoint(e), d'un enfant, d'un associé ou d'un collègue. Comprenez vos dynamiques sans jugement et trouvez les jours propices pour discuter, décider ou voyager ensemble.
+          </p>
+
+          <div class="duo-perks">
+            <div class="duo-perk-item">
+              <span class="duo-check">✓</span>
+              <div>
+                <strong data-i18n="duo_p1_strong">Compréhension Mutuelle :</strong>
+                <p data-i18n="duo_p1_desc">Découvrez vos traits de caractère respectifs expliqués en langage clair et bienveillant.</p>
+              </div>
+            </div>
+            <div class="duo-perk-item">
+              <span class="duo-check">✓</span>
+              <div>
+                <strong data-i18n="duo_p2_strong">Calendrier Commun :</strong>
+                <p data-i18n="duo_p2_desc">Identifiez les dates où vos deux énergies sont alignées pour vos projets de couple ou de famille.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dual-modes-box">
+            <div class="mode-badge">
+              <span>Grand Public</span> ou <span>Mode Expert</span>
+            </div>
+            <p data-i18n="modes_desc">
+              Basculable à tout moment : 100% français courant par défaut, ou termes traditionnels complets (8 Déités, Portes, Étoiles, 12 Officiers Tong Shu et 4 Piliers BaZi) pour les passionnés.
+            </p>
+          </div>
+        </div>
+
+        <div class="duo-visual-col">
+          <div class="duo-visual-card">
+            <div class="duo-avatar-pair">
+              <div class="avatar-ring avatar-1">
+                <img src="assets/zodiac/dragon.png" alt="Dragon" width="80" height="80">
+                <span>Vous (Dragon)</span>
+              </div>
+              <span class="duo-heart">✦</span>
+              <div class="avatar-ring avatar-2">
+                <img src="assets/zodiac/rooster.png" alt="Coq" width="80" height="80">
+                <span>Partenaire (Coq)</span>
+              </div>
+            </div>
+            <div class="duo-match-score">
+              <span class="match-percent text-gold">94%</span>
+              <span class="match-label">ALLIANCE SECRÈTE (LIU HE)</span>
+            </div>
+            <p class="duo-card-caption">
+              « Harmonie exceptionnelle et soutien mutuel naturel. Le 28 Octobre est votre date d'or pour un projet commun. »
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PRICING & PASS VIP -->
+    <section class="pricing-section" id="pricing">
+      <div class="section-container">
+        
+        <div class="section-header text-center">
+          <span class="badge-tag-gold" data-i18n="price_badge">TRANSPARENT & FAMILIAL</span>
+          <h2 class="section-title" data-i18n="price_title">COMMENCEZ GRATUITEMENT, DÉBLOQUEZ TOUT EN FAMILLE</h2>
+          <p class="section-desc" data-i18n="price_desc">
+            La météo du jour et le premier créneau d'or sont toujours gratuits. Passez à QiMétéo PRO pour planifier sur 45 jours et en faire profiter toute votre famille.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          
+          <!-- Plan 1: Free -->
+          <div class="pricing-card card-free">
+            <div class="pricing-header">
+              <h3 class="plan-name" data-i18n="plan_free_name">DÉCOUVERTE GRATUITE</h3>
+              <div class="plan-price">
+                <span class="price-val">0 €</span>
+                <span class="price-period" data-i18n="plan_free_sub">Pour toujours</span>
+              </div>
+              <p class="plan-summary" data-i18n="plan_free_desc">L'essentiel pour connaître son feu du jour chaque matin au réveil.</p>
+            </div>
+
+            <ul class="plan-perks">
+              <li><span class="perk-check">✓</span> <span data-i18n="pfree_1">Score du Jour & Feu Vert/Orange/Rouge</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pfree_2">Premier Créneau d'Or de la Journée</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pfree_3">Boussole d'Orientation de Base</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pfree_4">Widgets Écran d'Accueil iOS</span></li>
+              <li><span class="perk-cross">✗</span> <span class="text-muted" data-i18n="pfree_5">Planificateur Horizon 45 Jours</span></li>
+              <li><span class="perk-cross">✗</span> <span class="text-muted" data-i18n="pfree_6">Mode Duo & Compatibilité Illimitée</span></li>
+            </ul>
+
+            <a href="https://apps.apple.com" target="_blank" rel="noopener" class="btn-plan btn-plan-free" data-i18n="btn_free">Télécharger Gratuitement</a>
+          </div>
+
+          <!-- Plan 2: Yearly VIP (Featured) -->
+          <div class="pricing-card card-vip featured-card">
+            <div class="featured-ribbon" data-i18n="plan_vip_ribbon">OFFRE RECOMMANDÉE • 7 JOURS GRATUITS</div>
+            <div class="pricing-header">
+              <h3 class="plan-name text-gold" data-i18n="plan_vip_name">PASS ANNUEL VIP PRO</h3>
+              <div class="plan-price">
+                <span class="price-val">49,99 €</span>
+                <span class="price-period">/ an</span>
+              </div>
+              <p class="plan-summary" data-i18n="plan_vip_desc">Seulement 4,16 €/mois. Partage Familial Apple inclus pour jusqu'à 6 membres de la famille.</p>
+            </div>
+
+            <ul class="plan-perks">
+              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_1">Planificateur 45 Jours par Projet</strong></li>
+              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_2">Tous les Créneaux d'Or de la Journée</strong></li>
+              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_3">Export 1-Clic dans le Calendrier Apple</strong></li>
+              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_4">Mode Duo & Affinité à Deux Illimité</strong></li>
+              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_5">Mode Expert Complet (Qi Men, BaZi)</strong></li>
+              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_6">Partage Familial Apple Inclus (6 pers.)</strong></li>
+            </ul>
+
+            <a href="https://apps.apple.com" target="_blank" rel="noopener" class="btn-plan btn-plan-featured" data-i18n="btn_vip">Essai Gratuit de 7 Jours</a>
+          </div>
+
+          <!-- Plan 3: Monthly -->
+          <div class="pricing-card card-monthly">
+            <div class="pricing-header">
+              <h3 class="plan-name" data-i18n="plan_month_name">PASS MENSUEL PRO</h3>
+              <div class="plan-price">
+                <span class="price-val">4,99 €</span>
+                <span class="price-period">/ mois</span>
+              </div>
+              <p class="plan-summary" data-i18n="plan_month_desc">Idéal pour préparer un mois clé sans engagement de durée.</p>
+            </div>
+
+            <ul class="plan-perks">
+              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_1">Accès Intégral au Planificateur 45J</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_2">Tous les Créneaux d'Or de la Journée</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_3">Mode Duo & Compatibilité</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_4">Sans Engagement (Résiliable à tout moment)</span></li>
+              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_5">Partage Familial Apple Inclus</span></li>
+            </ul>
+
+            <a href="https://apps.apple.com" target="_blank" rel="noopener" class="btn-plan btn-plan-free" data-i18n="btn_month">Choisir le Pass Mensuel</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PRIVACY & ON-DEVICE SECURITY -->
+    <section class="privacy-section">
+      <div class="section-container">
+        <div class="privacy-card">
+          <div class="privacy-icon">🛡️</div>
+          <div class="privacy-content">
+            <h3 class="privacy-title" data-i18n="priv_title">100% On-Device : Vos Données Personnelles Restent Chez Vous</h3>
+            <p class="privacy-desc" data-i18n="priv_desc">
+              Votre date de naissance, vos proches et vos ressentis sont traités exclusivement sur votre iPhone ou iPad. Aucune information n'est revendue à des publicitaires ni analysée sur des serveurs distants.
+            </p>
+          </div>
+          <a href="privacy.html" class="btn-privacy-link" data-i18n="priv_link">Politique de Confidentialité →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+      <div class="section-container">
+        
+        <div class="section-header text-center">
+          <span class="badge-tag-indigo" data-i18n="faq_badge">FAQ</span>
+          <h2 class="section-title" data-i18n="faq_title">QUESTIONS FRÉQUENTES</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span data-i18n="faq_1_q">Sur quoi sont fondés les calculs de QiMétéo ?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="faq_1_a">
+                QiMétéo repose sur la convergence des deux plus grands systèmes calendaires métaphysiques de l'Asie orientale : le <strong>Tong Shu</strong> (calendrier impérial chinois des 12 Officiers) et le <strong>Qi Men Dun Jia</strong> (l'art stratégique impérial de l'espace et du temps). Ces calculs sont pondérés par votre propre date de naissance (4 Piliers BaZi).
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq_2_q">Dois-je connaître l'astrologie chinoise pour m'en servir ?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="faq_2_a">
+                Non, absolument pas ! C'est la raison d'être de QiMétéo : rendre ces sagesses immédiatement utiles en 3 secondes. Vous avez un Feu Vert, Orange ou Rouge, vos heures clés et des conseils rédigés en français courant bienveillant.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq_3_q">Comment fonctionne la boussole ?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="faq_3_a">
+                La boussole intégrée indique la direction vers laquelle vous adosser (votre dos au secteur porteur). Lorsque vous êtes en entretien ou à votre bureau, vous orienter dos à la bonne direction permet selon le Qi Men Dun Jia de bénéficier du soutien de la structure énergétique du moment.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq_4_q">Puis-je partager mon abonnement avec ma famille ?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="faq_4_a">
+                Oui ! L'abonnement QiMétéo PRO intègre le Partage Familial Apple : jusqu'à 6 membres de votre groupe familial peuvent en profiter sans aucun coût supplémentaire.
+              </p>
+            </div>
+          </details>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta-section">
+      <div class="section-container">
+        <div class="final-cta-card">
+          <img src="assets/images/app_icon.png" alt="QiMétéo Logo" class="final-cta-icon" width="88" height="88">
+          <h2 class="final-cta-title" data-i18n="final_title">PRÊT À DONNER LE MEILLEUR TEMPO À VOS PROJETS ?</h2>
+          <p class="final-cta-desc" data-i18n="final_desc">
+            Installez QiMétéo dès aujourd'hui sur votre iPhone ou iPad et démarrez chaque journée avec clarté et sérénité.
+          </p>
+          <a href="https://apps.apple.com" target="_blank" rel="noopener" class="btn-primary-gold btn-large">
+            <svg class="apple-icon" viewBox="0 0 170 170" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.04-7.69-7.85-12-14.42-6.19-9.39-10.9-20.09-14.13-32.09-3.23-12-4.85-23.32-4.85-33.97 0-14.42 3.63-26.4 10.9-35.95 7.27-9.55 16.48-14.43 27.64-14.65 4.35 0 9.27 1.15 14.76 3.44 5.48 2.29 9.38 3.5 11.71 3.65 1.96-.15 5.92-1.36 11.89-3.65 5.97-2.29 10.88-3.32 14.73-3.08 13.43.83 23.94 5.96 31.54 15.4-11.89 7.27-17.7 17.1-17.44 29.49.27 9.8 4.18 18.06 11.74 24.78 7.56 6.72 16.48 10.45 26.77 11.2-.82 2.61-1.85 5.34-3.09 8.19zm-38.3-108.38c0-7.39 2.64-14.28 7.92-20.67 5.28-6.39 12-10.44 20.15-12.16.54 2.28.81 4.56.81 6.84 0 7.39-2.73 14.39-8.19 21-5.46 6.61-12.28 10.63-20.47 12.06-.11-2.39-.22-4.75-.22-7.07z"/>
+            </svg>
+            <div class="btn-label-group">
+              <span class="btn-micro" data-i18n="final_btn_sub">Disponible sur iPhone & iPad</span>
+              <span class="btn-title" data-i18n="final_btn_main">Télécharger Gratuitement sur l'App Store</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      
+      <div class="footer-brand-col">
+        <a href="#hero" class="brand-link">
+          <img src="assets/images/app_icon.png" alt="QiMétéo Logo" class="brand-icon" width="38" height="38">
+          <span class="brand-name">QI<span class="text-gold">MÉTÉO</span></span>
+        </a>
+        <p class="footer-bio" data-i18n="footer_bio">
+          La météo de vos journées : sélection de dates fastes, créneaux d'or et boussole stratégique fondés sur le Tong Shu et le Qi Men Dun Jia. Développé en France par Xavier Larrodé.
+        </p>
+        <span class="footer-badge">🇫🇷 Fait avec passion en France</span>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading" data-i18n="footer_app">L'Application</h4>
+        <ul class="footer-nav">
+          <li><a href="#concept" data-i18n="nav_concept">Le Concept</a></li>
+          <li><a href="#simulator" data-i18n="nav_simulator">12 Signes Zodiaque</a></li>
+          <li><a href="#features" data-i18n="nav_features">Créneaux d'Or</a></li>
+          <li><a href="#duo" data-i18n="nav_duo">Mode Duo</a></li>
+          <li><a href="#pricing" data-i18n="nav_pricing">Pass PRO</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading" data-i18n="footer_legal">Légal & Contact</h4>
+        <ul class="footer-nav">
+          <li><a href="privacy.html" data-i18n="footer_privacy">Politique de Confidentialité</a></li>
+          <li><a href="terms.html" data-i18n="footer_terms">Conditions Générales d'Utilisation</a></li>
+          <li><a href="mailto:xlarrodeapp@gmail.com" data-i18n="footer_contact">Contact & Support</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="footer-bottom-container">
+        <p>&copy; <span id="current-year">2026</span> QiMétéo — Xavier Larrodé. Tous droits réservés.</p>
+        <p>Apple, iPhone, iPad et Apple Calendar sont des marques déposées d'Apple Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
