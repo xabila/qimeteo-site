@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Primary Meta Tags -->
-  <title>QiMétéo — Météo des Décisions, Qi Men Dun Jia, Feng Shui & Calendrier Énergétique (iPhone & iPad)</title>
-  <meta name="title" content="QiMétéo — Météo des Décisions, Qi Men Dun Jia, Feng Shui & Calendrier Énergétique">
-  <meta name="description" content="Comme la météo avant de sortir, consultez QiMétéo chaque matin : Feu Vert, Orange ou Rouge, vos 2 Créneaux Stratégiques de 2h (sans négatif), Boussole Qi Men, Recherche de Projet et Feng Shui Ming Gua (direction du lit & bureau).">
+  <title>QiMétéo — L’almanach céleste et la météo de vos décisions (iPhone & iPad)</title>
+  <meta name="title" content="QiMétéo — L’almanach céleste et la météo de vos décisions">
+  <meta name="description" content="Comme la météo avant de sortir, consultez QiMétéo chaque matin : qualité du jour Tong Shu, vos 2 créneaux stratégiques de 2h en Qi Men Dun Jia, boussole d’orientation et Feng Shui Ming Gua (lit, bureau et maison).">
   <meta name="keywords" content="QiMétéo, qimeteo, qi men dun jia, tong shu, feng shui ming gua, chiffre gua, direction du lit, astrologie chinoise, bazi, lancer un projet, signer un contrat, boussole qi men">
   <meta name="author" content="Xavier Larrodé">
   <meta name="robots" content="index, follow">
@@ -15,15 +15,15 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://qimeteo.app/">
-  <meta property="og:title" content="QiMétéo — La Météo de Vos Décisions">
-  <meta property="og:description" content="Découvrez en 3 secondes si aujourd'hui est porteur pour lancer un projet, signer un contrat, voyager ou souffler : 2 créneaux horaires Qi Men par jour, boussole et Feng Shui Ming Gua.">
+  <meta property="og:title" content="QiMétéo — La météo de vos décisions">
+  <meta property="og:description" content="Découvrez en un coup d’œil si la journée est porteuse pour lancer un projet, signer un contrat ou négocier : 2 créneaux horaires Qi Men par jour, boussole et Feng Shui Ming Gua.">
   <meta property="og:image" content="https://qimeteo.app/assets/images/app_icon.png">
 
   <!-- Twitter Card -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://qimeteo.app/">
-  <meta property="twitter:title" content="QiMétéo — La Météo de Vos Décisions">
-  <meta property="twitter:description" content="Feu Vert, Orange ou Rouge, 2 créneaux stratégiques Qi Men par jour, boussole d'orientation et Feng Shui Ming Gua.">
+  <meta property="twitter:title" content="QiMétéo — La météo de vos décisions">
+  <meta property="twitter:description" content="Qualité du jour, 2 créneaux stratégiques Qi Men par jour, boussole d’orientation et Feng Shui Ming Gua.">
   <meta property="twitter:image" content="https://qimeteo.app/assets/images/app_icon.png">
 
   <!-- Canonical & Domain -->
@@ -33,12 +33,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/images/favicon-64.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-  <meta name="theme-color" content="#0b0a18">
+  <meta name="theme-color" content="#0B0D14">
 
-  <!-- Google Fonts: Outfit (Headings) & Plus Jakarta Sans (Body) -->
+  <!-- Editorial & Horological Typography: Cormorant Garamond + DM Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Cinzel:wght@700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -57,7 +57,7 @@
       "price": "0",
       "priceCurrency": "EUR"
     },
-    "description": "Application iOS de météo décisionnelle quotidienne, sélection de dates par projet (12 Officiers Tong Shu), créneaux stratégiques Qi Men Dun Jia (Cycles Yin/Yang Dun) et Feng Shui personnel Ming Gua.",
+    "description": "Application iOS de météo décisionnelle quotidienne, sélection de dates par projet (12 Officiers Tong Shu), créneaux stratégiques Qi Men Dun Jia et Feng Shui personnel Ming Gua.",
     "author": {
       "@type": "Person",
       "name": "Xavier Larrodé"
@@ -67,205 +67,207 @@
 </head>
 <body>
 
-  <!-- Cosmic Ambient Glows & Starfield -->
-  <div class="ambient-glow glow-gold" aria-hidden="true"></div>
-  <div class="ambient-glow glow-indigo" aria-hidden="true"></div>
-  <div class="ambient-glow glow-emerald" aria-hidden="true"></div>
-  <div class="stars-overlay" aria-hidden="true"></div>
+  <!-- Engraved Meridian Background Lines (Subtle Architectural Grid) -->
+  <div class="meridian-grid" aria-hidden="true">
+    <div class="meridian-line meridian-west"></div>
+    <div class="meridian-line meridian-center"></div>
+    <div class="meridian-line meridian-east"></div>
+  </div>
 
   <!-- NAVIGATION HEADER -->
   <header class="site-header" id="site-header">
     <div class="header-container">
       <a href="#hero" class="brand-link" aria-label="QiMétéo Accueil">
-        <img src="assets/images/app_icon.png" alt="QiMétéo Logo" class="brand-icon" width="42" height="42">
+        <img src="assets/images/app_icon.png" alt="QiMétéo" class="brand-icon" width="40" height="40">
         <div class="brand-text">
-          <span class="brand-name">QI<span class="text-gold">MÉTÉO</span></span>
-          <span class="brand-tag">MÉTÉO DES DÉCISIONS</span>
+          <span class="brand-name">QiMétéo</span>
+          <span class="brand-tag" data-i18n="brand_sub">Almanach &amp; boussole temporelle</span>
         </div>
       </a>
 
       <nav class="desktop-nav" aria-label="Navigation principale">
-        <a href="#concept" class="nav-link" data-i18n="nav_concept">Le Concept</a>
-        <a href="#simulator" class="nav-link" data-i18n="nav_simulator">12 Signes</a>
-        <a href="#features" class="nav-link" data-i18n="nav_features">Fonctionnalités</a>
-        <a href="#duo" class="nav-link" data-i18n="nav_duo">Synergie & Feng Shui</a>
-        <a href="#pricing" class="nav-link" data-i18n="nav_pricing">Pass PRO</a>
+        <a href="#concept" class="nav-link" data-i18n="nav_concept">L’Almanach</a>
+        <a href="#features" class="nav-link" data-i18n="nav_features">Les 4 disciplines</a>
+        <a href="#simulator" class="nav-link" data-i18n="nav_simulator">Les 12 signes</a>
+        <a href="#duo" class="nav-link" data-i18n="nav_duo">Ming Gua &amp; Duo</a>
+        <a href="#pricing" class="nav-link" data-i18n="nav_pricing">Éditions</a>
       </nav>
 
       <div class="header-actions">
-        <!-- Language Switcher -->
         <button type="button" class="lang-toggle-btn" id="lang-toggle" aria-label="Changer de langue">
           <span id="lang-flag">🇫🇷</span>
           <span id="lang-code">FR</span>
         </button>
 
-        <!-- CTA Download App Store -->
         <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-store-nav" id="header-cta">
-          <svg class="apple-icon" viewBox="0 0 170 170" width="18" height="18" fill="currentColor" aria-hidden="true">
+          <svg class="apple-icon" viewBox="0 0 170 170" width="16" height="16" fill="currentColor" aria-hidden="true">
             <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.04-7.69-7.85-12-14.42-6.19-9.39-10.9-20.09-14.13-32.09-3.23-12-4.85-23.32-4.85-33.97 0-14.42 3.63-26.4 10.9-35.95 7.27-9.55 16.48-14.43 27.64-14.65 4.35 0 9.27 1.15 14.76 3.44 5.48 2.29 9.38 3.5 11.71 3.65 1.96-.15 5.92-1.36 11.89-3.65 5.97-2.29 10.88-3.32 14.73-3.08 13.43.83 23.94 5.96 31.54 15.4-11.89 7.27-17.7 17.1-17.44 29.49.27 9.8 4.18 18.06 11.74 24.78 7.56 6.72 16.48 10.45 26.77 11.2-.82 2.61-1.85 5.34-3.09 8.19zm-38.3-108.38c0-7.39 2.64-14.28 7.92-20.67 5.28-6.39 12-10.44 20.15-12.16.54 2.28.81 4.56.81 6.84 0 7.39-2.73 14.39-8.19 21-5.46 6.61-12.28 10.63-20.47 12.06-.11-2.39-.22-4.75-.22-7.07z"/>
           </svg>
-          <span class="btn-store-text">
-            <small data-i18n="cta_dl_top">Télécharger sur</small>
-            <strong>App Store</strong>
-          </span>
+          <span data-i18n="cta_dl_top">App Store</span>
         </a>
 
-        <!-- Mobile Menu Toggle -->
-        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menu">
-          <span class="hamburger-line"></span>
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Ouvrir le menu">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Drawer -->
     <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
       <nav class="mobile-nav">
-        <a href="#concept" class="mobile-nav-link" data-i18n="nav_concept">Le Concept</a>
-        <a href="#simulator" class="mobile-nav-link" data-i18n="nav_simulator">12 Signes</a>
-        <a href="#features" class="mobile-nav-link" data-i18n="nav_features">Fonctionnalités</a>
-        <a href="#duo" class="mobile-nav-link" data-i18n="nav_duo">Synergie & Feng Shui</a>
-        <a href="#pricing" class="mobile-nav-link" data-i18n="nav_pricing">Pass PRO</a>
+        <a href="#concept" class="mobile-nav-link" data-i18n="nav_concept">L’Almanach</a>
+        <a href="#features" class="mobile-nav-link" data-i18n="nav_features">Les 4 disciplines</a>
+        <a href="#simulator" class="mobile-nav-link" data-i18n="nav_simulator">Les 12 signes</a>
+        <a href="#duo" class="mobile-nav-link" data-i18n="nav_duo">Ming Gua &amp; Duo</a>
+        <a href="#pricing" class="mobile-nav-link" data-i18n="nav_pricing">Éditions</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- HERO SECTION -->
+    <!-- HERO SECTION: THE CELESTIAL COMPASS & DAILY ALMANAC -->
     <section class="hero-section" id="hero">
       <div class="hero-container">
         
         <div class="hero-content">
-          <div class="hero-chip">
-            <span class="pulse-sparkle">✦</span>
-            <span class="chip-text" data-i18n="hero_chip">QI MEN DUN JIA • TONG SHU • FENG SHUI MING GUA</span>
+          <div class="almanac-dateline">
+            <span class="cinnabar-stamp" aria-hidden="true">曆</span>
+            <span class="dateline-text" data-i18n="hero_chip">Tong Shu · Qi Men Dun Jia · Feng Shui Ming Gua</span>
           </div>
 
           <h1 class="hero-title">
-            <span class="hero-title-main" data-i18n="hero_title_1">COMME LA MÉTÉO,</span>
-            <span class="hero-title-accent text-gradient-gold" data-i18n="hero_title_2">MAIS POUR VOS DÉCISIONS.</span>
+            <span data-i18n="hero_title_1">Comme la météo du matin,</span>
+            <em class="hero-title-italic" data-i18n="hero_title_2">mais pour le rythme de vos décisions.</em>
           </h1>
 
           <p class="hero-description" data-i18n="hero_desc">
-            Comme vous regardez la météo avant de sortir, consultez QiMétéo chaque matin pour savoir si la journée est porteuse pour lancer un projet, signer un contrat ou négocier : Feu Vert, Orange ou Rouge, vos 2 créneaux stratégiques de 2h (garantis sans configuration négative) et votre boussole d'orientation.
+            Avant de lancer un projet, de signer un contrat ou d’engager une négociation délicate, consultez QiMétéo. En trois secondes, l’application traduit l’almanach traditionnel chinois en trois repères clairs : la couleur de votre journée, vos deux créneaux favorables de deux heures et l’angle exact où orienter votre chaise.
           </p>
 
           <div class="hero-cta-group">
-            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-primary-gold" id="hero-btn-download">
-              <svg class="apple-icon" viewBox="0 0 170 170" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-brass" id="hero-btn-download">
+              <svg class="apple-icon" viewBox="0 0 170 170" width="20" height="20" fill="currentColor" aria-hidden="true">
                 <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.04-7.69-7.85-12-14.42-6.19-9.39-10.9-20.09-14.13-32.09-3.23-12-4.85-23.32-4.85-33.97 0-14.42 3.63-26.4 10.9-35.95 7.27-9.55 16.48-14.43 27.64-14.65 4.35 0 9.27 1.15 14.76 3.44 5.48 2.29 9.38 3.5 11.71 3.65 1.96-.15 5.92-1.36 11.89-3.65 5.97-2.29 10.88-3.32 14.73-3.08 13.43.83 23.94 5.96 31.54 15.4-11.89 7.27-17.7 17.1-17.44 29.49.27 9.8 4.18 18.06 11.74 24.78 7.56 6.72 16.48 10.45 26.77 11.2-.82 2.61-1.85 5.34-3.09 8.19zm-38.3-108.38c0-7.39 2.64-14.28 7.92-20.67 5.28-6.39 12-10.44 20.15-12.16.54 2.28.81 4.56.81 6.84 0 7.39-2.73 14.39-8.19 21-5.46 6.61-12.28 10.63-20.47 12.06-.11-2.39-.22-4.75-.22-7.07z"/>
               </svg>
               <div class="btn-label-group">
-                <span class="btn-micro" data-i18n="hero_btn_sub">Téléchargement Gratuit</span>
-                <span class="btn-title" data-i18n="hero_btn_main">Obtenir QiMétéo</span>
+                <span class="btn-micro" data-i18n="hero_btn_sub">Disponible sur iPhone et iPad</span>
+                <span class="btn-title" data-i18n="hero_btn_main">Télécharger sur l’App Store</span>
               </div>
             </a>
 
-            <a href="#concept" class="btn-outline-gold">
-              <span data-i18n="hero_btn_discover">Découvrir le Fonctionnement</span>
-              <span aria-hidden="true">→</span>
+            <a href="#concept" class="btn-quiet" data-i18n="hero_btn_discover">
+              Comprendre la lecture du jour
             </a>
           </div>
 
-          <div class="hero-highlights">
-            <div class="highlight-item">
-              <span class="highlight-dot dot-emerald"></span>
-              <span data-i18n="hero_pill_1">12 Officiers du Jour & Feu Vert / Orange / Rouge</span>
+          <!-- Architectural Ledger Specs instead of generic pill dots -->
+          <dl class="hero-ledger">
+            <div class="ledger-cell">
+              <dt data-i18n="ledger_1_dt">Qualité du jour</dt>
+              <dd data-i18n=" hero_pill_1">12 Officiers Tong Shu &amp; 4 Piliers</dd>
             </div>
-            <div class="highlight-item">
-              <span class="highlight-dot dot-gold"></span>
-              <span data-i18n="hero_pill_2">2 Créneaux Stratégiques Qi Men / Jour</span>
+            <div class="ledger-cell">
+              <dt data-i18n="ledger_2_dt">Fenêtres d’action</dt>
+              <dd data-i18n="hero_pill_2">2 créneaux de 2h par jour sans aspect négatif</dd>
             </div>
-            <div class="highlight-item">
-              <span class="highlight-dot dot-purple"></span>
-              <span data-i18n="hero_pill_3">Boussole 8 Palais & Feng Shui Ming Gua</span>
+            <div class="ledger-cell">
+              <dt data-i18n="ledger_3_dt">Orientation spatiale</dt>
+              <dd data-i18n="hero_pill_3">Boussole 8 Palais &amp; Feng Shui Ming Gua</dd>
             </div>
-          </div>
+          </dl>
         </div>
 
-        <!-- HERO MOCKUP & LIVE INTERACTIVE WEATHER CARD -->
+        <!-- THE SINGLE MEMORABLE ELEMENT: ENGRAVED LUOPAN COMPASS ROSE + LIVE INSTRUMENT -->
         <div class="hero-visual">
-          <div class="phone-mockup-wrapper">
+          <div class="luopan-stage">
             
-            <!-- Floating Zodiac Sticker -->
-            <div class="sticker-float sticker-dragon" aria-hidden="true">
-              <img src="assets/zodiac/dragon.png" alt="Dragon Zodiaque" width="115" height="115">
-            </div>
+            <!-- Fine-line Astronomical Compass Rose SVG -->
+            <svg class="luopan-svg" viewBox="0 0 560 560" fill="none" aria-hidden="true">
+              <circle cx="280" cy="280" r="268" stroke="rgba(212, 168, 87, 0.16)" stroke-width="1"/>
+              <circle cx="280" cy="280" r="244" stroke="rgba(212, 168, 87, 0.24)" stroke-width="0.75" stroke-dasharray="2 6"/>
+              <circle cx="280" cy="280" r="212" stroke="rgba(212, 168, 87, 0.12)" stroke-width="1"/>
+              <!-- 8 Cardinal & Intercardinal Axis Lines -->
+              <line x1="280" y1="12" x2="280" y2="548" stroke="rgba(212, 168, 87, 0.12)" stroke-width="0.75"/>
+              <line x1="12" y1="280" x2="548" y2="280" stroke="rgba(212, 168, 87, 0.12)" stroke-width="0.75"/>
+              <line x1="90" y1="90" x2="470" y2="470" stroke="rgba(212, 168, 87, 0.09)" stroke-width="0.75"/>
+              <line x1="470" y1="90" x2="90" y2="470" stroke="rgba(212, 168, 87, 0.09)" stroke-width="0.75"/>
+              <!-- Cardinal Degree Markings -->
+              <text x="280" y="30" text-anchor="middle" fill="rgba(212, 168, 87, 0.65)" font-size="10" letter-spacing="2">180° SUD · 離</text>
+              <text x="280" y="538" text-anchor="middle" fill="rgba(212, 168, 87, 0.65)" font-size="10" letter-spacing="2">0° NORD · 坎</text>
+              <text x="530" y="284" text-anchor="end" fill="rgba(212, 168, 87, 0.55)" font-size="10" letter-spacing="1.5">270° O</text>
+              <text x="30" y="284" text-anchor="start" fill="rgba(212, 168, 87, 0.55)" font-size="10" letter-spacing="1.5">90° E</text>
+              <text x="458" y="102" text-anchor="end" fill="rgba(212, 168, 87, 0.45)" font-size="9" letter-spacing="1">225° SO · 坤</text>
+              <text x="102" y="102" text-anchor="start" fill="rgba(212, 168, 87, 0.45)" font-size="9" letter-spacing="1">135° SE · 巽</text>
+            </svg>
 
-            <div class="sticker-float sticker-compass" aria-hidden="true">
-              <div class="compass-badge">
-                <span class="compass-needle">🧭</span>
-                <div class="compass-meta">
-                  <small>BOUSSOLE QI MEN</small>
-                  <strong id="floating-compass-dir">Dos au S-O (225°)</strong>
-                </div>
-              </div>
-            </div>
-
-            <!-- Phone Frame -->
+            <!-- Phone Instrument Frame -->
             <div class="phone-device-frame">
-              <div class="phone-dynamic-island">
+              <div class="phone-dynamic-island" aria-hidden="true">
                 <span class="cam-lens"></span>
               </div>
 
-              <!-- Phone Screen (Cosmic Indigo) -->
               <div class="phone-screen-content">
                 <div class="app-ui-header">
                   <div class="app-header-date">
-                    <span class="date-badge" data-i18n="phone_today_badge">AUJOURD'HUI</span>
-                    <span class="date-text" id="live-date-header">24 Octobre</span>
+                    <span class="date-badge" data-i18n="phone_today_badge">Aujourd’hui</span>
+                    <span class="date-text" id="live-date-header">25 octobre</span>
                   </div>
-                  <span class="app-user-avatar" id="live-day-pillar">🐲 Pilier du Jour</span>
+                  <span class="app-user-avatar" id="live-day-pillar">Pilier du Jour · 辰</span>
                 </div>
 
                 <!-- Main Hero Weather Card -->
                 <div class="forecast-hero-card" id="interactive-forecast-card">
                   <div class="card-status-pill pill-emerald" id="status-pill">
                     <span class="pill-indicator"></span>
-                    <strong id="status-headline">FEU VERT • JOUR D'OUVERTURE</strong>
+                    <strong id="status-headline" data-i18n="phone_status_headline">Feu Vert · Jour d’Ouverture</strong>
                   </div>
 
-                  <div class="score-circle-wrap">
+                  <div class="score-dial-row">
                     <div class="score-circle">
                       <span class="score-val" id="score-val">90%</span>
-                      <span class="score-label" id="score-officer-label">OUVERTURE</span>
+                      <span class="score-label" id="score-officer-label" data-i18n="phone_officer">Ouverture (開)</span>
+                    </div>
+                    <div class="almanac-seal-box" aria-hidden="true">
+                      <span class="seal-char">開</span>
+                      <span class="seal-caption" data-i18n="phone_seal_caption">Jour Rouge</span>
                     </div>
                   </div>
 
-                  <p class="forecast-action-advice" id="forecast-action-advice">
-                    Journée idéale pour lancer un projet, signer un contrat, négocier ou accueillir de nouvelles opportunités.
+                  <p class="forecast-action-advice" id="forecast-action-advice" data-i18n="phone_advice">
+                    Journée porteuse pour lancer un projet, signer un accord commercial ou inaugurer une collaboration.
                   </p>
 
                   <div class="forecast-meta-grid">
                     <div class="meta-item">
-                      <span class="meta-label">CRÉNEAU QI MEN N°1</span>
-                      <strong class="text-gold" id="slot-time">13h00 - 15h00</strong>
+                      <span class="meta-label" data-i18n="phone_slot_label">1er créneau Qi Men</span>
+                      <strong class="text-gold" id="slot-time">13h00 – 15h00</strong>
                     </div>
                     <div class="meta-item">
-                      <span class="meta-label">ORIENTATION</span>
-                      <strong class="text-emerald" id="slot-direction">Sud-Ouest (225°)</strong>
+                      <span class="meta-label" data-i18n="phone_dir_label">Positionnement</span>
+                      <strong class="text-emerald" id="slot-direction" data-i18n="phone_dir_val">Dos au Sud-Ouest (225°)</strong>
                     </div>
                   </div>
                 </div>
 
-                <!-- Mini Schedule Preview (2 Daily Qi Men Windows) -->
+                <!-- 2 Daily Qi Men Windows -->
                 <div class="mini-windows-box">
+                  <div class="windows-box-header">
+                    <span data-i18n="phone_windows_title">Vos 2 créneaux stratégiques du jour</span>
+                    <span class="windows-filter-note" data-i18n="phone_windows_note">Sans aspect négatif</span>
+                  </div>
                   <div class="window-row active-window">
-                    <span class="time-tag text-gold" id="win1-time">13h00 - 15h00</span>
-                    <span class="act-tag" id="win1-label">Stratégie & Finances</span>
-                    <span class="rate-stars text-gold" id="win1-stars">★★★★★</span>
+                    <span class="time-tag" id="win1-time">13h00 – 15h00</span>
+                    <span class="act-tag" id="win1-label" data-i18n="phone_win1_label">Accomplir des vœux · Moon</span>
+                    <span class="rate-stars cinnabar-stars" id="win1-stars">5★</span>
                   </div>
                   <div class="window-row">
-                    <span class="time-tag text-gold" id="win2-time">15h00 - 17h00</span>
-                    <span class="act-tag" id="win2-label">Signature & Leadership</span>
-                    <span class="rate-stars text-gold" id="win2-stars">★★★★★</span>
+                    <span class="time-tag" id="win2-time">15h00 – 17h00</span>
+                    <span class="act-tag" id="win2-label" data-i18n="phone_win2_label">Succès Financiers · Chief</span>
+                    <span class="rate-stars cinnabar-stars" id="win2-stars">5★</span>
                   </div>
                 </div>
 
               </div>
-
-              <div class="phone-glare" aria-hidden="true"></div>
             </div>
 
           </div>
@@ -274,154 +276,251 @@
       </div>
     </section>
 
-    <!-- CORE CONCEPT SECTION -->
+    <!-- SECTION I: THE ALMANAC — ROUGE, AMBRE OU NOIR -->
     <section class="concept-section" id="concept">
       <div class="section-container">
         
-        <div class="section-header text-center">
-          <span class="badge-tag-gold" data-i18n="concept_badge">LES 12 OFFICIERS DU JOUR (TONG SHU)</span>
-          <h2 class="section-title" data-i18n="concept_title">FEU VERT, ORANGE OU ROUGE EN 3 SECONDES</h2>
-          <p class="section-desc" data-i18n="concept_desc">
-            Pas besoin d'être expert en astrologie ou en Feng Shui. QiMétéo croise l'Officier du Jour (Commencement, Ouverture, Réussite, Stabilité, Destruction, Fermeture…), votre Pilier de naissance et les structures Qi Men Dun Jia pour vous donner un cap limpide.
-          </p>
+        <div class="section-folio-header">
+          <div class="folio-num">I · <span data-i18n="concept_badge">L’almanach Tong Shu</span></div>
+          <div class="folio-heading-group">
+            <h2 class="section-title" data-i18n="concept_title">Trois couleurs pour lire la qualité réelle d’une journée.</h2>
+            <p class="section-desc" data-i18n="concept_desc">
+              Dans la tradition du Tong Shu, les jours favorables s’inscrivent en rouge et les jours de retenue en noir. QiMétéo croise les 12 Officiers du Jour avec vos quatre piliers de naissance pour vous donner un signal immédiat dès le matin.
+            </p>
+          </div>
         </div>
 
         <div class="lights-grid">
           
-          <!-- Feu Vert -->
-          <div class="light-card card-green">
-            <div class="light-signal signal-green">
-              <span class="signal-glow"></span>
-            </div>
-            <h3 class="light-title text-emerald" data-i18n="green_title">FEU VERT — Journée Porteuse</h3>
+          <!-- Feu Vert / Jour Rouge -->
+          <article class="light-card card-green">
+            <header class="light-card-top">
+              <span class="almanac-ink-tag tag-auspicious" data-i18n="green_tag">Jour Rouge · Favorable</span>
+              <span class="light-hanzi" aria-hidden="true">成 · 開 · 定</span>
+            </header>
+            <h3 class="light-title" data-i18n="green_title">Feu Vert — Journée porteuse</h3>
             <p class="light-desc" data-i18n="green_desc">
-              Jours Réussite, Ouverture, Stabilité, Commencement ou Contrôle (sans Clash personnel) : le moment idéal pour lancer un projet, signer un contrat, négocier, acheter un bien ou vous unir.
+              Jours de Réussite, d’Ouverture, de Stabilité, de Commencement ou de Contrôle (sans opposition avec votre thème natal). C’est le moment d’avancer : lancer un projet, signer un contrat, négocier ou célébrer une union.
             </p>
-            <div class="light-action-tag" data-i18n="green_tag">Réussite • Ouverture • Stabilité</div>
-          </div>
+          </article>
 
           <!-- Feu Orange -->
-          <div class="light-card card-orange">
-            <div class="light-signal signal-orange">
-              <span class="signal-glow"></span>
-            </div>
-            <h3 class="light-title text-orange" data-i18n="orange_title">FEU ORANGE — Journée Ciblée</h3>
+          <article class="light-card card-orange">
+            <header class="light-card-top">
+              <span class="almanac-ink-tag tag-moderate" data-i18n="orange_tag">Jour Ciblé · Nuancé</span>
+              <span class="light-hanzi" aria-hidden="true">除 · 平 · 收</span>
+            </header>
+            <h3 class="light-title" data-i18n="orange_title">Feu Ambre — Journée ciblée</h3>
             <p class="light-desc" data-i18n="orange_desc">
-              Jours Nettoyage, Équilibre, Accumulation ou Moisson : excellents pour trier, commencer un régime, consulter un médecin (hors Accumulation/Moisson) ou encaisser, mais utilisez vos 2 créneaux Qi Men pour les enjeux majeurs.
+              Jours de Nettoyage, d’Équilibre, d’Accumulation ou de Moisson : propices pour trier, débuter un soin, clôturer un dossier ou encaisser, en plaçant vos appels décisifs dans vos deux créneaux Qi Men.
             </p>
-            <div class="light-action-tag" data-i18n="orange_tag">Équilibre • Nettoyage • Moisson</div>
-          </div>
+          </article>
 
-          <!-- Feu Rouge -->
-          <div class="light-card card-red">
-            <div class="light-signal signal-red">
-              <span class="signal-glow"></span>
-            </div>
-            <h3 class="light-title text-coral" data-i18n="red_title">FEU ROUGE — Destruction, Fermeture ou Clash</h3>
+          <!-- Feu Rouge / Jour Noir -->
+          <article class="light-card card-red">
+            <header class="light-card-top">
+              <span class="almanac-ink-tag tag-caution" data-i18n="red_tag">Jour Noir · Retenue</span>
+              <span class="light-hanzi" aria-hidden="true">破 · 危 · 閉</span>
+            </header>
+            <h3 class="light-title" data-i18n="red_title">Feu Rouge — Destruction, Fermeture ou Clash</h3>
             <p class="light-desc" data-i18n="red_desc">
-              Jours Destruction (Po), Fermeture (Bi), Péril ou jour en Clash frontal avec votre pilier : ne lancez aucun nouveau projet et ne signez pas d'engagement majeur. En cas d'obligation, appuyez-vous uniquement sur les 2 créneaux horaires Qi Men.
+              Jours de Destruction, de Péril, de Fermeture ou journée en opposition frontale avec votre pilier : n’engagez aucune signature irréversible. Si une obligation s’impose, appuyez-vous uniquement sur les deux créneaux horaires du jour.
             </p>
-            <div class="light-action-tag" data-i18n="red_tag">Destruction • Fermeture • Clash</div>
-          </div>
+          </article>
 
         </div>
 
       </div>
     </section>
 
-    <!-- INTERACTIVE 12 ZODIAC SIMULATOR -->
+    <!-- SECTION II: THE 6 INSTRUMENTS (EDITORIAL FOLIO TABLE INSTEAD OF SAAS EMOJI CARDS) -->
+    <section class="features-section" id="features">
+      <div class="section-container">
+        
+        <div class="section-folio-header">
+          <div class="folio-num">II · <span data-i18n="feat_badge">Architecture de l’application</span></div>
+          <div class="folio-heading-group">
+            <h2 class="section-title" data-i18n="feat_title">Le temps, la direction et l’espace réunis dans un seul instrument.</h2>
+            <p class="section-desc" data-i18n="feat_desc">
+              Chaque écran de QiMétéo répond à une question pratique : quel jour choisir, à quelle heure agir, de quel côté orienter son fauteuil et comment disposer son lieu de vie.
+            </p>
+          </div>
+        </div>
+
+        <div class="instruments-ledger">
+          
+          <!-- Instrument 1 -->
+          <article class="instrument-row">
+            <div class="instrument-index">01</div>
+            <div class="instrument-head">
+              <h3 class="instrument-title" data-i18n="feat_1_title">Deux créneaux stratégiques par jour, purgés du négatif</h3>
+              <span class="instrument-domain">Qi Men Dun Jia · 奇門遁甲</span>
+            </div>
+            <p class="instrument-desc" data-i18n="feat_1_desc">
+              Chaque jour entre 07h et minuit, QiMétéo écarte systématiquement toute fenêtre comportant une structure défavorable pour ne retenir que les deux meilleurs créneaux de deux heures (Combinaisons 5★ en rouge, Accomplir des vœux, Succès Financiers, Succès Relationnels et Déités majeures).
+            </p>
+          </article>
+
+          <!-- Instrument 2 -->
+          <article class="instrument-row">
+            <div class="instrument-index">02</div>
+            <div class="instrument-head">
+              <h3 class="instrument-title" data-i18n="feat_2_title">Boussole des 8 Palais : de dos ou de face</h3>
+              <span class="instrument-domain">Azimuts 0° à 315° · 八宮</span>
+            </div>
+            <p class="instrument-desc" data-i18n="feat_2_desc">
+              Selon la nature du créneau, l’application précise s’il convient de tourner le dos à la Déité (Chief, Heaven, Earth, Moon, Harmony) ou de faire face à une Combinaison, avec une boussole calée au degré près sur les huit secteurs cardinaux.
+            </p>
+          </article>
+
+          <!-- Instrument 3 -->
+          <article class="instrument-row">
+            <div class="instrument-index">03</div>
+            <div class="instrument-head">
+              <h3 class="instrument-title" data-i18n="feat_3_title">Recherche de dates selon vos 7 intentions de projet</h3>
+              <span class="instrument-domain">Planificateur 45 jours · 擇日</span>
+            </div>
+            <p class="instrument-desc" data-i18n="feat_3_desc">
+              Filtrez les meilleures dates à venir selon votre objectif : Lancer un projet ou commerce, Signer un contrat et encaisser, Mariage et union, Immobilier et travaux, Voyage, Médecin et chirurgie (hors jours d’Accumulation et de Moisson) ou Tri et régime.
+            </p>
+          </article>
+
+          <!-- Instrument 4 -->
+          <article class="instrument-row">
+            <div class="instrument-index">04</div>
+            <div class="instrument-head">
+              <h3 class="instrument-title" data-i18n="feat_4_title">Feng Shui Ming Gua : maison, tête de lit et bureau</h3>
+              <span class="instrument-domain">Ba Zhai · 本命卦</span>
+            </div>
+            <p class="instrument-desc" data-i18n="feat_4_desc">
+              À partir de votre naissance, QiMétéo détermine votre Chiffre Gua (1 à 9, groupe Est ou Ouest) et indique vos quatre orientations personnelles : vers quel mur pointer la tête de votre lit (Tian Yi, santé), dans quel axe installer votre bureau (Sheng Qi, vitalité) et quels secteurs éviter.
+            </p>
+          </article>
+
+          <!-- Instrument 5 -->
+          <article class="instrument-row">
+            <div class="instrument-index">05</div>
+            <div class="instrument-head">
+              <h3 class="instrument-title" data-i18n="feat_5_title">Vérification de vos rendez-vous dans le Calendrier Apple</h3>
+              <span class="instrument-domain">Synchronisation iOS</span>
+            </div>
+            <p class="instrument-desc" data-i18n="feat_5_desc">
+              QiMétéo relit les événements déjà inscrits dans votre agenda iPhone : lorsqu’une réunion ou une signature tombe un jour de Destruction, de Fermeture ou d’opposition personnelle, elle le signale et propose une fenêtre plus porteuse.
+            </p>
+          </article>
+
+          <!-- Instrument 6 -->
+          <article class="instrument-row">
+            <div class="instrument-index">06</div>
+            <div class="instrument-head">
+              <h3 class="instrument-title" data-i18n="feat_6_title">Double lecture : langage courant ou terminologie classique</h3>
+              <span class="instrument-domain">FR · EN · ES · 中文</span>
+            </div>
+            <p class="instrument-desc" data-i18n="feat_6_desc">
+              Le mode Simple va droit au conseil pratique sans jargon. Un basculement dans les réglages active le mode Expert complet : 4 Piliers BaZi, Troncs Célestes, Branches Terrestres, 12 Officiers, Portes, Étoiles et Déités Qi Men.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION III: 12 EARTHLY BRANCHES SHOWCASE -->
     <section class="simulator-section" id="simulator">
       <div class="section-container">
         
-        <div class="section-header text-center">
-          <span class="badge-tag-indigo" data-i18n="sim_badge">CALCUL EN TEMPS RÉEL SUR AUJOURD'HUI</span>
-          <h2 class="section-title" data-i18n="sim_title">TESTEZ L'ALIGNEMENT DE VOTRE SIGNE AUJOURD'HUI</h2>
-          <p class="section-desc" data-i18n="sim_desc">
-            Sélectionnez votre animal (branche terrestre de votre année ou de votre jour de naissance) pour vérifier instantanément vos affinités San He / Liu He ou votre Clash avec la journée d'aujourd'hui :
-          </p>
+        <div class="section-folio-header">
+          <div class="folio-num">III · <span data-i18n="sim_badge">Les 12 branches terrestres</span></div>
+          <div class="folio-heading-group">
+            <h2 class="section-title" data-i18n="sim_title">Aperçu d’une lecture selon votre signe de naissance.</h2>
+            <p class="section-desc" data-i18n="sim_desc">
+              Choisissez l’animal de votre jour ou de votre année de naissance pour parcourir un exemple de bulletin quotidien tel qu’il est présenté dans l’application :
+            </p>
+          </div>
         </div>
 
         <div class="zodiac-picker-grid" id="zodiac-grid" role="tablist">
           <button type="button" class="zodiac-btn" data-zodiac="rat" role="tab">
-            <img src="assets/zodiac/rat.png" alt="Rat" width="60" height="60">
-            <span>Rat</span>
+            <img src="assets/zodiac/rat.png" alt="Rat" width="52" height="52">
+            <span>Rat · 子</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="ox" role="tab">
-            <img src="assets/zodiac/ox.png" alt="Bœuf" width="60" height="60">
-            <span>Bœuf</span>
+            <img src="assets/zodiac/ox.png" alt="Bœuf" width="52" height="52">
+            <span>Bœuf · 丑</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="tiger" role="tab">
-            <img src="assets/zodiac/tiger.png" alt="Tigre" width="60" height="60">
-            <span>Tigre</span>
+            <img src="assets/zodiac/tiger.png" alt="Tigre" width="52" height="52">
+            <span>Tigre · 寅</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="rabbit" role="tab">
-            <img src="assets/zodiac/rabbit.png" alt="Lapin" width="60" height="60">
-            <span>Lapin</span>
+            <img src="assets/zodiac/rabbit.png" alt="Lapin" width="52" height="52">
+            <span>Lapin · 卯</span>
           </button>
           <button type="button" class="zodiac-btn active" data-zodiac="dragon" role="tab" aria-selected="true">
-            <img src="assets/zodiac/dragon.png" alt="Dragon" width="60" height="60">
-            <span>Dragon</span>
+            <img src="assets/zodiac/dragon.png" alt="Dragon" width="52" height="52">
+            <span>Dragon · 辰</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="snake" role="tab">
-            <img src="assets/zodiac/snake.png" alt="Serpent" width="60" height="60">
-            <span>Serpent</span>
+            <img src="assets/zodiac/snake.png" alt="Serpent" width="52" height="52">
+            <span>Serpent · 巳</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="horse" role="tab">
-            <img src="assets/zodiac/horse.png" alt="Cheval" width="60" height="60">
-            <span>Cheval</span>
+            <img src="assets/zodiac/horse.png" alt="Cheval" width="52" height="52">
+            <span>Cheval · 午</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="goat" role="tab">
-            <img src="assets/zodiac/goat.png" alt="Chèvre" width="60" height="60">
-            <span>Chèvre</span>
+            <img src="assets/zodiac/goat.png" alt="Chèvre" width="52" height="52">
+            <span>Chèvre · 未</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="monkey" role="tab">
-            <img src="assets/zodiac/monkey.png" alt="Singe" width="60" height="60">
-            <span>Singe</span>
+            <img src="assets/zodiac/monkey.png" alt="Singe" width="52" height="52">
+            <span>Singe · 申</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="rooster" role="tab">
-            <img src="assets/zodiac/rooster.png" alt="Coq" width="60" height="60">
-            <span>Coq</span>
+            <img src="assets/zodiac/rooster.png" alt="Coq" width="52" height="52">
+            <span>Coq · 酉</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="dog" role="tab">
-            <img src="assets/zodiac/dog.png" alt="Chien" width="60" height="60">
-            <span>Chien</span>
+            <img src="assets/zodiac/dog.png" alt="Chien" width="52" height="52">
+            <span>Chien · 戌</span>
           </button>
           <button type="button" class="zodiac-btn" data-zodiac="pig" role="tab">
-            <img src="assets/zodiac/pig.png" alt="Cochon" width="60" height="60">
-            <span>Cochon</span>
+            <img src="assets/zodiac/pig.png" alt="Cochon" width="52" height="52">
+            <span>Cochon · 亥</span>
           </button>
         </div>
 
         <!-- Dynamic Reading Display -->
         <div class="reading-result-card" id="zodiac-result-card">
           <div class="reading-card-left">
-            <img src="assets/zodiac/dragon.png" alt="Dragon" class="reading-animal-img" id="reading-img" width="160" height="160">
+            <img src="assets/zodiac/dragon.png" alt="Dragon" class="reading-animal-img" id="reading-img" width="136" height="136">
             <h3 class="reading-sign-title" id="reading-title">Dragon (辰)</h3>
-            <span class="reading-element-badge" id="reading-element">Élément Terre • Yang</span>
+            <span class="reading-element-badge" id="reading-element">Élément Terre · Yang</span>
           </div>
 
           <div class="reading-card-right">
             <div class="reading-status-row">
-              <span class="reading-status-indicator status-green" id="reading-status">Feu Vert (88%)</span>
-              <span class="reading-quality-badge" id="reading-quality">Harmonie & Opportunités</span>
+              <span class="reading-status-indicator status-green" id="reading-status">Feu Vert (91%)</span>
+              <span class="reading-quality-badge" id="reading-quality">Rayonnement &amp; décisions clés</span>
             </div>
 
             <p class="reading-body-text" id="reading-text">
-              Les configurations astrales mettent en lumière vos initiatives. C'est le moment d'oser aborder les sujets majeurs et d'officialiser vos accords.
+              Exemple de lecture dans l’application : journée d’ouverture idéale pour lancer un projet majeur, officialiser un contrat ou conclure un partenariat.
             </p>
 
             <div class="reading-details-grid">
               <div class="reading-detail">
-                <span class="detail-label" data-i18n="sim_label_slot">2 Créneaux Qi Men du Jour :</span>
-                <strong id="reading-slot">13h-15h & 15h-17h</strong>
+                <span class="detail-label" data-i18n="sim_label_slot">Exemple de créneaux (2h)</span>
+                <strong id="reading-slot">13h00 – 15h00 &amp; 15h00 – 17h00</strong>
               </div>
               <div class="reading-detail">
-                <span class="detail-label" data-i18n="sim_label_dir">Positionnement Qi Men :</span>
-                <strong id="reading-dir">Sud-Ouest (225°)</strong>
+                <span class="detail-label" data-i18n="sim_label_dir">Orientation boussole</span>
+                <strong id="reading-dir">Dos au Sud-Ouest (225°)</strong>
               </div>
               <div class="reading-detail">
-                <span class="detail-label" data-i18n="sim_label_ally">Alliés San He & Liu He :</span>
-                <strong id="reading-ally">Rat & Singe • Coq</strong>
+                <span class="detail-label" data-i18n="sim_label_ally">Alliés San He &amp; Liu He</span>
+                <strong id="reading-ally">Rat &amp; Singe · Coq</strong>
               </div>
             </div>
           </div>
@@ -430,142 +529,62 @@
       </div>
     </section>
 
-    <!-- KEY PILLARS: 6 REAL APP CAPABILITIES -->
-    <section class="features-section" id="features">
-      <div class="section-container">
-        
-        <div class="section-header text-center">
-          <span class="badge-tag-gold" data-i18n="feat_badge">PRÉCISION IMPÉRIALE QI MEN & FENG SHUI</span>
-          <h2 class="section-title" data-i18n="feat_title">TOUT CE QUE QIMÉTÉO CALCULE POUR VOUS</h2>
-          <p class="section-desc" data-i18n="feat_desc">
-            Chaque calcul respecte strictement les règles traditionnelles des Cycles Yin Dun / Yang Dun, des 12 Officiers du Jour et du Feng Shui Ming Gua.
-          </p>
-        </div>
-
-        <div class="features-grid">
-          
-          <!-- Feature 1 -->
-          <div class="feature-card">
-            <div class="feature-icon">⏳</div>
-            <h3 class="feature-title" data-i18n="feat_1_title">2 Créneaux Stratégiques / Jour (Zéro Négatif)</h3>
-            <p class="feature-desc" data-i18n="feat_1_desc">
-              Chaque jour entre 09h et 21h, QiMétéo élimine strictement tout créneau comportant un aspect négatif pour ne retenir que les 2 meilleures fenêtres de 2h (Combinaisons H.J.M, Succès Financiers, Succès Relationnels, Accomplir des vœux et Déités Chief, Heaven, Earth, Moon, Harmony).
-            </p>
-            <div class="feature-tag">Cycles Yin Dun & Yang Dun</div>
-          </div>
-
-          <!-- Feature 2 -->
-          <div class="feature-card">
-            <div class="feature-icon">🧭</div>
-            <h3 class="feature-title" data-i18n="feat_2_title">Boussole Qi Men 8 Palais (Dos ou Face)</h3>
-            <p class="feature-desc" data-i18n="feat_2_desc">
-              Selon la structure du créneau, l'application vous indique s'il faut vous placer DOS à la Déité (Chief, Heaven, Earth, Moon, Harmony, Snake, Tiger) ou FACE à une Combinaison, avec la boussole en direct calée sur les 8 directions exactes (0°, 45°, 90°, 135°, 180°, 225°, 270°, 315°).
-            </p>
-            <div class="feature-tag">Positionnement Exact</div>
-          </div>
-
-          <!-- Feature 3 -->
-          <div class="feature-card">
-            <div class="feature-icon">🚀</div>
-            <h3 class="feature-title" data-i18n="feat_3_title">Recherche de Dates pour vos 7 Projets</h3>
-            <p class="feature-desc" data-i18n="feat_3_desc">
-              Choisissez votre objectif : Lancer un Projet ou Commerce, Signer un Contrat & Encaisser, Mariage & Union, Immobilier & Travaux, Voyage, Médecin & Chirurgie (Combinaison Santé, hors jours Accumulation/Moisson) ou Tri & Régime.
-            </p>
-            <div class="feature-tag">7 Intentions Décisionnelles</div>
-          </div>
-
-          <!-- Feature 4 -->
-          <div class="feature-card">
-            <div class="feature-icon">🛏️</div>
-            <h3 class="feature-title" data-i18n="feat_4_title">Feng Shui Ming Gua : Maison, Lit & Bureau</h3>
-            <p class="feature-desc" data-i18n="feat_4_desc">
-              À partir de votre date de naissance et de votre civilité, QiMétéo calcule votre Chiffre Gua (1 à 9, Groupe Est ou Ouest) et vous révèle vos 4 directions favorables à la maison : où orienter la tête de votre lit (Tian Yi Santé), votre bureau (Sheng Qi Vitalité & Fu Wei Clarté) et les 4 directions à éviter.
-            </p>
-            <div class="feature-tag">Chiffre Gua & Orientation du Lit</div>
-          </div>
-
-          <!-- Feature 5 -->
-          <div class="feature-card">
-            <div class="feature-icon">📅</div>
-            <h3 class="feature-title" data-i18n="feat_5_title">Audit Intelligent de votre Calendrier Apple</h3>
-            <p class="feature-desc" data-i18n="feat_5_desc">
-              QiMétéo analyse en un clin d'œil vos prochains rendez-vous déjà inscrits dans votre agenda iPhone : si une réunion importante tombe un jour de Destruction, de Fermeture ou de Clash personnel, l'app vous alerte et vous suggère un meilleur créneau.
-            </p>
-            <div class="feature-tag">Audit & Sync Apple Calendar</div>
-          </div>
-
-          <!-- Feature 6 -->
-          <div class="feature-card">
-            <div class="feature-icon">🌐</div>
-            <h3 class="feature-title" data-i18n="feat_6_title">Mode Grand Public ou Expert (4 Langues)</h3>
-            <p class="feature-desc" data-i18n="feat_6_desc">
-              Basculez à tout moment entre le mode Simple (100% langage courant) et le Mode Expert complet (4 Piliers BaZi, Troncs Célestes, Branches Terrestres, 12 Officiers, Étoiles & Portes Qi Men). Disponible en Français, Anglais, Espagnol et Chinois.
-            </p>
-            <div class="feature-tag">Simple ou Expert • FR / EN / ES / ZH</div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- DUO COMPATIBILITY & FENG SHUI MING GUA -->
+    <!-- SECTION IV: MING GUA HOME COMPASS & DUO SYNERGY -->
     <section class="duo-section" id="duo">
       <div class="section-container duo-layout">
         
         <div class="duo-text-col">
-          <span class="badge-tag-indigo" data-i18n="duo_badge">SYNERGIE À DEUX & FENG SHUI PERSONNEL</span>
-          <h2 class="section-title" data-i18n="duo_title">MODE SYNERGIE (DUO) & BOUSSOLE MAISON MING GUA</h2>
-          <p class="section-desc" data-i18n="duo_desc">
-            Comparez vos piliers de naissance avec ceux de votre conjoint(e), d'un enfant, d'un associé ou d'un client pour trouver les dates favorables où aucun de vous deux n'est en Clash — et harmonisez votre intérieur grâce à votre Chiffre Gua.
+          <div class="folio-num">IV · <span data-i18n="duo_badge">Harmonie du lieu &amp; accord à deux</span></div>
+          <h2 class="section-title" data-i18n="duo_title">Orientations Feng Shui Ming Gua et synergie entre deux thèmes.</h2>
+          <p class="section-desc duo-lead" data-i18n="duo_desc">
+            Au-delà du rythme quotidien, QiMétéo étudie vos directions permanentes à la maison et compare deux dates de naissance pour identifier les jours où vos énergies s’accordent sans friction.
           </p>
 
           <div class="duo-perks">
             <div class="duo-perk-item">
-              <span class="duo-check">✓</span>
+              <span class="duo-roman">I</span>
               <div>
-                <strong data-i18n="duo_p1_strong">Synergie & Dates Communes sans Clash :</strong>
-                <p data-i18n="duo_p1_desc">Identifiez les alliances San He (Triade) et Liu He (Ami Secret) entre deux profils et trouvez les meilleures dates communes sur 45 jours.</p>
+                <strong data-i18n="duo_p1_strong">Synergie Duo et dates communes sur 45 jours</strong>
+                <p data-i18n="duo_p1_desc">Comparez vos piliers avec ceux d’un conjoint, d’un associé ou d’un proche pour repérer vos alliances naturelles (San He, Liu He) et choisir un jour favorable aux deux.</p>
               </div>
             </div>
             <div class="duo-perk-item">
-              <span class="duo-check">✓</span>
+              <span class="duo-roman">II</span>
               <div>
-                <strong data-i18n="duo_p2_strong">Astuce Feng Shui — Direction du Lit & du Bureau :</strong>
-                <p data-i18n="duo_p2_desc">Dormir la tête orientée vers votre direction Tian Yi (Médecin Céleste) favorise un sommeil profond et la récupération, tandis que travailler face à Sheng Qi stimule la réussite.</p>
+                <strong data-i18n="duo_p2_strong">Orientation de la tête de lit, du bureau et du foyer</strong>
+                <p data-i18n="duo_p2_desc">Dormir la tête tournée vers sa direction Tian Yi soutient la récupération nocturne, tandis qu’orienter son bureau vers Sheng Qi favorise la clarté d’esprit et l’élan professionnel.</p>
               </div>
             </div>
-          </div>
-
-          <div class="dual-modes-box">
-            <div class="mode-badge">
-              <span>Mode Simple</span> • <span>Mode Expert</span> • <span>Chiffre Gua (1 à 9)</span>
-            </div>
-            <p data-i18n="modes_desc">
-              Que vous cherchiez l'heure idéale pour lancer un projet, la date d'une signature ou le bon mur contre lequel adosser votre lit, tout est calculé instantanément à partir de votre date de naissance.
-            </p>
           </div>
         </div>
 
         <div class="duo-visual-col">
           <div class="duo-visual-card">
+            <div class="duo-card-top-bar">
+              <span>Accord BaZi · 六合</span>
+              <span>Ming Gua · 八宅</span>
+            </div>
             <div class="duo-avatar-pair">
-              <div class="avatar-ring avatar-1">
-                <img src="assets/zodiac/dragon.png" alt="Dragon" width="80" height="80">
-                <span>Vous (Dragon •辰)</span>
+              <div class="avatar-ring">
+                <img src="assets/zodiac/dragon.png" alt="Dragon" width="74" height="74">
+                <span>Dragon · 辰</span>
               </div>
-              <span class="duo-heart">✦</span>
-              <div class="avatar-ring avatar-2">
-                <img src="assets/zodiac/rooster.png" alt="Coq" width="80" height="80">
-                <span>Partenaire (Coq •酉)</span>
+              <div class="duo-connector" aria-hidden="true">
+                <span class="connector-line"></span>
+                <span class="connector-seal">合</span>
+                <span class="connector-line"></span>
+              </div>
+              <div class="avatar-ring">
+                <img src="assets/zodiac/rooster.png" alt="Coq" width="74" height="74">
+                <span>Coq · 酉</span>
               </div>
             </div>
             <div class="duo-match-score">
-              <span class="match-percent text-gold">94%</span>
-              <span class="match-label">ALLIANCE SECRÈTE (LIU HE 六合)</span>
+              <span class="match-percent">94%</span>
+              <span class="match-label" data-i18n="duo_match_label">Alliance secrète Liu He · Zéro opposition mutuelle</span>
             </div>
             <p class="duo-card-caption" data-i18n="duo_card_quote">
-              « Harmonie Liu He Dragon–Coq • Aucun Clash mutuel • Chiffre Gua & 4 directions favorables Maison / Lit / Bureau calculés dans votre Profil. »
+              Exemple d’analyse croisée : dates communes favorables sur 45 jours et calcul des 4 directions personnelles (maison, lit, bureau) dans l’onglet Profil.
             </p>
           </div>
         </div>
@@ -573,16 +592,18 @@
       </div>
     </section>
 
-    <!-- PRICING & PASS VIP -->
+    <!-- SECTION V: EDITIONS (FREE VS PRO) -->
     <section class="pricing-section" id="pricing">
       <div class="section-container">
         
-        <div class="section-header text-center">
-          <span class="badge-tag-gold" data-i18n="price_badge">TRANSPARENT & PARTAGE FAMILIAL INCLUS</span>
-          <h2 class="section-title" data-i18n="price_title">AUJOURD'HUI GRATUIT, TOUT DÉBLOQUÉ EN PRO</h2>
-          <p class="section-desc" data-i18n="price_desc">
-            La météo énergétique d'aujourd'hui et ses 2 créneaux horaires stratégiques (2h) sont gratuits. Passez à QiMétéo PRO pour débloquer les prochaines dates de projet, le Feng Shui Ming Gua (lit & maison) et la comparaison à deux.
-          </p>
+        <div class="section-folio-header">
+          <div class="folio-num">V · <span data-i18n="price_badge">Éditions &amp; Partage Familial</span></div>
+          <div class="folio-heading-group">
+            <h2 class="section-title" data-i18n="price_title">Aujourd’hui en libre accès, l’horizon complet avec QiMétéo PRO.</h2>
+            <p class="section-desc" data-i18n="price_desc">
+              Le bulletin d’aujourd’hui, ses deux créneaux stratégiques de deux heures et la boussole du jour sont gratuits sans limite de durée. L’édition PRO débloque le planificateur sur 45 jours, les sept intentions de projet, le Feng Shui Ming Gua et le mode Duo.
+            </p>
+          </div>
         </div>
 
         <div class="pricing-grid">
@@ -590,70 +611,70 @@
           <!-- Plan 1: Free -->
           <div class="pricing-card card-free">
             <div class="pricing-header">
-              <h3 class="plan-name" data-i18n="plan_free_name">DÉCOUVERTE GRATUITE</h3>
+              <h3 class="plan-name" data-i18n="plan_free_name">Édition Quotidienne</h3>
               <div class="plan-price">
                 <span class="price-val">0 €</span>
-                <span class="price-period" data-i18n="plan_free_sub">Pour toujours</span>
+                <span class="price-period" data-i18n="plan_free_sub">Accès permanent</span>
               </div>
-              <p class="plan-summary" data-i18n="plan_free_desc">L'essentiel pour consulter la journée d'aujourd'hui et ses 2 créneaux horaires.</p>
+              <p class="plan-summary" data-i18n="plan_free_desc">Tout le nécessaire pour consulter la qualité d’aujourd’hui et ses deux créneaux horaires.</p>
             </div>
 
             <ul class="plan-perks">
-              <li><span class="perk-check">✓</span> <span data-i18n="pfree_1">Météo d'Aujourd'hui (Feu Vert / Orange / Rouge & Officier)</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pfree_2">Les 2 Créneaux Stratégiques (2h) d'Aujourd'hui</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pfree_3">Boussole Qi Men pour la journée d'aujourd'hui</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pfree_4">Widgets Écran d'Accueil iOS</span></li>
-              <li><span class="perk-cross">✗</span> <span class="text-muted" data-i18n="pfree_5">Prochaines dates de Projet & Calendrier 45 Jours (floutés)</span></li>
-              <li><span class="perk-cross">✗</span> <span class="text-muted" data-i18n="pfree_6">Directions Feng Shui Ming Gua Lit/Maison & Synergie Duo (floutés)</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pfree_1">Bulletin d’aujourd’hui (Feu Vert, Ambre ou Rouge &amp; Officier)</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pfree_2">Les 2 créneaux stratégiques (2h) d’aujourd’hui</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pfree_3">Boussole Qi Men pour la journée en cours</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pfree_4">Widgets pour l’écran d’accueil et de verrouillage iOS</span></li>
+              <li class="perk-locked"><span class="perk-mark">–</span> <span data-i18n="pfree_5">Prochaines dates par projet &amp; calendrier 45 jours (floutés)</span></li>
+              <li class="perk-locked"><span class="perk-mark">–</span> <span data-i18n="pfree_6">Orientations Feng Shui Ming Gua &amp; Synergie Duo (floutés)</span></li>
             </ul>
 
-            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-plan btn-plan-free" data-i18n="btn_free">Télécharger Gratuitement</a>
+            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-plan btn-plan-quiet" data-i18n="btn_free">Télécharger gratuitement</a>
           </div>
 
-          <!-- Plan 2: Yearly VIP (Featured) -->
+          <!-- Plan 2: Yearly PRO (Featured) -->
           <div class="pricing-card card-vip featured-card">
-            <div class="featured-ribbon" data-i18n="plan_vip_ribbon">OFFRE RECOMMANDÉE • 7 JOURS GRATUITS</div>
+            <div class="featured-ribbon" data-i18n="plan_vip_ribbon">7 jours d’essai gratuit · Partage Familial inclus</div>
             <div class="pricing-header">
-              <h3 class="plan-name text-gold" data-i18n="plan_vip_name">PASS ANNUEL VIP PRO</h3>
+              <h3 class="plan-name" data-i18n="plan_vip_name">QiMétéo PRO · Annuel</h3>
               <div class="plan-price">
                 <span class="price-val">49,99 €</span>
                 <span class="price-period">/ an</span>
               </div>
-              <p class="plan-summary" data-i18n="plan_vip_desc">Soit 4,16 €/mois. Partage Familial Apple inclus pour jusqu'à 6 membres de la famille.</p>
+              <p class="plan-summary" data-i18n="plan_vip_desc">Soit 4,16 € par mois. Partage Familial Apple inclus pour jusqu’à six membres de votre foyer.</p>
             </div>
 
             <ul class="plan-perks">
-              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_1">Recherche de Dates par Projet (7 intentions) & Horizon 45 Jours</strong></li>
-              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_2">Tous les Créneaux 5★ de la Journée & Audit Calendrier Apple</strong></li>
-              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_3">Feng Shui Ming Gua : Directions Maison, Tête de Lit & Bureau</strong></li>
-              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_4">Mode Synergie (Comparaison à Deux & Dates Communes)</strong></li>
-              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_5">Mode Expert Complet (Qi Men Yin/Yang Dun, 12 Officiers, BaZi)</strong></li>
-              <li><span class="perk-check">✓</span> <strong data-i18n="pvip_6">Partage Familial Apple Inclus (jusqu'à 6 proches)</strong></li>
+              <li><span class="perk-mark perk-gold">✓</span> <strong data-i18n="pvip_1">Recherche de dates pour vos 7 projets sur 45 jours</strong></li>
+              <li><span class="perk-mark perk-gold">✓</span> <strong data-i18n="pvip_2">Tous les créneaux positifs du jour &amp; audit du Calendrier Apple</strong></li>
+              <li><span class="perk-mark perk-gold">✓</span> <strong data-i18n="pvip_3">Feng Shui Ming Gua : orientations maison, tête de lit et bureau</strong></li>
+              <li><span class="perk-mark perk-gold">✓</span> <strong data-i18n="pvip_4">Mode Synergie Duo (comparaison à deux &amp; dates communes)</strong></li>
+              <li><span class="perk-mark perk-gold">✓</span> <strong data-i18n="pvip_5">Mode Expert complet (Qi Men Yin/Yang Dun, 12 Officiers, BaZi)</strong></li>
+              <li><span class="perk-mark perk-gold">✓</span> <strong data-i18n="pvip_6">Partage Familial Apple inclus (jusqu’à 6 proches)</strong></li>
             </ul>
 
-            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-plan btn-plan-featured" data-i18n="btn_vip">Essai Gratuit de 7 Jours</a>
+            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-plan btn-plan-brass" data-i18n="btn_vip">Essayer 7 jours gratuitement</a>
           </div>
 
           <!-- Plan 3: Monthly -->
           <div class="pricing-card card-monthly">
             <div class="pricing-header">
-              <h3 class="plan-name" data-i18n="plan_month_name">PASS MENSUEL PRO</h3>
+              <h3 class="plan-name" data-i18n="plan_month_name">QiMétéo PRO · Mensuel</h3>
               <div class="plan-price">
                 <span class="price-val">4,99 €</span>
                 <span class="price-period">/ mois</span>
               </div>
-              <p class="plan-summary" data-i18n="plan_month_desc">Idéal pour planifier un lancement de projet, une signature ou un déménagement sans engagement.</p>
+              <p class="plan-summary" data-i18n="plan_month_desc">Pour accompagner un lancement de projet, une signature ou un déménagement en toute liberté.</p>
             </div>
 
             <ul class="plan-perks">
-              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_1">Recherche de Dates par Projet & Calendrier 45 Jours</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_2">Tous les Créneaux 5★ & Directions Feng Shui Ming Gua (Lit/Maison)</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_3">Mode Synergie (Comparaison à Deux) & Audit Agenda</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_4">Sans Engagement (Résiliable à tout moment)</span></li>
-              <li><span class="perk-check">✓</span> <span data-i18n="pmonth_5">Partage Familial Apple Inclus (6 pers.)</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pmonth_1">Recherche de dates par projet &amp; calendrier 45 jours</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pmonth_2">Tous les créneaux positifs &amp; Feng Shui Ming Gua (lit, bureau, maison)</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pmonth_3">Mode Synergie Duo &amp; audit de votre agenda</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pmonth_4">Sans engagement, résiliable à tout moment</span></li>
+              <li><span class="perk-mark">✓</span> <span data-i18n="pmonth_5">Partage Familial Apple inclus (6 personnes)</span></li>
             </ul>
 
-            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-plan btn-plan-free" data-i18n="btn_month">Choisir le Pass Mensuel</a>
+            <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-plan btn-plan-quiet" data-i18n="btn_month">Choisir la formule mensuelle</a>
           </div>
 
         </div>
@@ -661,18 +682,18 @@
       </div>
     </section>
 
-    <!-- PRIVACY & ON-DEVICE SECURITY -->
+    <!-- ON-DEVICE PRIVACY NOTE -->
     <section class="privacy-section">
       <div class="section-container">
         <div class="privacy-card">
-          <div class="privacy-icon">🛡️</div>
+          <div class="privacy-seal" aria-hidden="true">密</div>
           <div class="privacy-content">
-            <h3 class="privacy-title" data-i18n="priv_title">100% On-Device : Vos Données Personnelles Restent Chez Vous</h3>
+            <h3 class="privacy-title" data-i18n="priv_title">Calculs 100 % en local sur votre appareil</h3>
             <p class="privacy-desc" data-i18n="priv_desc">
-              Votre date de naissance, votre Chiffre Gua, vos proches et votre journal sont calculés et stockés exclusivement sur votre iPhone ou iPad. Aucune donnée personnelle n'est revendue ni envoyée sur des serveurs tiers.
+              Votre date de naissance, votre Chiffre Gua, les profils de vos proches et votre journal demeurent exclusivement sur votre iPhone ou votre iPad. Aucune donnée personnelle n’est transmise à des serveurs publicitaires.
             </p>
           </div>
-          <a href="privacy.html" class="btn-privacy-link" data-i18n="priv_link">Politique de Confidentialité →</a>
+          <a href="privacy.html" class="btn-privacy-link" data-i18n="priv_link">Politique de confidentialité</a>
         </div>
       </div>
     </section>
@@ -681,56 +702,58 @@
     <section class="faq-section" id="faq">
       <div class="section-container">
         
-        <div class="section-header text-center">
-          <span class="badge-tag-indigo" data-i18n="faq_badge">FAQ</span>
-          <h2 class="section-title" data-i18n="faq_title">QUESTIONS FRÉQUENTES</h2>
+        <div class="section-folio-header">
+          <div class="folio-num">VI · <span data-i18n="faq_badge">Repères &amp; questions</span></div>
+          <div class="folio-heading-group">
+            <h2 class="section-title" data-i18n="faq_title">Questions fréquentes sur la méthode et l’application.</h2>
+          </div>
         </div>
 
         <div class="faq-list">
           <details class="faq-item" open>
             <summary class="faq-question">
-              <span data-i18n="faq_1_q">Sur quoi sont fondés les calculs de QiMétéo ?</span>
+              <span data-i18n="faq_1_q">Sur quelles traditions reposent les calculs de QiMétéo ?</span>
               <span class="faq-icon">+</span>
             </summary>
             <div class="faq-answer">
               <p data-i18n="faq_1_a">
-                QiMétéo repose sur les règles traditionnelles authentiques du <strong>Tong Shu</strong> (les 12 Officiers du Jour, les Piliers sexagésimaux et les Clashs), du <strong>Qi Men Dun Jia</strong> (calcul astronomique des cycles Yin Dun et Yang Dun, sélection stricte de 2 créneaux horaires par jour sans aucune configuration négative) et du <strong>Feng Shui Ming Gua (Ba Zhai)</strong> pour vos directions personnelles à la maison.
+                QiMétéo articule trois disciplines classiques : le Tong Shu (les 12 Officiers du Jour et l’interaction avec vos quatre piliers BaZi), le Qi Men Dun Jia (sélection de deux créneaux horaires par jour exempts d’aspects négatifs et orientation sur 8 palais) et le Feng Shui Ming Gua (Ba Zhai) pour l’orientation de votre intérieur.
               </p>
             </div>
           </details>
 
           <details class="faq-item">
             <summary class="faq-question">
-              <span data-i18n="faq_2_q">Qu'est-ce qui est inclus gratuitement dans l'application ?</span>
+              <span data-i18n="faq_2_q">Que comprend l’accès gratuit au quotidien ?</span>
               <span class="faq-icon">+</span>
             </summary>
             <div class="faq-answer">
               <p data-i18n="faq_2_a">
-                En version gratuite, vous avez accès chaque jour à la météo complète d'<strong>Aujourd'hui</strong> (Feu Vert, Orange ou Rouge, Officier du Jour, Pilier et Clash) ainsi qu'aux <strong>2 créneaux horaires stratégiques de 2h de la journée</strong> et à la boussole d'orientation. L'abonnement QiMétéo PRO débloque les prochaines dates de recherche de projet, le calendrier sur 45 jours, les créneaux bonus, la comparaison Synergie à deux et vos directions Feng Shui Ming Gua (maison, lit, bureau).
+                Vous accédez gratuitement chaque jour à la météo complète d’aujourd’hui (couleur du jour, Officier, pilier et affinités) ainsi qu’aux deux meilleurs créneaux stratégiques de deux heures de la journée et à la boussole. L’abonnement QiMétéo PRO débloque les prochaines dates de projet sur 45 jours, l’ensemble des créneaux positifs du jour, le profil Feng Shui Ming Gua (maison, lit, bureau) et la synergie Duo.
               </p>
             </div>
           </details>
 
           <details class="faq-item">
             <summary class="faq-question">
-              <span data-i18n="faq_3_q">Comment fonctionnent la boussole Qi Men et les directions Feng Shui du lit ?</span>
+              <span data-i18n="faq_3_q">Quelle est la différence entre la boussole Qi Men et les directions Feng Shui du lit ?</span>
               <span class="faq-icon">+</span>
             </summary>
             <div class="faq-answer">
               <p data-i18n="faq_3_a">
-                Il y a deux niveaux complémentaires dans QiMétéo : <strong>1) En Qi Men Dun Jia (au fil des heures)</strong>, la boussole vous indique dans quelle direction tourner votre dos (ou faire face lors d'une Combinaison) pendant un créneau de 2h pour un appel, une signature ou une négociation. <strong>2) En Feng Shui Ming Gua (permanent à la maison)</strong>, votre Chiffre Gua calculé dans l'onglet Profil vous donne les 4 bonnes directions de votre maison, notamment où orienter la tête de votre lit (direction Santé <em>Tian Yi</em>) et votre bureau (direction Vitalité <em>Sheng Qi</em>).
+                Les deux outils agissent à des échelles différentes. La boussole Qi Men Dun Jia est temporelle : elle indique dans quelle direction orienter votre chaise pendant un créneau de deux heures pour un appel, une signature ou une négociation. Le Feng Shui Ming Gua est permanent : calculé dans l’onglet Profil selon votre naissance, il indique les quatre directions favorables de votre logement, notamment l’orientation de la tête de lit et du bureau.
               </p>
             </div>
           </details>
 
           <details class="faq-item">
             <summary class="faq-question">
-              <span data-i18n="faq_4_q">Puis-je partager mon abonnement avec ma famille ?</span>
+              <span data-i18n="faq_4_q">Le Partage Familial Apple est-il inclus dans l’abonnement ?</span>
               <span class="faq-icon">+</span>
             </summary>
             <div class="faq-answer">
               <p data-i18n="faq_4_a">
-                Oui ! L'abonnement QiMétéo PRO (mensuel ou annuel) intègre le Partage Familial Apple : jusqu'à 6 membres de votre groupe familial peuvent débloquer QiMétéo PRO sur leur propre iPhone ou iPad sans aucun coût supplémentaire.
+                Oui. Les formules QiMétéo PRO (mensuelle et annuelle) incluent nativement le Partage Familial Apple : jusqu’à six membres de votre groupe familial bénéficient de l’intégralité des fonctions PRO sur leur propre iPhone ou iPad sans supplément.
               </p>
             </div>
           </details>
@@ -743,18 +766,18 @@
     <section class="final-cta-section">
       <div class="section-container">
         <div class="final-cta-card">
-          <img src="assets/images/app_icon.png" alt="QiMétéo Logo" class="final-cta-icon" width="88" height="88">
-          <h2 class="final-cta-title" data-i18n="final_title">PRÊT À CHOISIR TOUJOURS LE BON MOMENT ?</h2>
+          <img src="assets/images/app_icon.png" alt="QiMétéo" class="final-cta-icon" width="76" height="76">
+          <h2 class="final-cta-title" data-i18n="final_title">Accordez vos décisions avec le bon moment.</h2>
           <p class="final-cta-desc" data-i18n="final_desc">
-            Installez QiMétéo dès aujourd'hui sur votre iPhone ou iPad et démarrez chaque journée avec clarté, précision et sérénité.
+            Installez QiMétéo sur votre iPhone ou votre iPad et consultez chaque matin votre almanach décisionnel.
           </p>
-          <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-primary-gold btn-large">
-            <svg class="apple-icon" viewBox="0 0 170 170" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <a href="https://apps.apple.com/app/id6825956141" target="_blank" rel="noopener" class="btn-brass btn-large">
+            <svg class="apple-icon" viewBox="0 0 170 170" width="20" height="20" fill="currentColor" aria-hidden="true">
               <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.04-7.69-7.85-12-14.42-6.19-9.39-10.9-20.09-14.13-32.09-3.23-12-4.85-23.32-4.85-33.97 0-14.42 3.63-26.4 10.9-35.95 7.27-9.55 16.48-14.43 27.64-14.65 4.35 0 9.27 1.15 14.76 3.44 5.48 2.29 9.38 3.5 11.71 3.65 1.96-.15 5.92-1.36 11.89-3.65 5.97-2.29 10.88-3.32 14.73-3.08 13.43.83 23.94 5.96 31.54 15.4-11.89 7.27-17.7 17.1-17.44 29.49.27 9.8 4.18 18.06 11.74 24.78 7.56 6.72 16.48 10.45 26.77 11.2-.82 2.61-1.85 5.34-3.09 8.19zm-38.3-108.38c0-7.39 2.64-14.28 7.92-20.67 5.28-6.39 12-10.44 20.15-12.16.54 2.28.81 4.56.81 6.84 0 7.39-2.73 14.39-8.19 21-5.46 6.61-12.28 10.63-20.47 12.06-.11-2.39-.22-4.75-.22-7.07z"/>
             </svg>
             <div class="btn-label-group">
-              <span class="btn-micro" data-i18n="final_btn_sub">Disponible sur iPhone & iPad</span>
-              <span class="btn-title" data-i18n="final_btn_main">Télécharger Gratuitement sur l'App Store</span>
+              <span class="btn-micro" data-i18n="final_btn_sub">iPhone &amp; iPad · iOS 17+</span>
+              <span class="btn-title" data-i18n="final_btn_main">Télécharger QiMétéo sur l’App Store</span>
             </div>
           </a>
         </div>
@@ -768,32 +791,31 @@
       
       <div class="footer-brand-col">
         <a href="#hero" class="brand-link">
-          <img src="assets/images/app_icon.png" alt="QiMétéo Logo" class="brand-icon" width="38" height="38">
-          <span class="brand-name">QI<span class="text-gold">MÉTÉO</span></span>
+          <img src="assets/images/app_icon.png" alt="QiMétéo" class="brand-icon" width="36" height="36">
+          <span class="brand-name">QiMétéo</span>
         </a>
         <p class="footer-bio" data-i18n="footer_bio">
-          La météo de vos décisions : sélection de dates par projet (12 Officiers Tong Shu), créneaux stratégiques Qi Men Dun Jia et boussole Feng Shui Ming Gua. Développé en France par Xavier Larrodé.
+          Almanach décisionnel quotidien : sélection de dates par projet (12 Officiers Tong Shu), créneaux stratégiques Qi Men Dun Jia et boussole Feng Shui Ming Gua. Conçu et développé en France par Xavier Larrodé.
         </p>
-        <span class="footer-badge">🇫🇷 Fait avec passion en France</span>
       </div>
 
       <div class="footer-links-col">
-        <h4 class="footer-heading" data-i18n="footer_app">L'Application</h4>
+        <h4 class="footer-heading" data-i18n="footer_app">Navigation</h4>
         <ul class="footer-nav">
-          <li><a href="#concept" data-i18n="nav_concept">Le Concept</a></li>
-          <li><a href="#simulator" data-i18n="nav_simulator">12 Signes Zodiaque</a></li>
-          <li><a href="#features" data-i18n="nav_features">Fonctionnalités</a></li>
-          <li><a href="#duo" data-i18n="nav_duo">Synergie & Feng Shui</a></li>
-          <li><a href="#pricing" data-i18n="nav_pricing">Pass PRO</a></li>
+          <li><a href="#concept" data-i18n="nav_concept">L’Almanach</a></li>
+          <li><a href="#features" data-i18n="nav_features">Les 4 disciplines</a></li>
+          <li><a href="#simulator" data-i18n="nav_simulator">Les 12 signes</a></li>
+          <li><a href="#duo" data-i18n="nav_duo">Ming Gua &amp; Duo</a></li>
+          <li><a href="#pricing" data-i18n="nav_pricing">Éditions</a></li>
         </ul>
       </div>
 
       <div class="footer-links-col">
-        <h4 class="footer-heading" data-i18n="footer_legal">Légal & Contact</h4>
+        <h4 class="footer-heading" data-i18n="footer_legal">Informations légales</h4>
         <ul class="footer-nav">
-          <li><a href="privacy.html" data-i18n="footer_privacy">Politique de Confidentialité</a></li>
-          <li><a href="terms.html" data-i18n="footer_terms">Conditions Générales d'Utilisation</a></li>
-          <li><a href="mailto:xlarrodeapp+qimeteo@gmail.com" data-i18n="footer_contact">Contact & Support</a></li>
+          <li><a href="privacy.html" data-i18n="footer_privacy">Politique de confidentialité</a></li>
+          <li><a href="terms.html" data-i18n="footer_terms">Conditions d’utilisation</a></li>
+          <li><a href="mailto:xlarrodeapp+qimeteo@gmail.com" data-i18n="footer_contact">Contact &amp; assistance</a></li>
         </ul>
       </div>
 
@@ -801,8 +823,8 @@
 
     <div class="footer-bottom-bar">
       <div class="footer-bottom-container">
-        <p>&copy; <span id="current-year">2026</span> QiMétéo — Xavier Larrodé. Tous droits réservés.</p>
-        <p>Apple, iPhone, iPad et Apple Calendar sont des marques déposées d'Apple Inc.</p>
+        <p>&copy; <span id="current-year">2026</span> QiMétéo — Xavier Larrodé.</p>
+        <p>Apple, iPhone, iPad et Apple Calendar sont des marques d’Apple Inc.</p>
       </div>
     </div>
   </footer>
