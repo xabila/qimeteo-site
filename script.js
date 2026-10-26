@@ -124,8 +124,8 @@
 
       plan_free_name: "Édition Quotidienne",
       plan_free_sub: "Accès permanent",
+      plan_free_label: "Gratuit",
       plan_see_offers: "Voir les offres dans l’app",
-      plan_see_offers_free: "Voir les offres de l’édition quotidienne dans l’app",
       plan_see_offers_year: "Voir les offres QiMétéo PRO annuel dans l’app",
       plan_see_offers_month: "Voir les offres QiMétéo PRO mensuel dans l’app",
       plan_free_desc: "Tout le nécessaire pour consulter la qualité d’aujourd’hui et ses deux créneaux horaires.",
@@ -322,8 +322,8 @@
 
       plan_free_name: "Daily Edition",
       plan_free_sub: "Free forever",
+      plan_free_label: "Free",
       plan_see_offers: "See plans in the app",
-      plan_see_offers_free: "See Daily Edition plans in the app",
       plan_see_offers_year: "See annual QiMétéo PRO plans in the app",
       plan_see_offers_month: "See monthly QiMétéo PRO plans in the app",
       plan_free_desc: "Everything needed to consult today's quality and its two strategic time windows.",
