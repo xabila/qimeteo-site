@@ -889,6 +889,10 @@ img {
   cursor: default;
 }
 
+#hero-btn-download {
+  scroll-margin-top: 168px;
+}
+
 /* ==========================================================================
    SECTION III: THE 6 INSTRUMENTS (ARCHITECTURAL FOLIO LEDGER)
    ========================================================================== */
@@ -1144,6 +1148,7 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
+  min-width: 0;
 }
 
 .featured-card {
@@ -1180,9 +1185,34 @@ img {
 
 .plan-price {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 8px;
+  gap: 6px 10px;
   margin-bottom: 10px;
+}
+
+.plan-offers-cta {
+  flex: 1 1 12rem;
+  min-width: 0;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--brass);
+  border-bottom: 1px solid var(--brass-soft);
+  padding-bottom: 1px;
+  overflow-wrap: anywhere;
+}
+
+.plan-offers-cta:hover,
+.plan-offers-cta:focus-visible {
+  color: var(--text-silk);
+  border-bottom-color: var(--brass);
+}
+
+.plan-offers-cta:focus-visible {
+  outline: 1px solid var(--brass);
+  outline-offset: 4px;
 }
 
 .price-val {

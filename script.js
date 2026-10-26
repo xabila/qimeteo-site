@@ -124,6 +124,10 @@
 
       plan_free_name: "Édition Quotidienne",
       plan_free_sub: "Accès permanent",
+      plan_free_label: "Gratuit",
+      plan_see_offers: "Voir les offres dans l’app",
+      plan_see_offers_year: "Voir les offres QiMétéo PRO annuel dans l’app",
+      plan_see_offers_month: "Voir les offres QiMétéo PRO mensuel dans l’app",
       plan_free_desc: "Tout le nécessaire pour consulter la qualité d’aujourd’hui et ses deux créneaux horaires.",
       pfree_1: "Bulletin d’aujourd’hui selon vos date et heure de naissance",
       pfree_2: "Les 2 créneaux stratégiques (2h) d’aujourd’hui",
@@ -135,7 +139,7 @@
 
       plan_vip_ribbon: "7 jours d’essai gratuit · Partage Familial inclus",
       plan_vip_name: "QiMétéo PRO · Annuel",
-      plan_vip_desc: "Soit 4,16 € par mois. Partage Familial Apple inclus pour jusqu’à six membres de votre foyer.",
+      plan_vip_desc: "Partage Familial Apple inclus pour jusqu’à six membres de votre foyer.",
       pvip_1: "Recherche de dates pour vos 7 projets sur 45 jours",
       pvip_2: "Tous les créneaux positifs du jour & audit du Calendrier Apple",
       pvip_3: "Feng Shui Ming Gua : orientations maison, tête de lit et bureau",
@@ -178,7 +182,29 @@
       footer_legal: "Informations légales",
       footer_privacy: "Politique de confidentialité",
       footer_terms: "Conditions d’utilisation",
-      footer_contact: "Contact & assistance"
+      footer_support: "Assistance",
+      footer_contact: "Contact & assistance",
+      lang_aria: "Changer de langue",
+
+      support_doc_title: "Assistance — QiMétéo",
+      support_meta: "Assistance QiMétéo : gérer un abonnement Apple, restaurer un achat, widgets iOS, essai gratuit et contact.",
+      support_back: "Retour à l’accueil QiMétéo",
+      support_title: "Assistance",
+      support_updated: "Dernière mise à jour : 26 octobre 2026",
+      support_intro: "Réponses courtes aux questions les plus fréquentes. QiMétéo arrive bientôt sur l’App Store pour iPhone et iPad. Les offres s’affichent dans l’application.",
+      support_contact_h: "Contact",
+      support_contact_p: "Pour toute question :",
+      support_sub_h: "Gérer un abonnement",
+      support_sub_p: "Les abonnements QiMétéo PRO sont gérés par l’App Store d’Apple. Pour les consulter, les modifier ou les résilier : Réglages iOS > Identifiant Apple > Abonnements. La résiliation se fait dans votre compte Apple ID, au moins 24 h avant l’échéance. Le Partage Familial Apple est inclus jusqu’à six membres.",
+      support_restore_h: "Restaurer un achat",
+      support_restore_p: "Les achats sont rattachés à votre identifiant Apple et gérés par l’App Store. Pour retrouver un abonnement déjà souscrit, reconnectez-vous avec le même identifiant Apple sur votre iPhone ou iPad : l’App Store rétablit les achats associés à ce compte. QiMétéo n’a pas accès à vos données bancaires.",
+      support_widget_h: "Widgets",
+      support_widget_p: "L’édition quotidienne inclut les widgets de l’écran d’accueil et de l’écran de verrouillage iOS. Ils s’appuient sur les calculs effectués sur votre appareil (date et heure de naissance, chiffre Gua) et ne transmettent aucune donnée personnelle à un serveur publicitaire.",
+      support_trial_h: "Essai gratuit",
+      support_trial_p: "QiMétéo PRO annuel comprend 7 jours d’essai gratuit, avec le Partage Familial inclus. L’abonnement PRO (mensuel ou annuel, avec essai gratuit) est reconduit sauf résiliation au moins 24 h avant l’échéance dans votre compte Apple ID.",
+      support_docs_h: "Documents",
+      support_docs_p: "Consultez également :",
+      support_rights: "Tous droits réservés."
     },
 
     en: {
@@ -296,6 +322,10 @@
 
       plan_free_name: "Daily Edition",
       plan_free_sub: "Free forever",
+      plan_free_label: "Free",
+      plan_see_offers: "See plans in the app",
+      plan_see_offers_year: "See annual QiMétéo PRO plans in the app",
+      plan_see_offers_month: "See monthly QiMétéo PRO plans in the app",
       plan_free_desc: "Everything needed to consult today's quality and its two strategic time windows.",
       pfree_1: "Today's briefing tailored to your birth date and hour",
       pfree_2: "Today's 2 strategic (2h) windows",
@@ -307,7 +337,7 @@
 
       plan_vip_ribbon: "7-day free trial · Family Sharing included",
       plan_vip_name: "QiMétéo PRO · Annual",
-      plan_vip_desc: "€4.16 per month billed annually. Apple Family Sharing included for up to six household members.",
+      plan_vip_desc: "Apple Family Sharing included for up to six household members.",
       pvip_1: "Date finder for all 7 project intentions over 45 days",
       pvip_2: "All positive daily windows & Apple Calendar audit",
       pvip_3: "Ming Gua Feng Shui: home, bed headboard, and desk directions",
@@ -350,7 +380,29 @@
       footer_legal: "Legal",
       footer_privacy: "Privacy policy",
       footer_terms: "Terms of use",
-      footer_contact: "Contact & support"
+      footer_support: "Support",
+      footer_contact: "Contact & support",
+      lang_aria: "Change language",
+
+      support_doc_title: "Support — QiMétéo",
+      support_meta: "QiMétéo support: manage an Apple subscription, restore a purchase, iOS widgets, the free trial, and contact.",
+      support_back: "Back to QiMétéo home",
+      support_title: "Support",
+      support_updated: "Last updated: 26 October 2026",
+      support_intro: "Short answers to the most common questions. QiMétéo is coming soon to the App Store for iPhone and iPad. Plans are shown in the app.",
+      support_contact_h: "Contact",
+      support_contact_p: "For any question:",
+      support_sub_h: "Manage a subscription",
+      support_sub_p: "QiMétéo PRO subscriptions are managed by Apple’s App Store. To view, change, or cancel one: iOS Settings > Apple ID > Subscriptions. Cancellation is done in your Apple ID account, at least 24 hours before the renewal date. Apple Family Sharing is included for up to six members.",
+      support_restore_h: "Restore a purchase",
+      support_restore_p: "Purchases are tied to your Apple ID and managed by the App Store. To recover a subscription you already started, sign in with the same Apple ID on your iPhone or iPad: the App Store restores the purchases linked to that account. QiMétéo never has access to your payment details.",
+      support_widget_h: "Widgets",
+      support_widget_p: "The daily edition includes iOS Home Screen and Lock Screen widgets. They use calculations performed on your device (birth date and hour, Gua number) and do not send personal data to advertising servers.",
+      support_trial_h: "Free trial",
+      support_trial_p: "Annual QiMétéo PRO includes a 7-day free trial, with Family Sharing included. The PRO subscription (monthly or annual, with a free trial) renews unless you cancel at least 24 hours before the renewal date in your Apple ID account.",
+      support_docs_h: "Documents",
+      support_docs_p: "See also:",
+      support_rights: "All rights reserved."
     }
   };
 
@@ -391,6 +443,20 @@
       const key = el.getAttribute('data-i18n').trim();
       if (dict[key]) {
         el.textContent = dict[key];
+      }
+    });
+
+    document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
+      const key = el.getAttribute('data-i18n-aria').trim();
+      if (dict[key]) {
+        el.setAttribute('aria-label', dict[key]);
+      }
+    });
+
+    document.querySelectorAll('[data-i18n-content]').forEach((el) => {
+      const key = el.getAttribute('data-i18n-content').trim();
+      if (dict[key]) {
+        el.setAttribute('content', dict[key]);
       }
     });
 
