@@ -889,6 +889,10 @@ img {
   cursor: default;
 }
 
+#hero-btn-download {
+  scroll-margin-top: 168px;
+}
+
 /* ==========================================================================
    SECTION III: THE 6 INSTRUMENTS (ARCHITECTURAL FOLIO LEDGER)
    ========================================================================== */
