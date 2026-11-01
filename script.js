@@ -9,14 +9,14 @@
   'use strict';
 
   const screenGuardians = {
-    1: 'assets/stickers/animal_1_dragon.webp',
-    2: 'assets/stickers/animal_2_horse.webp',
+    1: 'assets/stickers/animal_3_sun_moon.webp',
+    2: 'assets/stickers/animal_3_sun_moon.webp',
     3: 'assets/stickers/animal_3_sun_moon.webp',
-    4: 'assets/stickers/animal_4_rooster.webp',
-    5: 'assets/stickers/animal_5_tiger.webp',
-    6: 'assets/stickers/animal_6_goat.webp',
-    7: 'assets/stickers/animal_7_ox.webp',
-    8: 'assets/stickers/animal_8_snake.webp'
+    4: 'assets/stickers/animal_3_sun_moon.webp',
+    5: 'assets/stickers/animal_3_sun_moon.webp',
+    6: 'assets/stickers/animal_3_sun_moon.webp',
+    7: 'assets/stickers/animal_3_sun_moon.webp',
+    8: 'assets/stickers/animal_3_sun_moon.webp'
   };
 
   const i18n = {
@@ -73,7 +73,7 @@
       sc1_t: "Feu Vert, Orange ou Rouge",
       sc1_d: "Votre score symbolique (0–100 %)*, l’Officier du Jour Tong Shu et le repère concret dès le réveil.",
       sc2_t: "Sur mesure : Date & Heure natales",
-      sc2_d: "Vos 4 Piliers BaZi complets (Année, Mois solaire JieQi, Jour, Heure) et votre Chiffre Ming Gua.",
+      sc2_d: "Vos 4 Piliers BaZi à 2 étages (Tronc Céleste = Élément Yin/Yang en haut, Branche Terrestre = Animal en bas) et, séparément, votre boussole Ming Gua.",
       sc3_t: "Créneaux d’Or de 2h (hors Kong Wang)",
       sc3_d: "Vos 2 fenêtres propices gratuites chaque jour*, et jusqu’à 6 créneaux positifs/jour en Premium.",
       sc4_t: "Boussole Live des 8 Palais",
@@ -83,7 +83,7 @@
       sc6_t: "Feng Shui Ming Gua : Lit, Bureau, Maison",
       sc6_d: "Vos 4 directions favorables permanentes (Sheng Qi, Tian Yi, Yan Nian, Fu Wei) et les 4 secteurs moins propices.*",
       sc6_duo_t: "Synergie Duo : Couple, Enfants, Associés",
-      sc6_duo_d: "Comparez deux thèmes natals et trouvez les dates propices sur 30 jours où vos deux agendas sont au vert.*",
+      sc6_duo_d: "Comparez vos Maîtres du Jour (Troncs Célestes : ex. Eau Yin 癸 & Terre Yang 戊) et vos Branches Terrestres, et repérez vos dates communes sur 30 jours.*",
       sc8_t: "Mode Simple ou Mode Expert",
       sc8_d: "100 % en langage clair par défaut, ou affichage complet des grilles Qi Men, Portes, Étoiles, Déités et BaZi.",
 
@@ -107,17 +107,17 @@
       pillars_badge: "Thème natal BaZi",
       pillars_kicker: "SUR MESURE · 4 PILIERS DE NAISSANCE (四柱八字)",
       pillars_title: "Pourquoi le seul signe de l’année ne suffit jamais.",
-      pillars_desc: "Se limiter à l’animal de l’année de naissance ignore 75 % de votre thème. QiMétéo calcule vos quatre piliers (BaZi) à partir de votre date et de votre heure de naissance pour mesurer les harmonies (San He, Liu He) et les oppositions (Chong) propres à votre profil.",
+      pillars_desc: "Chaque pilier BaZi comporte deux étages : en haut, le Tronc Céleste (Tian Gan 天干 : l’Élément Yin ou Yang, comme Eau Yin 癸, Feu Yang 丙 ou Terre Yang 戊) et en bas, la Branche Terrestre (Di Zhi 地支 : l’Animal). Votre identité profonde — le Maître du Jour — est le Tronc Céleste (l’Élément) de votre Jour de naissance, et non un animal.",
 
-      pil_1_title: "Pilier de l’Année & Ming Gua",
-      pil_1_desc: "Basé sur le Nouvel An solaire (LiChun, ~4 février), il fixe votre cercle social et votre Chiffre Ming Gua (1 à 9) pour vos 4 directions Feng Shui à la maison.",
-      pil_2_title: "Pilier du Mois Solaire",
-      pil_2_desc: "Calé sur les 24 périodes solaires astronomiques (JieQi), il gouverne votre climat professionnel et l’ancrage saisonnier de vos cinq éléments.",
-      pil_3_tag: "Maître du Jour",
-      pil_3_title: "Pilier du Jour (Cœur du calcul)",
-      pil_3_desc: "Votre identité profonde et votre sphère personnelle. Un Clash frontal entre le jour courant et votre Pilier du Jour abaisse immédiatement la note et active une alerte de prudence.",
+      pil_1_title: "Pilier de l’Année (Racines & Cercle)",
+      pil_1_desc: "Calé sur le Nouvel An solaire (LiChun, ~4 février), il associe un Tronc Céleste (Élément) et une Branche Terrestre (Animal de l’année) qui reflètent votre ancrage familial et votre cercle extérieur.",
+      pil_2_title: "Pilier du Mois Solaire (JieQi)",
+      pil_2_desc: "Déterminé par les 24 périodes solaires astronomiques (JieQi), il gouverne votre climat professionnel et détermine la force saisonnière (Wang Xiang) de votre Élément du Jour.",
+      pil_3_tag: "Tronc du Jour · Maître du Jour",
+      pil_3_title: "Pilier du Jour (Tronc Céleste = Maître du Jour)",
+      pil_3_desc: "Le Tronc Céleste du Jour (ex. Eau Yin 癸, Feu Yang 丙, Terre Yang 戊) est votre Maître du Jour : c’est un Élément Yin ou Yang, jamais un animal. La Branche Terrestre située en dessous gouverne votre foyer et détecte les Clashes quotidiens.",
       pil_4_title: "Pilier de l’Heure de Naissance",
-      pil_4_desc: "Gouverne vos projets, vos investissements et la concrétisation de vos actions. Il affine le score quotidien et la sélection de vos créneaux horaires.",
+      pil_4_desc: "Composé du Tronc Céleste et de la Branche Terrestre de votre heure solaire de naissance, il gouverne vos projets, vos investissements et affine la sélection de vos créneaux horaires.",
 
       feat_badge: "Les 6 instruments QiMétéo",
       feat_kicker: "QI MEN DUN JIA · BOUSSOLE 8 PALAIS · PLANIFICATEUR 30 JOURS",
@@ -142,7 +142,7 @@
       duo_desc: "Au-delà de la météo du jour, QiMétéo calcule vos directions permanentes à la maison selon votre Chiffre Gua et croise deux thèmes complets (conjoint, associé, enfant, client) pour repérer les dates où vos deux agendas sont simultanément au vert.*",
 
       duo_p1_strong: "Synergie Duo sur vos 4 Piliers & dates communes (30 jours)",
-      duo_p1_desc: "Comparez vos piliers avec ceux d’un partenaire ou d’un proche pour mesurer vos affinités symboliques (San He, Liu He, éléments complémentaires) et filtrer les dates propices communes sur les 30 prochains jours.*",
+      duo_p1_desc: "Comparez vos Maîtres du Jour (Troncs Célestes : ex. Combinaison Céleste Tian Gan Wu He entre Eau Yin 癸 et Terre Yang 戊), l’équilibre de vos Cinq Éléments et vos Branches Terrestres, et filtrez vos dates propices communes sur 30 jours.*",
       duo_p2_strong: "Feng Shui Ming Gua : tête de lit, bureau et porte d’entrée",
       duo_p2_desc: "Dans la tradition Ming Gua, orienter la tête de lit vers Tian Yi est associé au ressourcement**, tandis qu’orienter votre bureau vers Sheng Qi accompagne symboliquement la dynamique de vos projets.*",
 
@@ -193,7 +193,7 @@
       faq_badge: "Repères & questions",
       faq_title: "Questions fréquentes sur la méthode et l’application.",
       faq_1_q: "Pourquoi renseigner à la fois sa date et son heure de naissance ?",
-      faq_1_a: "En métaphysique chinoise (BaZi et Tong Shu), l’année de naissance ne représente qu’un seul pilier sur quatre. Votre jour de naissance détermine votre Maître du Jour (le pilier le plus sensible aux oppositions quotidiennes) et votre heure de naissance affine vos affinités énergétiques pour vos projets. Si vous ne connaissez pas votre heure de naissance, QiMétéo fonctionne également avec précision sur vos trois premiers piliers.",
+      faq_1_a: "En métaphysique chinoise, chaque discipline a un rôle distinct : le BaZi dresse vos 4 Piliers natals (où chaque pilier associe en haut un Tronc Céleste — l’Élément Yin ou Yang, comme Eau Yin 癸 ou Feu Yang 丙 — et en bas une Branche Terrestre — l’Animal ; votre Maître du Jour est le Tronc Céleste de votre Jour de naissance, donc un Élément et jamais un animal). Le Tong Shu qualifie l’énergie générale de la journée via les 12 Officiers, le Qi Men Dun Jia sélectionne les créneaux horaires de 2h (hors Kong Wang) et l’orientation temporelle de votre chaise (8 Palais), tandis que le Feng Shui Ming Gua détermine les 4 directions permanentes de votre logement (lit, bureau).",
       faq_5_q: "Que signifient les jours d’Accumulation, les heures Kong Wang et les repères Santé ?",
       faq_5_a: "Dans la tradition culturelle du Tong Shu et du Qi Men Dun Jia, l’Officier « Accumulation » (滿) se distingue de « Réussite » (成) ou « Moisson » (收), et les heures « Kong Wang » (空亡, Vide Céleste) sont automatiquement écartées des créneaux recommandés.* Important : ces repères relèvent exclusivement d’une lecture culturelle et symbolique, sans aucune valeur médicale — pour toute consultation, soin, traitement ou chirurgie, suivez toujours uniquement l’avis et le calendrier fixés par votre médecin.**",
       faq_2_q: "Que comprend l’accès gratuit au quotidien par rapport à QiMétéo Premium ?",
@@ -294,7 +294,7 @@
       sc1_t: "Green, Amber or Red Light",
       sc1_d: "Your symbolic score (0–100%)*, the Tong Shu Day Officer, and clear daily guidance as soon as you wake up.",
       sc2_t: "Tailored to Your Birth Date & Hour",
-      sc2_d: "Your complete 4 BaZi Pillars (Year, Solar JieQi Month, Day, Hour) and your personal Ming Gua Number.",
+      sc2_d: "Your 4 two-level BaZi Pillars (Heavenly Stem = Yin/Yang Element on top, Earthly Branch = Animal on bottom) and, separately, your Ming Gua compass.",
       sc3_t: "Golden 2h Windows (Zero Kong Wang)",
       sc3_d: "Your 2 favorable daily windows free every day*, and up to 6 positive windows/day with Premium.",
       sc4_t: "Live 8-Palace Compass",
@@ -304,7 +304,7 @@
       sc6_t: "Ming Gua Feng Shui: Bed, Desk & Home",
       sc6_d: "Your 4 permanent favorable directions (Sheng Qi, Tian Yi, Yan Nian, Fu Wei) and the 4 less favorable sectors.*",
       sc6_duo_t: "Duo Synergy: Couple, Family, Partners",
-      sc6_duo_d: "Compare two natal charts and find favorable dates over 30 days when both calendars are simultaneously green.*",
+      sc6_duo_d: "Compare your Day Masters (Heavenly Stems: e.g. Yin Water 癸 & Yang Earth 戊) and Earthly Branches, and find shared favorable dates over 30 days.*",
       sc8_t: "Simple Mode or Expert Mode",
       sc8_d: "100% plain language by default, or full classical Qi Men charts, Gates, Stars, Deities, and BaZi pillars.",
 
@@ -328,17 +328,17 @@
       pillars_badge: "BaZi Natal Chart",
       pillars_kicker: "TAILORED · YOUR 4 BIRTH PILLARS (四柱八字)",
       pillars_title: "Why your birth year animal alone is never enough.",
-      pillars_desc: "Looking only at your birth year animal ignores 75% of your chart. QiMétéo computes all four pillars (BaZi) from your exact birth date and hour to measure harmonies (San He, Liu He) and clashes (Chong) specific to you.",
+      pillars_desc: "Each BaZi pillar has two levels: on top, the Heavenly Stem (Tian Gan 天干: your Yin or Yang Element, such as Yin Water 癸, Yang Fire 丙, or Yang Earth 戊) and on the bottom, the Earthly Branch (Di Zhi 地支: the Animal). Your core identity — the Day Master — is the Heavenly Stem (Element) of your Birth Day, never an animal.",
 
-      pil_1_title: "Year Pillar & Ming Gua",
-      pil_1_desc: "Anchored on the Solar New Year (LiChun, ~Feb 4), it defines your social circle and your Ming Gua Number (1 to 9) for your 4 permanent home Feng Shui directions.",
-      pil_2_title: "Solar Month Pillar",
-      pil_2_desc: "Calibrated to the 24 astronomical solar terms (JieQi), it governs your professional climate and the seasonal grounding of your five elements.",
-      pil_3_tag: "Day Master",
-      pil_3_title: "Day Pillar (Core of the chart)",
-      pil_3_desc: "Your core identity and personal sphere. A direct clash between the current day and your Day Pillar immediately lowers the score and triggers a caution alert.",
+      pil_1_title: "Year Pillar (Roots & Circle)",
+      pil_1_desc: "Anchored on the Solar New Year (LiChun, ~Feb 4), it pairs a Heavenly Stem (Element) and an Earthly Branch (Year Animal) reflecting your family roots and outer circle.",
+      pil_2_title: "Solar Month Pillar (JieQi)",
+      pil_2_desc: "Calibrated to the 24 astronomical solar terms (JieQi), it governs your career climate and sets the seasonal strength (Wang Xiang) of your Day Element.",
+      pil_3_tag: "Day Stem · Day Master",
+      pil_3_title: "Day Pillar (Heavenly Stem = Day Master)",
+      pil_3_desc: "The Day Heavenly Stem (e.g. Yin Water 癸, Yang Fire 丙, Yang Earth 戊) is your Day Master: it is a Yin or Yang Element, never an animal. The Earthly Branch underneath governs your home sphere and detects daily Clashes.",
       pil_4_title: "Birth Hour Pillar",
-      pil_4_desc: "Governs your projects, investments, and the realization of your actions. It refines your daily score and hourly window selection.",
+      pil_4_desc: "Composed of the Heavenly Stem and Earthly Branch of your solar birth hour, it governs your projects, investments, and refines your hourly window selection.",
 
       feat_badge: "The 6 QiMétéo Instruments",
       feat_kicker: "QI MEN DUN JIA · 8-PALACE COMPASS · 30-DAY PLANNER",
@@ -363,7 +363,7 @@
       duo_desc: "Beyond daily weather, QiMétéo computes your permanent directions at home from your Gua Number and crosses two complete charts (partner, associate, child, client) to spot dates when both calendars are simultaneously green.*",
 
       duo_p1_strong: "4-Pillar Duo Synergy & shared dates (30 days)",
-      duo_p1_desc: "Compare your pillars with a partner or loved one to measure symbolic affinities (San He, Liu He, complementary elements) and filter favorable shared dates over the next 30 days.*",
+      duo_p1_desc: "Compare your Day Masters (Heavenly Stems: e.g. Tian Gan Wu He combination between Yin Water 癸 and Yang Earth 戊), Five-Element balance, and Earthly Branches, and filter shared favorable dates over 30 days.*",
       duo_p2_strong: "Ming Gua Feng Shui: bed headboard, desk, and front door",
       duo_p2_desc: "In Ming Gua tradition, pointing your bed headboard toward Tian Yi is symbolically associated with renewal**, while orienting your desk toward Sheng Qi supports the momentum of your projects.*",
 
@@ -414,7 +414,7 @@
       faq_badge: "Reference & questions",
       faq_title: "Frequently asked questions about the method and the app.",
       faq_1_q: "Why enter both your birth date and your birth hour?",
-      faq_1_a: "In Chinese metaphysics (BaZi and Tong Shu), your birth year is only one pillar out of four. Your birth day determines your Day Master (the pillar most sensitive to daily clashes) and your birth hour refines your energetic affinities for projects. If you don't know your birth hour, QiMétéo still works accurately using your first three pillars.",
+      faq_1_a: "In Chinese metaphysics, each discipline has a distinct role: BaZi maps your 4 natal Pillars (where each pillar pairs a Heavenly Stem on top — your Yin or Yang Element, such as Yin Water 癸 or Yang Fire 丙 — with an Earthly Branch on the bottom — the Animal; your Day Master is the Heavenly Stem of your Birth Day, an Element and never an animal). Tong Shu qualifies the general energy of the day via the 12 Officers, Qi Men Dun Jia selects the 2-hour windows (cleared of Kong Wang) and temporary chair orientation (8 Palaces), while Ming Gua Feng Shui sets the 4 permanent directions of your home (bed, desk).",
       faq_5_q: "What do Full (Accumulation) days, Kong Wang hours, and Health indicators mean?",
       faq_5_a: "In cultural Tong Shu and Qi Men Dun Jia tradition, the 'Full / Accumulation' Officer (滿) is distinct from 'Success' (成) or 'Harvest' (收), and 'Kong Wang' (空亡, Celestial Void) hours are automatically excluded from your recommended slots.* Important: these indicators are strictly a cultural and symbolic reading with zero medical value — for any consultation, care, treatment, or surgery, always follow exclusively the advice and schedule set by your doctor.**",
       faq_2_q: "What is included in free daily access vs. QiMétéo Premium?",
@@ -490,13 +490,13 @@
     const folder = lang === 'en' ? 'en' : 'fr';
     const heroImg = document.getElementById('hero-active-screenshot');
     if (heroImg) {
-      heroImg.src = `assets/screenshots/${folder}/screen_${currentHeroScreen}.webp`;
+      heroImg.src = `assets/screenshots/${folder}/screen_${currentHeroScreen}.webp?v=9`;
     }
 
     document.querySelectorAll('[data-localized-screen]').forEach((img) => {
       const num = img.getAttribute('data-localized-screen');
       if (num) {
-        img.src = `assets/screenshots/${folder}/screen_${num}.webp`;
+        img.src = `assets/screenshots/${folder}/screen_${num}.webp?v=9`;
       }
     });
   }
@@ -556,7 +556,7 @@
         const folder = currentLang === 'en' ? 'en' : 'fr';
         heroImg.style.opacity = '0.35';
         setTimeout(() => {
-          heroImg.src = `assets/screenshots/${folder}/screen_${screenNum}.webp`;
+          heroImg.src = `assets/screenshots/${folder}/screen_${screenNum}.webp?v=9`;
           if (guardianImg && screenGuardians[screenNum]) {
             guardianImg.src = screenGuardians[screenNum];
           }
