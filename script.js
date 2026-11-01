@@ -143,8 +143,8 @@
 
       duo_p1_strong: "Synergie Duo sur vos 4 Piliers & dates communes (30 jours)",
       duo_p1_desc: "Comparez vos Maîtres du Jour (Troncs Célestes : ex. Combinaison Céleste Tian Gan Wu He entre Eau Yin 癸 et Terre Yang 戊), l’équilibre de vos Cinq Éléments et vos Branches Terrestres, et filtrez vos dates propices communes sur 30 jours.*",
-      duo_p2_strong: "Feng Shui Ming Gua : tête de lit, bureau et porte d’entrée",
-      duo_p2_desc: "Dans la tradition Ming Gua, orienter la tête de lit vers Tian Yi est associé au ressourcement**, tandis qu’orienter votre bureau vers Sheng Qi accompagne symboliquement la dynamique de vos projets.*",
+      duo_p2_strong: "Feng Shui Ming Gua : vos 4 bonnes directions personnelles (directions pleines)",
+      duo_p2_desc: "Sheng Qi (Créativité, puissance, réalisation), Tian Yi (Soutien et assistance, Médecins du ciel**), Yan Nian (Relationnel et famille) et Fu Wei (Stabilité, harmonie générale), appliquées aux directions pleines : Nord (353°–7°), Nord-Est (38°–52°), Est (83°–97°), Sud-Est (128°–142°), Sud (173°–187°), Sud-Ouest (218°–232°), Ouest (263°–277°) et Nord-Ouest (308°–322°).*",
 
       price_badge: "Éditions & Partage Familial",
       price_kicker: "7 JOURS D’ESSAI GRATUIT · PARTAGE FAMILIAL APPLE INCLUS (6 PERSONNES)",
@@ -199,7 +199,7 @@
       faq_2_q: "Que comprend l’accès gratuit au quotidien par rapport à QiMétéo Premium ?",
       faq_2_a: "Chaque jour, vous accédez gratuitement à la météo complète d’aujourd’hui (Feu Vert/Orange/Rouge, score symbolique %, Officier, pilier et affinités avec votre thème natal), à vos 2 créneaux propices de 2h, à la boussole en direct et aux widgets iOS. QiMétéo Premium (mensuel ou annuel, avec 7 jours d’essai gratuit) débloque le planificateur sur 30 jours, tous les créneaux positifs de la journée (jusqu’à 6/j), les 7 intentions de projet, l’audit du Calendrier Apple, le Feng Shui Ming Gua et la Synergie Duo.",
       faq_3_q: "Quelle est la différence entre la boussole Qi Men et les directions Feng Shui du lit ?",
-      faq_3_a: "Les deux outils agissent à des échelles complémentaires. La boussole Qi Men Dun Jia est temporelle : elle indique dans quelle direction orienter votre chaise pendant un créneau de deux heures pour un appel, un contrat ou une négociation.* Le Feng Shui Ming Gua est permanent : calculé selon votre naissance, il indique les quatre directions favorables de votre logement (tête de lit Tian Yi, bureau Sheng Qi, harmonie Yan Nian, stabilité Fu Wei).*",
+      faq_3_a: "Les deux outils agissent à des échelles complémentaires. La boussole Qi Men Dun Jia est temporelle : elle indique dans quelle direction orienter votre chaise pendant un créneau de deux heures pour un appel, un contrat ou une négociation.* Le Feng Shui Ming Gua est permanent : calculé selon votre année solaire de naissance, il indique vos 4 bonnes directions personnelles — Sheng Qi (Créativité, puissance, réalisation), Tian Yi (Soutien et assistance, Médecins du ciel**), Yan Nian (Relationnel et famille) et Fu Wei (Stabilité, harmonie générale) — appliquées aux directions pleines (Nord 353°–7°, Nord-Est 38°–52°, Est 83°–97°, Sud-Est 128°–142°, Sud 173°–187°, Sud-Ouest 218°–232°, Ouest 263°–277°, Nord-Ouest 308°–322°).*",
       faq_4_q: "Le Partage Familial Apple est-il inclus dans l’abonnement ?",
       faq_4_a: "Oui. Les deux formules QiMétéo Premium (mensuelle et annuelle) incluent nativement le Partage Familial Apple : jusqu’à six membres de votre groupe familial bénéficient de l’intégralité des fonctions Premium sur leur propre iPhone ou iPad sans supplément.",
 
@@ -364,8 +364,8 @@
 
       duo_p1_strong: "4-Pillar Duo Synergy & shared dates (30 days)",
       duo_p1_desc: "Compare your Day Masters (Heavenly Stems: e.g. Tian Gan Wu He combination between Yin Water 癸 and Yang Earth 戊), Five-Element balance, and Earthly Branches, and filter shared favorable dates over 30 days.*",
-      duo_p2_strong: "Ming Gua Feng Shui: bed headboard, desk, and front door",
-      duo_p2_desc: "In Ming Gua tradition, pointing your bed headboard toward Tian Yi is symbolically associated with renewal**, while orienting your desk toward Sheng Qi supports the momentum of your projects.*",
+      duo_p2_strong: "Ming Gua Feng Shui: your 4 personal favorable directions (full directions)",
+      duo_p2_desc: "Sheng Qi (Creativity, power, achievement), Tian Yi (Support & assistance, Heavenly Doctor**), Yan Nian (Relationships & family), and Fu Wei (Stability, overall harmony), applied to full central directions: North (353°–7°), Northeast (38°–52°), East (83°–97°), Southeast (128°–142°), South (173°–187°), Southwest (218°–232°), West (263°–277°), and Northwest (308°–322°).*",
 
       price_badge: "Editions & Family Sharing",
       price_kicker: "7-DAY FREE TRIAL · APPLE FAMILY SHARING INCLUDED (6 PEOPLE)",
@@ -420,7 +420,7 @@
       faq_2_q: "What is included in free daily access vs. QiMétéo Premium?",
       faq_2_a: "Every day, you get free access to Today's complete forecast (Green/Amber/Red light, symbolic score %, Officer, pillar, and natal affinities), your 2 favorable 2-hour windows, the live compass, and iOS widgets. QiMétéo Premium (monthly or annual, with a 7-day free trial) unlocks the 30-day planner, all positive daily windows (up to 6/day), all 7 project goals, the Apple Calendar audit, Ming Gua Feng Shui, and Duo Synergy.",
       faq_3_q: "How do the Qi Men compass and Ming Gua bed directions differ?",
-      faq_3_a: "They operate on complementary scales. The Qi Men Dun Jia compass is temporal: it shows which direction to face your chair during a two-hour window for a call, contract, or negotiation.* Ming Gua Feng Shui is permanent: computed from your birth date, it reveals the four favorable directions of your home (Tian Yi bed headboard, Sheng Qi desk, Yan Nian harmony, Fu Wei stability).*",
+      faq_3_a: "They operate on complementary scales. The Qi Men Dun Jia compass is temporal: it shows which direction to face your chair during a two-hour window for a call, contract, or negotiation.* Ming Gua Feng Shui is permanent: computed from your solar birth year, it reveals your 4 personal favorable directions — Sheng Qi (Creativity, power, achievement), Tian Yi (Support & assistance, Heavenly Doctor**), Yan Nian (Relationships & family), and Fu Wei (Stability, overall harmony) — applied to full central directions (North 353°–7°, Northeast 38°–52°, East 83°–97°, Southeast 128°–142°, South 173°–187°, Southwest 218°–232°, West 263°–277°, Northwest 308°–322°).*",
       faq_4_q: "Is Apple Family Sharing included in the subscription?",
       faq_4_a: "Yes. Both QiMétéo Premium plans (monthly and annual) natively include Apple Family Sharing: up to six members of your family group enjoy full Premium features on their own iPhone or iPad at no extra cost.",
 
