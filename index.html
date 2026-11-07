@@ -7,8 +7,8 @@
   <!-- SEO Primary Meta Tags -->
   <title>QiMétéo — La Météo de vos Décisions · Almanach Tong Shu, Qi Men Dun Jia, BaZi &amp; Feng Shui</title>
   <meta name="title" content="QiMétéo — La Météo de vos Décisions · Almanach Tong Shu, Qi Men Dun Jia, BaZi &amp; Feng Shui">
-  <meta name="description" content="Comme la météo du matin, mais calculée sur votre date et votre heure de naissance (4 Piliers BaZi) : Feu Vert/Orange/Rouge, jusqu’à 3 créneaux d’or Qi Men Dun Jia (hors Kong Wang), boussole 8 Palais, planificateur 30 jours sur 7 projets, Feng Shui Maison (Chiffre Gua) et Synergie Couple &amp; Travail/Recrutement.">
-  <meta name="keywords" content="QiMétéo, qimeteo, météo des décisions, qi men dun jia, tong shu, 4 piliers bazi, feng shui ming gua, chiffre gua, kong wang, planificateur 30 jours, synergie travail recrutement, compatibilité duo, boussole qi men">
+  <meta name="description" content="Comme la météo du matin, mais calculée sur votre date et votre heure de naissance (4 Piliers BaZi) : Feu Vert/Orange/Rouge, jusqu’à 3 créneaux d’or Qi Men Dun Jia (hors Kong Wang), boussole live en 2 modes (Créneaux 2h Qi Men &amp; À vie Chez soi Gua), planificateur 30 jours sur 7 projets et Synergie BaZi Couple &amp; Recrutement (Pilier du Jour, Branche du Mois &amp; Objectif pro).">
+  <meta name="keywords" content="QiMétéo, qimeteo, météo des décisions, qi men dun jia, tong shu, 4 piliers bazi, pilier du jour, branche du mois, feng shui ming gua, chiffre gua, kong wang, planificateur 30 jours, synergie travail recrutement, compatibilité couple bazi, boussole qi men">
   <meta name="author" content="Xavier Larrodé">
   <meta name="robots" content="index, follow">
   <meta name="google-site-verification" content="7idiWW8R0wCWxFZU1-zaQhHj3xDeIIynGLWol92rv7U" />
@@ -17,18 +17,19 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://qimeteo.app/">
   <meta property="og:title" content="QiMétéo — La Météo de vos Décisions (iPhone &amp; iPad)">
-  <meta property="og:description" content="Découvrez en 3 secondes (Feu Vert, Orange ou Rouge) si aujourd'hui est propice selon vos 4 Piliers de naissance, vos créneaux d'or de 2h, votre boussole Qi Men et vos dates propices sur 30 jours.*">
-  <meta property="og:image" content="https://qimeteo.app/assets/screenshots/fr/screen_1.webp">
+  <meta property="og:description" content="Découvrez en 3 secondes (Feu Vert, Orange ou Rouge) si aujourd'hui est propice selon vos 4 Piliers BaZi, vos créneaux d'or de 2h, votre boussole en 2 modes (Créneaux 2h Qi Men &amp; À vie Chez soi Gua), vos dates sur 30 jours et la Synergie Couple &amp; Recrutement.*">
+  <meta property="og:image" content="https://qimeteo.app/assets/screenshots/fr/screen_1.webp?v=10">
 
   <!-- Twitter Card -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://qimeteo.app/">
   <meta property="twitter:title" content="QiMétéo — La Météo de vos Décisions">
-  <meta property="twitter:description" content="Feu Vert, Orange ou Rouge calculé selon vos date et heure de naissance, créneaux Qi Men Dun Jia, boussole 8 Palais, planificateur 30 jours et Feng Shui Ming Gua.">
-  <meta property="twitter:image" content="https://qimeteo.app/assets/screenshots/fr/screen_1.webp">
+  <meta property="twitter:description" content="Feu Vert, Orange ou Rouge calculé selon vos date et heure de naissance, créneaux Qi Men Dun Jia, boussole 2 modes (2h Qi Men &amp; À vie Chez soi Gua), planificateur 30 jours et Synergie BaZi Couple &amp; Recrutement.">
+  <meta property="twitter:image" content="https://qimeteo.app/assets/screenshots/fr/screen_1.webp?v=10">
 
   <!-- Canonical & Domain -->
   <link rel="canonical" href="https://qimeteo.app/">
+  <link rel="alternate" type="text/plain" title="LLMs Context" href="https://qimeteo.app/llms.txt">
   
   <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
@@ -39,24 +40,66 @@
   <!-- Typography: Outfit (AppShots Display) + Cormorant Garamond (Almanac Editorial) + DM Sans (UI) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css?v=8">
 
-  <!-- Schema.org Application Markup -->
+  <!-- Schema.org GEO Structured Data (SoftwareApplication + FAQPage) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "QiMétéo : Météo des Décisions",
-    "operatingSystem": "iOS, iPadOS",
-    "applicationCategory": "LifestyleApplication, ProductivityApplication",
-    "url": "https://qimeteo.app/",
-    "description": "Application iOS et iPadOS de météo décisionnelle quotidienne calculée selon la date et l’heure de naissance (4 Piliers BaZi, 12 Officiers Tong Shu, créneaux stratégiques Qi Men Dun Jia hors Kong Wang, planificateur 30 jours et Feng Shui Ming Gua).",
-    "author": {
-      "@type": "Person",
-      "name": "Xavier Larrodé"
-    }
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "QiMétéo : Météo des Décisions",
+        "operatingSystem": "iOS 17+, iPadOS 17+",
+        "applicationCategory": "LifestyleApplication, ProductivityApplication",
+        "url": "https://qimeteo.app/",
+        "inLanguage": ["fr", "en", "es", "zh-Hans", "zh-Hant"],
+        "description": "Application iOS et iPadOS de météo décisionnelle quotidienne calculée 100 % en local selon la date et l’heure de naissance (4 Piliers BaZi, 12 Officiers Tong Shu, créneaux stratégiques Qi Men Dun Jia de 2h hors Kong Wang, boussole live en 2 modes : Créneaux 2h Qi Men et À vie Chez soi Ming Gua ±7°, planificateur 30 jours sur 7 projets et Synergie BaZi Couple & Travail/Recrutement avec théorie du Pilier du Jour, force de la Branche du Mois et détection des conflits).",
+        "featureList": [
+          "Météo décisionnelle quotidienne Feu Vert, Orange ou Rouge (Score 0–100 %)",
+          "Thème natal 4 Piliers BaZi (Troncs Célestes illustrés & Branches Terrestres)",
+          "Jusqu'à 3 Créneaux d'Or Qi Men Dun Jia de 2h par jour (hors Kong Wang, Tombe du Mois/Jour et Fu Yin)",
+          "Boussole Live en 2 modes : Créneaux 2h (Qi Men, dos tourné vers la direction + rituel d'ancrage 3 min) et À vie • Chez soi (Chiffre Gua Ba Zhai ±7° pour lit et bureau fixe)",
+          "Planificateur sur 30 jours pour 7 intentions de projet et audit du Calendrier Apple",
+          "Double Synergie BaZi : Couple & Proches + Travail, Associés & Recrutement (Pilier du Jour Maître/Branche, Force de la Branche du Mois & Objectif professionnel, Unions et Conflits des Troncs et Branches)"
+        ],
+        "author": {
+          "@type": "Person",
+          "name": "Xavier Larrodé"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Pourquoi renseigner à la fois sa date et son heure de naissance dans QiMétéo ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Le BaZi dresse vos 4 Piliers natals (Année, Mois solaire JieQi, Jour et Heure de naissance), où chaque pilier associe un Tronc Céleste (Élément Yin ou Yang) et une Branche Terrestre (Animal). Votre Maître du Jour est le Tronc Céleste du Jour. Le Tong Shu qualifie l’énergie de la journée via les 12 Officiers, le Qi Men Dun Jia sélectionne vos créneaux de 2h (hors Kong Wang), et le Feng Shui Ming Gua détermine vos 4 directions permanentes à la maison."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelle est la différence entre les 2 modes de la Boussole Live : Créneaux 2h (Qi Men) et À vie • Chez soi (Gua) ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Le mode « Créneaux 2h (Qi Men) » est dynamique et change toutes les 2 heures : il indique la direction vers laquelle tourner votre dos pendant un créneau d'or pour un appel, une signature ou une négociation, avec un rituel d'ancrage de 3 minutes. Le mode « À vie • Chez soi (Gua) » est permanent : calculé selon votre année solaire de naissance et votre genre (Homme/Femme), il indique vos 4 directions personnelles à vie (±7°) pour orienter durablement la tête de votre lit et votre bureau fixe à la maison."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment fonctionne la Synergie Couple et Travail / Recrutement en BaZi ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "QiMétéo analyse les 4 Piliers complets des deux personnes selon la méthode classique : le rapport interne du Pilier du Jour (Maître du Jour ↔ Branche Terrestre du Jour, qui révèle le fonctionnement intime au foyer ou la réaction face à la pression et au contrôle au travail), la force saisonnière de la Branche du Mois (Yue Ling) et l'objectif professionnel (Richesse & Résultat, Pouvoir & Responsabilité, Production & Savoir-Faire, Ressource & Expertise, Compagnons & Autonomie), ainsi que les unions et conflits des Troncs et des Branches (Chocs, Six Blessures, Punitions)."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -210,7 +253,7 @@
               <img
                 id="hero-active-screenshot"
                 class="hero-appshot-img"
-                src="assets/screenshots/fr/screen_1.webp?v=9"
+                src="assets/screenshots/fr/screen_1.webp?v=10"
                 data-screen-index="1"
                 alt="QiMétéo — Météo quotidienne Feu Vert, Orange ou Rouge"
                 width="430"
@@ -265,7 +308,7 @@
         <div class="appshots-carousel-track" id="appshots-track">
           <article class="appshot-slide-card active" data-slide-idx="0">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_1.webp?v=9" data-localized-screen="1" alt="01 · Votre Météo Décisionnelle" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_1.webp?v=10" data-localized-screen="1" alt="01 · Votre Météo Décisionnelle" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">01 / 08</span>
@@ -276,7 +319,7 @@
 
           <article class="appshot-slide-card" data-slide-idx="1">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_2.webp?v=9" data-localized-screen="2" alt="02 · Calculé sur mesure selon vos 4 Piliers" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_2.webp?v=10" data-localized-screen="2" alt="02 · Calculé sur mesure selon vos 4 Piliers" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">02 / 08</span>
@@ -287,7 +330,7 @@
 
           <article class="appshot-slide-card" data-slide-idx="2">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_3.webp?v=9" data-localized-screen="3" alt="03 · Créneaux d'Or de 2h" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_3.webp?v=10" data-localized-screen="3" alt="03 · Créneaux d'Or de 2h" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">03 / 08</span>
@@ -298,18 +341,18 @@
 
           <article class="appshot-slide-card" data-slide-idx="3">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_4.webp?v=9" data-localized-screen="4" alt="04 · Boussole Live 8 Palais" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_4.webp?v=10" data-localized-screen="4" alt="04 · Boussole Live 2 modes : Créneaux 2h Qi Men &amp; À vie Chez soi Gua" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">04 / 08</span>
-              <h3 data-i18n="sc4_t">Boussole Live des 8 Palais</h3>
-              <p data-i18n="sc4_d">Indique au degré près s’il est symboliquement propice de tourner le dos à la Déité Qi Men ou de faire face à la Combinaison.*</p>
+              <h3 data-i18n="sc4_t">Boussole Live en 2 modes : Créneaux 2h &amp; À vie Chez soi</h3>
+              <p data-i18n="sc4_d">Mode « Créneaux 2h (Qi Men) » (change toutes les 2h, dos tourné vers la direction + rituel d’ancrage 3 min) et mode « À vie • Chez soi (Gua) » (±7° pour lit &amp; bureau fixe).*</p>
             </div>
           </article>
 
           <article class="appshot-slide-card" data-slide-idx="4">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_5.webp?v=9" data-localized-screen="5" alt="05 · Planificateur 30 jours sur 7 projets" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_5.webp?v=10" data-localized-screen="5" alt="05 · Planificateur 30 jours sur 7 projets" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">05 / 08</span>
@@ -320,7 +363,7 @@
 
           <article class="appshot-slide-card" data-slide-idx="5">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_6.webp?v=9" data-localized-screen="6" alt="06 · Feng Shui Ming Gua" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_6.webp?v=10" data-localized-screen="6" alt="06 · Feng Shui Ming Gua" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">06 / 08</span>
@@ -331,23 +374,23 @@
 
           <article class="appshot-slide-card" data-slide-idx="6">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_7.webp?v=9" data-localized-screen="7" alt="07 · Synergie Couple &amp; Proches" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_7.webp?v=10" data-localized-screen="7" alt="07 · Synergie Couple &amp; Proches" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">07 / 08</span>
-              <h3 data-i18n="sc6_duo_t">Synergie Couple, Famille &amp; Proches</h3>
-              <p data-i18n="sc6_duo_d">Comparez vos Maîtres du Jour (Troncs Célestes) et vos Branches Terrestres, et repérez vos dates communes favorables sur 30 jours.*</p>
+              <h3 data-i18n="sc6_duo_t">Synergie Couple, Famille &amp; Piliers du Jour</h3>
+              <p data-i18n="sc6_duo_d">Analyse des 4 Piliers, théorie du Pilier du Jour (Maître du Jour ↔ Branche Terrestre du Jour), unions et conflits des Branches, et dates communes sur 30 jours.*</p>
             </div>
           </article>
 
           <article class="appshot-slide-card" data-slide-idx="7">
             <div class="appshot-img-wrap">
-              <img src="assets/screenshots/fr/screen_8.webp?v=9" data-localized-screen="8" alt="08 · Synergie Travail &amp; Recrutement" loading="lazy" width="430" height="932">
+              <img src="assets/screenshots/fr/screen_8.webp?v=10" data-localized-screen="8" alt="08 · Synergie Travail &amp; Recrutement" loading="lazy" width="430" height="932">
             </div>
             <div class="appshot-caption">
               <span class="appshot-step-tag">08 / 08</span>
               <h3 data-i18n="sc8_t">Synergie Travail, Associés &amp; Recrutement</h3>
-              <p data-i18n="sc8_d">Vérifiez si un candidat, associé ou collaborateur va bien travailler avec vous : Décision &amp; Pilotage, Exécution, Rôle naturel et Conseil management.*</p>
+              <p data-i18n="sc8_d">Évaluez un candidat ou associé : Force de la Branche du Mois (Enraciné vs Adaptatif), Objectif professionnel (Richesse, Pouvoir, Savoir-Faire…), Pilier du Jour face à la pression et détection des conflits.*</p>
             </div>
           </article>
         </div>
@@ -515,14 +558,14 @@
           <article class="appshot-bento-card">
             <div class="bento-top-meta">
               <span class="bento-num">02</span>
-              <span class="bento-domain">Azimuts 0° à 315° · 八宮</span>
+              <span class="bento-domain">Azimuts 0° à 315° · 八宮 &amp; 八宅</span>
             </div>
-            <h3 class="bento-title" data-i18n="feat_2_title">Boussole Live des 8 Palais : de dos ou de face</h3>
+            <h3 class="bento-title" data-i18n="feat_2_title">Boussole Live en 2 modes : Créneaux 2h (Qi Men) &amp; À vie • Chez soi (Gua)</h3>
             <p class="bento-desc" data-i18n="feat_2_desc">
-              Selon la structure du créneau Qi Men, l’application indique s’il est symboliquement propice de vous asseoir le dos tourné vers la Déité (Chief, Heaven, Earth, Moon, Harmony) ou de faire face à une Combinaison, avec un retour haptique dès que vous êtes aligné.*
+              Mode « Créneaux 2h (Qi Men) » (change toutes les 2h : indique vers quelle direction tourner votre dos pendant un créneau d’or + rituel d’ancrage 3 min) et mode « À vie • Chez soi (Gua) » (vos 4 directions permanentes ±7° pour orienter la tête de votre lit et votre bureau fixe à la maison).*
             </p>
             <div class="bento-visual-strip">
-              <img src="assets/stickers/breakout_4_boussole_aligne.webp?v=9" alt="Boussole Qi Men Aligné" loading="lazy">
+              <img src="assets/stickers/breakout_4_boussole_aligne.webp?v=10" alt="Boussole Qi Men Aligné" loading="lazy">
             </div>
           </article>
 
@@ -536,21 +579,21 @@
               Choisissez votre objectif parmi 7 intentions (Contrats &amp; Négociations, Lancer un projet, Union &amp; Mariage, Immobilier &amp; Travaux, Voyage, Médecin, Chirurgie &amp; Combinaison Santé**, Tri &amp; Régime) et triez les dates propices sur 30 jours* par « Plus pertinent (Score %) » ou « Au plus tôt (Pressé) ».
             </p>
             <div class="bento-visual-strip">
-              <img src="assets/stickers/breakout_5_planificateur_95.webp?v=9" alt="Planificateur 30 jours Score 95%" loading="lazy">
+              <img src="assets/stickers/breakout_5_planificateur_95.webp?v=10" alt="Planificateur 30 jours Score 95%" loading="lazy">
             </div>
           </article>
 
           <article class="appshot-bento-card">
             <div class="bento-top-meta">
               <span class="bento-num">04</span>
-              <span class="bento-domain">Synergie Pro · Agenda Apple</span>
+              <span class="bento-domain">Synergie Pro BaZi · Agenda Apple</span>
             </div>
-            <h3 class="bento-title" data-i18n="feat_5_title">Synergie Travail &amp; Recrutement + Audit Agenda Apple</h3>
+            <h3 class="bento-title" data-i18n="feat_5_title">Synergie Travail &amp; Recrutement (Pilier du Jour &amp; Branche du Mois)</h3>
             <p class="bento-desc" data-i18n="feat_5_desc">
-              Vérifiez si un candidat, associé ou collaborateur va bien travailler avec vous (Décision &amp; Pilotage, Exécution, Rôle naturel et Conseil management) et auditez vos prochains rendez-vous iPhone sur 30 jours avec export en 1 tap.*
+              Évaluez un candidat, associé ou collaborateur selon la méthode BaZi classique : rapport interne du Pilier du Jour (réaction face à la pression et au contrôle), force de la Branche du Mois (Yue Ling) &amp; Objectif professionnel (Richesse, Pouvoir, Savoir-Faire…), et détection des conflits de Troncs et Branches.*
             </p>
             <div class="bento-visual-strip">
-              <img src="assets/stickers/breakout_8_expert_synastrie.webp?v=9" alt="Synergie Travail et Recrutement BaZi" loading="lazy">
+              <img src="assets/stickers/breakout_8_expert_synastrie.webp?v=10" alt="Synergie Travail et Recrutement BaZi" loading="lazy">
             </div>
           </article>
         </div>
@@ -860,6 +903,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=9"></script>
+  <script src="script.js?v=10"></script>
 </body>
 </html>

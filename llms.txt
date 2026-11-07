@@ -1,0 +1,46 @@
+# QiMétéo — La Météo de vos Décisions (The Forecast for Your Decisions)
+
+> QiMétéo is a native iOS & iPadOS decision-weather application (iOS 17+) developed by Xavier Larrodé. It computes a personalized daily symbolic forecast (Green, Amber, or Red light and 0–100% Qi Score), 2-hour Golden Windows, a dual-mode Live Compass, a 30-day project date planner, and authentic BaZi Couple & Work/Hiring Synergy from the user's exact birth date and solar birth hour. All astronomical and metaphysical calculations run 100% locally on-device with zero tracking.
+
+- Official Website: https://qimeteo.app/
+- Support: https://qimeteo.app/support.html
+- Privacy Policy: https://qimeteo.app/privacy.html
+- Terms of Use (EULA): https://qimeteo.app/terms.html
+- Platforms: iPhone & iPad (iOS 17+), Apple Home Screen & Lock Screen Widgets, Apple Calendar integration, Apple Family Sharing (up to 6 members).
+- Languages supported: French (`fr-FR`, `fr-CA`), English (`en-US`, `en-GB`, `en-CA`, `en-AU`), Spanish (`es-ES`, `es-MX`), Chinese Simplified & Traditional (`zh-Hans`, `zh-Hant`).
+
+## Core Metaphysical Engines (100% On-Device)
+
+1. **4 Natal BaZi Pillars (四柱八字 — Year, Solar JieQi Month, Day, Birth Hour)**:
+   - Each pillar pairs a **Heavenly Stem** (`Tian Gan` 天干: Yin/Yang Element among the 10 illustrated archetypes — Yang Wood `甲`, Yin Wood `乙`, Yang Fire `丙`, Yin Fire `丁`, Yang Earth `戊`, Yin Earth `己`, Yang Metal `庚`, Yin Metal `辛`, Yang Water `壬`, Yin Water `癸`) on top with an **Earthly Branch** (`Di Zhi` 地支: the 12 Animals) on the bottom.
+   - Distinguishes Universal Day Quality from **Personal Opposition Days** (`Sui Po` / personal Day Clash against the user's natal chart, where no Qi Men catch-up slots are proposed).
+
+2. **Tong Shu 12 Day Officers (通書十二建除)**:
+   - Evaluates the daily Officer (`Jian`, `Chu`, `Man`, `Ping`, `Ding`, `Zhi`, `Po`, `Wei`, `Cheng`, `Shou`, `Kai`, `Bi`).
+   - Strictly distinguishes **Full / Accumulation (`滿 Man`)** days (which amplify whatever is undertaken) from **Success (`成 Cheng`)** or **Harvest (`收 Shou`)** days.
+
+3. **Qi Men Dun Jia 2-Hour Golden Windows (奇門遁甲 — San Yuan Method)**:
+   - Selects up to **3 favorable 2-hour windows per day** (between 07:00 and 23:00), diversifying Deities and Gates across the day.
+   - Automatically filters out **Kong Wang (`空亡` Celestial Void)** hours, Month Tomb, Day Tomb, and `Fu Yin` structures, while flagging **Sky Horse (`Tian Ma` 天馬)** movement hours.
+
+4. **Dual-Mode Live Compass (Boussole Live en 2 modes)**:
+   - **Mode 1 — 2h Slots (`Créneaux 2h • Qi Men`)**: Dynamic orientation that changes every 2 hours. Indicates the exact azimuth (`0°–315°`, 8 Palaces) to **turn your back toward** during a Qi Men golden window for negotiations, calls, or contracts, complete with a **3-minute anchoring and intention ritual**.
+   - **Mode 2 — Lifetime • At Home (`À vie • Chez soi • Gua`)**: Permanent personal Feng Shui orientation (`Ba Zhai Ming Gua` 八宅本命卦) computed from the solar birth year (`Li Chun`) and gender (`Homme / Femme`). Indicates the 4 lifetime favorable directions (`Sheng Qi`, `Tian Yi`, `Yan Nian`, `Fu Wei`) within narrow `±7°` central sectors (`North 353°–7°`, `NE 38°–52°`, `East 83°–97°`, `SE 128°–142°`, `South 173°–187°`, `SW 218°–232°`, `West 263°–277°`, `NW 308°–322°`) for permanently positioning a **bed headboard** and **fixed home desk**, plus the 4 directions to avoid.
+
+5. **30-Day Project Planner Across 7 Intentions & Apple Calendar Audit**:
+   - Finds the most favorable dates over a rolling 30-day horizon for 7 specific goals:
+     1. Contracts, Negotiations & Collecting Payment
+     2. Launching a Project, Business or Product
+     3. Marriage, Union & Romantic Milestone
+     4. Real Estate, Moving & Renovation
+     5. Travel & Business Trips
+     6. Doctor, Surgery & Health Combination (strictly cultural/symbolic reading; never replaces medical advice)
+     7. Decluttering, Sorting & Diet
+   - Supports solo planning or shared duo planning, dual sorting (`Best Match Score %` vs. `Soonest`), and 1-tap Apple Calendar audit & export.
+
+6. **Authentic BaZi Dual Synergy: Couple & Family + Work, Co-Founders & Hiring**:
+   - **Couple, Family & Friends Synergy**: Compares two complete 4-Pillar BaZi charts across 4 harmony dimensions (Mindset & Dialogue, Daily Rhythm, Family & Shared Goals, Mutual Five-Element Support) and identifies shared favorable dates over 30 days.
+   - **Work, Co-Founders & Hiring Synergy**: Evaluates professional compatibility with a job candidate, co-founder, partner, or collaborator across 4 executive dimensions (Decision & Leadership, Daily Collaboration, Execution & Delivery, Natural Team Role) using classical Ziping BaZi theory:
+     - **Day Pillar Relationship (`Maître du Jour ↔ Branche Terrestre du Jour`)**: Analyzes the 5 classical Stem-to-Branch dynamics within the Day Pillar (Same Element = reliance on peers & healthy competition; Day Master controls Day Branch = need for mastery & control; Day Branch controls Day Master = stimulated by pressure, urgency & challenge; Day Master produces Day Branch = drive to create, express & support others; Day Branch produces Day Master = reflective strength & need for backing).
+     - **Month Branch Strength (`Yue Ling` 月令) & Career Objective (Five Spheres / Ten Gods)**: Evaluates whether the person's Day Master is seasonally **Rooted (`Wang Xiang`)** or **Adaptive (`Xiu Qiu`)** in their birth month, and identifies their primary professional drive regulated by the Month Branch: **Wealth & Results (`Cai Xing`)**, **Power, Authority & Responsibility (`Guan Sha`)**, **Output, Craft & Innovation (`Shi Shang`)**, **Resource, Expertise & Security (`Yin Xing`)**, or **Peers, Network & Autonomy (`Bi Jie`)**.
+     - **Stem & Branch Harmonies and Conflicts**: Detects Heavenly Stem Unions (`Wu He`), Earthly Branch Six Harmonies (`Liu He`), and Three Harmony Alliances (`San He`), as well as hidden workplace or relationship frictions: **Six Clashes (`Liu Chong` 六沖)**, **Six Harms (`Liu Hai` 六害)**, and **Punishments (`Xing` 刑)**.

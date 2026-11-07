@@ -76,16 +76,16 @@
       sc2_d: "Vos 4 Piliers BaZi à 2 étages (Tronc Céleste = Élément Yin/Yang en haut, Branche Terrestre = Animal en bas) et votre Chiffre Gua.",
       sc3_t: "Créneaux d’Or de 2h (hors Kong Wang)",
       sc3_d: "Vos meilleures fenêtres horaires de 2h chaque jour*, sélectionnées et diversifiées (jusqu’à 3 créneaux d’or/jour).",
-      sc4_t: "Boussole Live des 8 Palais",
-      sc4_d: "Indique au degré près s’il est symboliquement propice de tourner le dos à la Déité Qi Men ou de faire face à la Combinaison.*",
+      sc4_t: "Boussole Live en 2 modes : Créneaux 2h & À vie Chez soi",
+      sc4_d: "Mode « Créneaux 2h (Qi Men) » (change toutes les 2h, dos tourné vers la direction + rituel d’ancrage 3 min) et mode « À vie • Chez soi (Gua) » (±7° pour lit & bureau fixe).*",
       sc5_t: "Planificateur 30 Jours · 7 Projets",
       sc5_d: "Trouvez les jours propices sur 30 jours* (tri par Score % ou Au plus tôt) et auditez votre Agenda Apple.",
       sc6_t: "Feng Shui Maison (Chiffre Gua) : Lit & Bureau",
       sc6_d: "Vos 4 directions favorables permanentes (Sheng Qi, Tian Yi, Yan Nian, Fu Wei) pour orienter votre lit et votre bureau.*",
-      sc6_duo_t: "Synergie Couple, Famille & Proches",
-      sc6_duo_d: "Comparez vos Maîtres du Jour (Troncs Célestes) et vos Branches Terrestres, et repérez vos dates communes favorables sur 30 jours.*",
+      sc6_duo_t: "Synergie Couple, Famille & Piliers du Jour",
+      sc6_duo_d: "Analyse des 4 Piliers, théorie du Pilier du Jour (Maître du Jour ↔ Branche Terrestre du Jour), unions et conflits des Branches, et dates communes sur 30 jours.*",
       sc8_t: "Synergie Travail, Associés & Recrutement",
-      sc8_d: "Vérifiez si un candidat, associé ou collaborateur va bien travailler avec vous : Décision & Pilotage, Exécution, Rôle naturel et Conseil management.*",
+      sc8_d: "Évaluez un candidat ou associé : Force de la Branche du Mois (Enraciné vs Adaptatif), Objectif professionnel (Richesse, Pouvoir, Savoir-Faire…), Pilier du Jour face à la pression et détection des conflits.*",
 
       concept_badge: "L’almanach Tong Shu",
       concept_kicker: "12 OFFICIERS DU JOUR · ACCUMULATION · KONG WANG",
@@ -127,22 +127,22 @@
       feat_1_title: "Créneaux d’Or de 2h (hors heures Kong Wang)",
       feat_1_desc: "Entre 07h et 23h, QiMétéo écarte les heures Kong Wang (Vide Céleste) ainsi que les structures défavorables pour retenir jusqu’à 3 créneaux d’or par jour (Combinaisons 5★, Vœux & Intentions, Finances & Relationnel Favorables*, Déités diversifiées).",
 
-      feat_2_title: "Boussole Live des 8 Palais : de dos ou de face",
-      feat_2_desc: "Selon la structure du créneau Qi Men, l’application indique s’il est symboliquement propice de vous asseoir le dos tourné vers la Déité (Chief, Heaven, Earth, Moon, Harmony) ou de faire face à une Combinaison, avec un retour haptique dès que vous êtes aligné.*",
+      feat_2_title: "Boussole Live en 2 modes : Créneaux 2h (Qi Men) & À vie • Chez soi (Gua)",
+      feat_2_desc: "Mode « Créneaux 2h (Qi Men) » (change toutes les 2h : indique vers quelle direction tourner votre dos pendant un créneau d’or + rituel d’ancrage 3 min) et mode « À vie • Chez soi (Gua) » (vos 4 directions permanentes ±7° pour orienter la tête de votre lit et votre bureau fixe à la maison).*",
 
       feat_3_title: "Planificateur 30 Jours sur 7 Intentions & Double Tri",
       feat_3_desc: "Choisissez votre objectif parmi 7 intentions (Contrats & Négociations, Lancer un projet, Union & Mariage, Immobilier & Travaux, Voyage, Médecin, Chirurgie & Combinaison Santé**, Tri & Régime) et triez les dates propices sur 30 jours* par « Plus pertinent (Score %) » ou « Au plus tôt (Pressé) ».",
 
-      feat_5_title: "Synergie Travail & Recrutement + Audit Agenda Apple",
-      feat_5_desc: "Vérifiez si un candidat, associé ou collaborateur va bien travailler avec vous (Décision & Pilotage, Exécution, Rôle naturel et Conseil management) et auditez vos prochains rendez-vous iPhone sur 30 jours avec export en 1 tap.*",
+      feat_5_title: "Synergie Travail & Recrutement (Pilier du Jour & Branche du Mois)",
+      feat_5_desc: "Évaluez un candidat, associé ou collaborateur selon la méthode BaZi classique : rapport interne du Pilier du Jour (réaction face à la pression et au contrôle), force de la Branche du Mois (Yue Ling) & Objectif professionnel (Richesse, Pouvoir, Savoir-Faire…), et détection des conflits de Troncs et Branches.*",
 
       duo_badge: "Harmonie du lieu, Couple & Recrutement",
       duo_kicker: "FENG SHUI MAISON (八宅) & SYNERGIE COUPLE / TRAVAIL",
       duo_title: "Orientations Feng Shui Maison (lit, bureau) et Synergie Couple, Proches & Recrutement.",
-      duo_desc: "Au-delà de la météo du jour, QiMétéo calcule vos directions permanentes à la maison selon votre Chiffre Gua et croise deux thèmes complets — en mode Couple/Proches ou en mode Travail/Recrutement (candidat, associé, collaborateur) — ainsi que vos dates communes sur 30 jours.*",
+      duo_desc: "Au-delà de la météo du jour, QiMétéo calcule vos directions permanentes à la maison selon votre Chiffre Gua et croise deux thèmes complets — en mode Couple/Proches ou en mode Travail/Recrutement (Pilier du Jour, Force de la Branche du Mois & Objectif pro, Conflits Troncs/Branches) — ainsi que vos dates communes sur 30 jours.*",
 
       duo_p1_strong: "Double Synergie BaZi : Couple & Proches + Travail & Recrutement",
-      duo_p1_desc: "Basculez entre la Synergie Couple/Proches et la Synergie Travail/Recrutement (Décision & Pilotage, Travail au Quotidien, Exécution, Rôle naturel du candidat et Conseil management) et filtrez vos meilleures dates communes sur 30 jours.*",
+      duo_p1_desc: "Analyse complète des 4 Piliers : rapport du Pilier du Jour (Maître du Jour ↔ Branche Terrestre du Jour), force saisonnière de la Branche du Mois & Objectif professionnel (Richesse & Résultat, Pouvoir, Production, Ressource, Compagnons), et détection des conflits (Chocs, Six Blessures, Punitions).*",
       duo_p2_strong: "Feng Shui Ming Gua : vos 4 bonnes directions personnelles (directions pleines)",
       duo_p2_desc: "Sheng Qi (Créativité, puissance, réalisation), Tian Yi (Soutien et assistance, Médecins du ciel**), Yan Nian (Relationnel et famille) et Fu Wei (Stabilité, harmonie générale), appliquées aux directions pleines : Nord (353°–7°), Nord-Est (38°–52°), Est (83°–97°), Sud-Est (128°–142°), Sud (173°–187°), Sud-Ouest (218°–232°), Ouest (263°–277°) et Nord-Ouest (308°–322°).*",
 
@@ -297,16 +297,16 @@
       sc2_d: "Your 4 two-level BaZi Pillars (Heavenly Stem = Yin/Yang Element on top, Earthly Branch = Animal on bottom) and your Ming Gua number.",
       sc3_t: "Golden 2h Windows (Zero Kong Wang)",
       sc3_d: "Your best daily 2-hour windows*, selected and diversified (up to 3 golden slots/day).",
-      sc4_t: "Live 8-Palace Compass",
-      sc4_d: "Shows to the exact degree whether it is symbolically favorable to sit with your back to the Qi Men Deity or facing the Combination.*",
+      sc4_t: "Dual-Mode Live Compass: 2h Qi Men Slots & Lifetime Home Gua",
+      sc4_d: "'2h Slots (Qi Men)' mode (changes every 2h, back turned toward the direction + 3-min anchoring ritual) and 'Lifetime • At Home (Gua)' mode (±7° for bed & fixed desk).*",
       sc5_t: "30-Day Planner · 7 Project Goals",
       sc5_d: "Find your favorable dates over 30 days* (sorted by Score % or Soonest) and audit your Apple Calendar.",
       sc6_t: "Home Feng Shui (Ming Gua): Bed & Desk",
       sc6_d: "Your 4 permanent favorable directions (Sheng Qi, Tian Yi, Yan Nian, Fu Wei) to orient your bed and desk.*",
-      sc6_duo_t: "Love, Family & Friends Synergy",
-      sc6_duo_d: "Compare your Day Masters (Heavenly Stems) and Earthly Branches, and find shared favorable dates over 30 days.*",
+      sc6_duo_t: "Love, Family & Day Pillar Synergy",
+      sc6_duo_d: "4-Pillar comparison, Day Pillar theory (Day Master ↔ Day Branch), Stem/Branch unions & clashes, and shared favorable dates over 30 days.*",
       sc8_t: "Work, Partners & Hiring Synergy",
-      sc8_d: "Check if a candidate, partner, or collaborator will work well with you: Decision-Making, Execution, Natural Role, and Management tip.*",
+      sc8_d: "Evaluate a candidate or partner: Month Branch strength (Rooted vs. Adaptive), Career Objective (Wealth, Power, Output…), Day Pillar under pressure, and clash detection.*",
 
       concept_badge: "The Tong Shu Almanac",
       concept_kicker: "12 DAY OFFICERS · FULL (ACCUMULATION) · KONG WANG VOID",
@@ -348,22 +348,22 @@
       feat_1_title: "Golden 2h Windows (cleared of Kong Wang hours)",
       feat_1_desc: "Between 07:00 and 23:00, QiMétéo filters out Kong Wang hours (Celestial Void) and negative structures to select up to 3 golden slots/day (5★ Combinations, Wishes & Intentions, Favorable Finances & Connections*, diversified Deities).",
 
-      feat_2_title: "Live 8-Palace Compass: back or face positioning",
-      feat_2_desc: "Depending on the Qi Men window structure, the app indicates whether it is symbolically favorable to sit with your back turned to the Deity (Chief, Heaven, Earth, Moon, Harmony) or facing a Combination, with haptic confirmation as soon as you are aligned.*",
+      feat_2_title: "Dual-Mode Live Compass: 2h Slots (Qi Men) & Lifetime • At Home (Gua)",
+      feat_2_desc: "'2h Slots (Qi Men)' mode (dynamic every 2h: shows which direction to turn your back toward during a golden window + 3-min anchoring ritual) and 'Lifetime • At Home (Gua)' mode (your 4 lifetime personal directions ±7° for bed headboard & fixed desk).*",
 
       feat_3_title: "30-Day Planner Across 7 Project Goals & Dual Sort",
       feat_3_desc: "Pick your goal among 7 intentions (Contracts & Negotiations, Launch a Project, Marriage & Union, Real Estate & Renovation, Travel, Doctor, Surgery & Health Combination**, Declutter & Diet) and sort favorable dates over 30 days* by 'Best Match (Score %)' or 'Soonest (Urgent)'.",
 
-      feat_5_title: "Work & Hiring Synergy + 30-Day Apple Calendar Audit",
-      feat_5_desc: "Evaluate whether a candidate, business partner, or collaborator will work well with you (Decision-Making, Execution, Natural Role, Management tip) and audit your upcoming iPhone meetings over 30 days with 1-tap export.*",
+      feat_5_title: "Work & Hiring Synergy (Day Pillar & Month Branch Goal)",
+      feat_5_desc: "Evaluate a candidate, co-founder, or collaborator using classical BaZi theory: Day Pillar relationship (response to pressure & control), Month Branch strength (Yue Ling) & Career Objective (Wealth, Power, Output…), and Stem/Branch conflict detection.*",
 
       duo_badge: "Home harmony, Love & Hiring Synergy",
       duo_kicker: "HOME FENG SHUI (八宅) & LOVE / WORK SYNERGY",
       duo_title: "Home Feng Shui orientations (bed, desk) and Love, Family & Hiring Synergy.",
-      duo_desc: "Beyond daily weather, QiMétéo computes your permanent directions at home from your Gua Number and crosses two complete charts — in Love/Family mode or Work/Hiring mode (candidate, partner, collaborator) — plus shared favorable dates over 30 days.*",
+      duo_desc: "Beyond daily weather, QiMétéo computes your permanent directions at home from your Gua Number and crosses two complete charts — in Love/Family mode or Work/Hiring mode (Day Pillar, Month Branch strength & Career Goal, Stem/Branch clashes) — plus shared favorable dates over 30 days.*",
 
       duo_p1_strong: "Dual BaZi Synergy: Love & Family + Work & Hiring",
-      duo_p1_desc: "Switch between Love/Family Synergy and Work/Hiring Synergy (Decision-Making, Daily Collaboration, Execution, Candidate Natural Role, and Management tip) and filter shared favorable dates over 30 days.*",
+      duo_p1_desc: "Complete 4-Pillar analysis: Day Pillar relationship (Day Master ↔ Day Branch), Month Branch seasonal strength & Career Objective (Wealth & Results, Power, Output, Resource, Peers), and conflict detection (Clashes, Six Harms, Punishments).*",
       duo_p2_strong: "Ming Gua Feng Shui: your 4 personal favorable directions (full directions)",
       duo_p2_desc: "Sheng Qi (Creativity, power, achievement), Tian Yi (Support & assistance, Heavenly Doctor**), Yan Nian (Relationships & family), and Fu Wei (Stability, overall harmony), applied to full central directions: North (353°–7°), Northeast (38°–52°), East (83°–97°), Southeast (128°–142°), South (173°–187°), Southwest (218°–232°), West (263°–277°), and Northwest (308°–322°).*",
 
@@ -490,13 +490,13 @@
     const folder = lang === 'en' ? 'en' : 'fr';
     const heroImg = document.getElementById('hero-active-screenshot');
     if (heroImg) {
-      heroImg.src = `assets/screenshots/${folder}/screen_${currentHeroScreen}.webp?v=9`;
+      heroImg.src = `assets/screenshots/${folder}/screen_${currentHeroScreen}.webp?v=10`;
     }
 
     document.querySelectorAll('[data-localized-screen]').forEach((img) => {
       const num = img.getAttribute('data-localized-screen');
       if (num) {
-        img.src = `assets/screenshots/${folder}/screen_${num}.webp?v=9`;
+        img.src = `assets/screenshots/${folder}/screen_${num}.webp?v=10`;
       }
     });
   }
@@ -556,7 +556,7 @@
         const folder = currentLang === 'en' ? 'en' : 'fr';
         heroImg.style.opacity = '0.35';
         setTimeout(() => {
-          heroImg.src = `assets/screenshots/${folder}/screen_${screenNum}.webp?v=9`;
+          heroImg.src = `assets/screenshots/${folder}/screen_${screenNum}.webp?v=10`;
           if (guardianImg && screenGuardians[screenNum]) {
             guardianImg.src = screenGuardians[screenNum];
           }
