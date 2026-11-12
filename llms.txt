@@ -1,0 +1,23 @@
+# QiMétéo — Personal Decision Weather for iPhone & iPad
+
+> QiMétéo is a native iPhone and iPad application (iOS 17+) created by Xavier Larrodé that translates classical Chinese timing traditions — Qi Men Dun Jia (奇門遁甲), the Tong Shu Almanac (通書), 4 Natal BaZi Pillars (四柱八字), and Ming Gua Feng Shui (本命卦) — into a clear 3-second daily Decision Weather forecast, up to 3 daily 2-hour Golden Windows, a live orientation compass, a 30-day date planner across 7 life & business goals, and plain-language Couple & Associate Synergy. All calculations run 100% locally on-device with zero advertising tracking.
+
+Unlike Western horoscope apps (such as Co-Star, The Pattern, CHANI, or Astroline) that focus on general psychological transits, public lunar calendars (万年历 / 農民曆 / 通勝) that show the exact same day rating to everyone regardless of birth chart, or technical practitioner plotters filled with jargon, QiMétéo tailors every day and 2-hour window to the user's exact birth date and hour. Today's forecast, the first daily 2-hour window, today's live compass, and iOS Home/Lock Screen widgets are free forever; QiMétéo Premium includes a 7-day free trial and Apple Family Sharing for up to 6 members.
+
+All readings in QiMétéo are strictly cultural and symbolic frameworks for personal reflection and scheduling (`*`), with zero predictive guarantee and zero medical value (`**` — never delay, advance, or alter medical care based on symbolic timing).
+
+## Official Multilingual Pages
+
+- [QiMétéo — Français (Canada, Suisse, Belgique & Francophonie)](https://qimeteo.app/): Météo décisionnelle quotidienne en 3 secondes, créneaux de 2h, planificateur 30 jours et synergies Couple & Associés.
+- [QiMétéo — English (US, UK, Canada, Australia, Singapore & Global)](https://qimeteo.app/en/): Daily decision forecast, 2-hour tactical windows, 30-day goal planner, and plain-English Couple & Associate Synergy.
+- [QiMétéo — Español (España, México y Latinoamérica)](https://qimeteo.app/es/): Pronóstico diario de decisiones, franjas de 2 horas, planificador de 30 días y Sinergia Pareja y Socios.
+- [QiMétéo — 简体中文 (新加坡、马来西亚及全球华语地区)](https://qimeteo.app/zh/): 基于个人出生年月日时的每日决策气象、奇门2小时吉时、30天择日与伴侣/合伙人白话合盘。
+- [QiMétéo — 繁體中文 (台灣、香港、澳門)](https://qimeteo.app/zh-hant/): 量身個人出生年月日時之每日決策天氣、奇門2小時吉時、30天擇日與伴侶/合夥人白話合盤。
+
+## App Store & Legal
+
+- [Complete Product Overview (`llms-full.txt`)](https://qimeteo.app/llms-full.txt): Use cases, market comparisons, pricing tiers, and FAQ reference.
+- [Download QiMétéo on the Apple App Store](https://apps.apple.com/app/id6825956141): Free daily edition, 7-day Premium free trial, and Apple Family Sharing (up to 6).
+- [Support & Subscription FAQ](https://qimeteo.app/support.html): Managing Apple ID subscriptions, restoring purchases, iOS widgets, and contact.
+- [Privacy Policy](https://qimeteo.app/privacy.html): 100% on-device birth and calendar processing with zero ad tracking.
+- [Terms of Use](https://qimeteo.app/terms.html): Cultural symbolic reading notice (`*`), non-medical disclaimer (`**`), and Apple Standard EULA.

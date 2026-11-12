@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+
+# Generative AI & Answer Engines (OpenAI, Anthropic, Google Gemini, Perplexity, Apple)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://qimeteo.app/sitemap.xml
+# LLMs Summary: https://qimeteo.app/llms.txt
+# LLMs Full Reference: https://qimeteo.app/llms-full.txt
