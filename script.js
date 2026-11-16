@@ -18,7 +18,14 @@
           ? 'en'
           : 'fr';
 
-  // 1. Language <details> dropdown: close on outside click or Escape
+  // 1. Language <details> dropdown: close on outside click or Escape + remember manual choice
+  document.querySelectorAll('.lang-menu a[lang], .footer-nav a[lang]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      try {
+        sessionStorage.setItem('qm_lang_manual', (link.getAttribute('lang') || '').toLowerCase());
+      } catch (err) {}
+    });
+  });
   const langDropdown = document.querySelector('.lang-dropdown');
   if (langDropdown) {
     document.addEventListener('click', function (e) {
