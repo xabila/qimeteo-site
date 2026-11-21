@@ -150,20 +150,182 @@
   </url>
   <url>
     <loc>https://qimeteo.app/support.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/en/support.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/es/support.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/zh/support.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/zh-hant/support.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/support.html"/>
   </url>
   <url>
     <loc>https://qimeteo.app/privacy.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/en/privacy.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/es/privacy.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/zh/privacy.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/zh-hant/privacy.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/privacy.html"/>
   </url>
   <url>
     <loc>https://qimeteo.app/terms.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/en/terms.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/es/terms.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/zh/terms.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/zh-hant/terms.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/terms.html"/>
   </url>
 </urlset>
