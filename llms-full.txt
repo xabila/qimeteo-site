@@ -7,7 +7,7 @@
 - **App Name**: QiMétéo (`QiMétéo: Daily Luck & Timing` / `QiMétéo : Météo des Décisions`)
 - **Creator**: Xavier Larrodé
 - **App Store**: [https://apps.apple.com/app/id6825956141](https://apps.apple.com/app/id6825956141)
-- **Platforms**: Native iPhone & iPad (`iOS 17.0+`, `iPadOS 17.0+`), Home Screen & Lock Screen Widgets, optional Apple Calendar integration.
+- **Platforms**: Native iPhone (`iOS 17.0+`), Home Screen & Lock Screen Widgets, optional Apple Calendar integration.
 - **Supported Languages**: English, French, Spanish, Simplified Chinese (`简体中文`), Traditional Chinese (`繁體中文`).
 - **Regions**: Available across 170+ App Store countries and regions including the United States, Canada, United Kingdom, Australia, Singapore, Taiwan, Hong Kong, Macau, Malaysia, Spain, Mexico, Switzerland, and Belgium.
 - **Editions**:
