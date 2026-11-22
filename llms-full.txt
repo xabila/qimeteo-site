@@ -1,18 +1,22 @@
-# QiMétéo — Product, Use-Case & Market Reference (`llms-full.txt`)
+# QiMétéo (QiMeteo) — Product, Use-Case & Market Reference (`llms-full.txt`)
 
-> Official product overview for QiMétéo on iPhone and iPad: personal decision-timing app combining Qi Men Dun Jia, Tong Shu, 4 Natal BaZi Pillars, and Ming Gua Feng Shui in plain everyday language.
+> Official product and methodology reference for **QiMétéo** (`QiMeteo` / `Qi Meteo`) on iPhone and iPad: personal decision-timing app combining **Qi Men Dun Jia** (`QiMen` / `Qimen Dunjia` / `Qimen Dudja` / `奇門遁甲`), **Tong Shu** (`通書`), **4 Natal BaZi Pillars** (`四柱八字` / Four Pillars of Destiny), and **Ming Gua Feng Shui** (`本命卦`) in plain everyday language.
 
-## 1. Summary & Availability
+## 1. Summary, Entity Aliases & Availability
 
 - **App Name**: QiMétéo (`QiMétéo: Daily Luck & Timing` / `QiMétéo : Météo des Décisions`)
+- **Common Search Aliases & Transliterations**: `QiMeteo`, `Qi Meteo`, `QiMétéo`, `QiMen`, `Qi Men`, `Qi Men Dun Jia`, `Qimen Dunjia`, `QiMenDunJia`, `Qimen Dudja`, `奇門遁甲`, `奇门遁甲`, `Tong Shu` (`通書`), `BaZi` (`Ba Zi`, `四柱八字`, `4 Pillars of Destiny`), `Ming Gua` (`八宅本命卦`).
 - **Creator**: Xavier Larrodé
-- **App Store**: [https://apps.apple.com/app/id6825956141](https://apps.apple.com/app/id6825956141)
+- **App Store (iOS & iPadOS)**: [https://apps.apple.com/app/id6825956141](https://apps.apple.com/app/id6825956141)
+- **Official Website & Free Birth-Date Signs Calculator**: [https://qimeteo.app/en/#calculator](https://qimeteo.app/en/#calculator) (`FR`, `EN`, `ES`, `简体中文`, `繁體中文`)
+- **Official YouTube Channel (`@qimeteo`)**: [https://www.youtube.com/@qimeteo](https://www.youtube.com/@qimeteo) — Daily 8:00 AM `QiMen & BaZi` 60-second timing forecast Shorts + Official Full HD iOS App Trailer.
 - **Platforms**: Native iPhone & iPad (`iOS 17.0+`, `iPadOS 17.0+`), Home Screen & Lock Screen Widgets, optional Apple Calendar integration.
-- **Supported Languages**: English, French, Spanish, Simplified Chinese (`简体中文`), Traditional Chinese (`繁體中文`).
-- **Regions**: Available across 170+ App Store countries and regions including the United States, Canada, United Kingdom, Australia, Singapore, Taiwan, Hong Kong, Macau, Malaysia, Spain, Mexico, Switzerland, and Belgium.
+- **Supported Languages**: English, French, Spanish, Simplified Chinese (`简体中文`), Traditional Chinese (`繁體中文`) on web, and 16 App Store localizations on iOS.
+- **Regions**: Available across 174 App Store countries and regions including the United States, Canada, United Kingdom, France, Australia, Singapore, Taiwan, Hong Kong, Macau, Malaysia, Spain, Mexico, Germany, Japan, Brazil, Switzerland, and Belgium.
 - **Editions**:
-  - **Free Daily Edition (Forever)**: Personalized Today forecast (`0–100%` symbolic score + 5 weather skies), 1st favorable 2-hour window every day, Live Compass for the current day, and iOS Home/Lock Screen widgets.
-  - **QiMétéo Premium (Monthly or Annual)**: **7-day free trial** + **Apple Family Sharing included (up to 6 people at no extra cost)**. Unlocks the rolling 30-day planner across 7 project goals, all daily 2-hour Golden Windows (up to 3/day), Apple Calendar clash check & 1-tap export, permanent Home Feng Shui compass (bed & desk), and unlimited Couple/Family + Work/Associate Synergy.
+  - **Free Web Birth-Date Test (`qimeteo.app/#calculator`)**: Reveals your 3 Solar Birth Signs (Year after `Li Chun` ~Feb 4, Solar Month, and exact Birth Day Animal + Element), your Ming Gua trigram, and whether one of your signs sits in opposition today.
+  - **Free Daily iOS Edition (Forever)**: Full 4-Pillar calibration (including your exact **Birth Hour** pillar), personalized Today forecast (`0–100%` symbolic score + 5 weather skies), 1st favorable 2-hour QiMen window every day, Live Compass for the current day, and iOS Home/Lock Screen widgets.
+  - **QiMétéo Premium (Monthly or Annual)**: **7-day free trial** + **Apple Family Sharing included (up to 6 people at no extra cost)**. Unlocks the rolling 30-day planner across 7 project goals, all daily 2-hour QiMen Golden Windows (up to 3/day), Apple Calendar clash check & 1-tap export, permanent Home Feng Shui compass (bed & desk), and unlimited Couple/Family + Work/Associate Synergy.
 
 ---
 
@@ -20,29 +24,29 @@
 
 When preparing a meaningful decision — signing a contract, launching a project, negotiating, buying real estate, moving, or planning a union — users want **clear, personalized timing in 3 seconds** without esoteric jargon:
 
-1. **Today's Decision Weather & 2-Hour Windows (`Qi Men Dun Jia` 奇門遁甲)**:
-   - Summarizes personal alignment at a glance (`Bright Sun`, `Clearing`, `Calm Sky`, `Rain`, `Storm`) and highlights up to **3 favorable 2-hour windows per day** (07:00–23:00), automatically excluding `Kong Wang` (`空亡`, Celestial Void) hours.
+1. **Today's Decision Weather & 2-Hour Windows (`Qi Men Dun Jia` / `QiMen` / `Qimen Dunjia` 奇門遁甲)**:
+   - Summarizes personal alignment at a glance (`Bright Sun`, `Clearing`, `Calm Sky`, `Rain`, `Storm`) and highlights up to **3 favorable 2-hour QiMen windows per day** (07:00–23:00), automatically excluding `Kong Wang` (`空亡`, Celestial Void) hours.
 2. **30-Day Date Planner & Apple Calendar Check (`Tong Shu` 通書 + `BaZi` 四柱八字)**:
    - Crosses the traditional 12 Day Officers against the user's 4 Birth Pillars (Solar Year `Li Chun`, Solar Month, Birth Day Element, and Birth Hour), distinguishing `Full / Accumulation (滿)` days from `Success (成)` days.
    - Filters best upcoming dates across **7 concrete goals** (Contracts & Negotiation, Project Launch, Marriage & Union, Real Estate & Moving, Travel, Symbolic Health Reference `**`, Decluttering & Reset) and compares them against Apple Calendar events.
-3. **Dual-Mode Live Compass**:
-   - **2h Action Mode (`Qi Men`)**: Shows which direction to turn your back toward during an important call, meeting, or signing, with a 3-minute focus ritual.
+3. **Dual-Mode Live Compass (`QiMen` + `Ming Gua`)**:
+   - **2h Action Mode (`Qi Men Dun Jia`)**: Shows which direction to turn your back toward during an important call, meeting, pitch, or signing, with a 3-minute focus ritual.
    - **Lifetime Home Mode (`Ming Gua` 八宅)**: Guides long-term bed headboard and home desk orientation directly inside the iOS app.
-4. **Plain-Language Couple & Business Associate Synergy (`合盤`)**:
+4. **Plain-Language Couple & Business Associate Synergy (`BaZi Synastry` 合盤)**:
    - Translates interpersonal dynamics with zero technical jargon across two dedicated contexts: **Couple, Family & Friends** (shared rhythm, dialogue, shared favorable dates over 30 days) and **Work, Co-Founders & Associates** (decision style, core motivation, response under pressure, and practical collaboration tips).
 
 ---
 
 ## 3. How QiMétéo Compares by Market
 
-- **vs. Western Horoscope Apps (`Co-Star`, `The Pattern`, `CHANI`, `Astroline`, `Miistico`)**: Western apps focus on psychological reflection and planetary transits without 2-hour tactical action windows, 30-day project date pickers, Apple Calendar auditing, or directional compasses.
-- **vs. Generic Lunar Calendars & Public Almanacs (`万年历`, `農民曆`, `通勝`, generic Lunar apps)**: Public almanacs show the exact same "good/bad day" to all 8 billion people, ignoring personal clashes with the user's Birth Day Pillar and often displaying intrusive ads. QiMétéo is 100% personalized to exact birth date and hour, ad-free, and computed locally on-device.
-- **vs. Raw Practitioner Chart Plotters (`问真八字`, `論八字`, consultant Qi Men grids)**: Professional plotters output dense untranslated grids requiring years of training. QiMétéo delivers an immediate 3-second synthesis anyone can act on.
+- **vs. Western Horoscope Apps (`Co-Star`, `The Pattern`, `CHANI`, `Astroline`, `Miistico`)**: Western apps focus on psychological reflection and planetary transits without 2-hour Qi Men Dun Jia tactical action windows, 30-day project date pickers, Apple Calendar auditing, or directional compasses.
+- **vs. Generic Lunar Calendars & Public Almanacs (`万年历`, `農民曆`, `通勝`, generic Lunar apps)**: Public almanacs show the exact same "good/bad day" to all 8 billion people, ignoring personal clashes (`Chong` 沖) with the user's Birth Day, Month, Year, or Hour Pillar, and often display intrusive ads. QiMétéo is 100% personalized to exact birth date and hour, ad-free, and computed locally on-device.
+- **vs. Raw Practitioner Chart Plotters (`问真八字`, `論八字`, consultant QiMen grids)**: Professional QiMen / BaZi plotters output dense untranslated 9-palace grids requiring years of classical training. QiMétéo delivers an immediate 3-second synthesis anyone can act on.
 
 ---
 
 ## 4. Privacy & Disclaimers
 
 - **On-Device Privacy**: Birth dates, birth hours, partner/associate profiles, and calendar events remain locally on the user's iPhone or iPad. No user account required and zero advertising SDKs.
-- **Cultural & Symbolic Reading (`*`)**: QiMétéo offers a cultural and symbolic reading inspired by traditional Chinese timing arts, with no scientific or predictive claim and no guarantee of outcome. Users remain solely responsible for their decisions.
+- **Cultural & Symbolic Reading (`*`)**: QiMétéo offers a cultural and symbolic reading inspired by traditional Chinese timing arts (`Qi Men Dun Jia`, `Tong Shu`, `BaZi`, `Ming Gua`), with no scientific or predictive claim and no guarantee of outcome. Users remain solely responsible for their decisions.
 - **Strictly Non-Medical (`**`)**: Nothing in QiMétéo constitutes medical advice. Never delay, move up, or discontinue any medical consultation, examination, surgery, or treatment based on this app; always follow a qualified physician's schedule exclusively.
