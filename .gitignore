@@ -19,9 +19,10 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 
-# Internal Docs
+# Internal Docs & Build Scripts
 PRODUCT.md
 DESIGN.md
+tools/
 
 # IDEs
 .idea/

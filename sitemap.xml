@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://qimeteo.app/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
@@ -16,24 +18,60 @@
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-fr.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Aperçu réel en direct (28s) : Onboarding, Météo du jour, 30 Jours, Boussole &amp; Synergies</video:title>
+      <video:description>Capture vidéo réelle de QiMétéo 1.0.6 sur iPhone : découvrez en 28 secondes pourquoi chaque journée et chaque créneau de 2 heures dépendent de votre date et heure exactes de naissance.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-fr.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://qimeteo.app/en/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
@@ -43,24 +81,60 @@
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-en.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Live 28-Second App Preview: Onboarding, Daily Forecast, 30-Day Planner, Compass &amp; Synergy</video:title>
+      <video:description>Real on-device capture of QiMétéo 1.0.6 on iPhone: see in 28 seconds how your exact birth date and hour calibrate daily scores, 2-hour Qi Men windows, compass directions, and 30-day planning.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-en.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://qimeteo.app/es/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
@@ -70,24 +144,249 @@
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-es.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Vista previa real en vivo (28s): Onboarding, Clima del día, 30 Días, Brújula y Sinergias</video:title>
+      <video:description>Captura real en iPhone de QiMétéo 1.0.6: descubre en 28 segundos cómo tu fecha y hora exactas de nacimiento calibran cada día y cada franja de 2 horas.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-es.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/de/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-de.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Echte 28-Sekunden-Live-Vorschau: Onboarding, Tageswetter, 30-Tage-Planer, Kompass &amp; Synergie</video:title>
+      <video:description>Echte Bildschirmaufnahme von QiMétéo 1.0.6 auf dem iPhone: Erleben Sie in 28 Sekunden, wie Geburtsdatum und Geburtsstunde Tageswerte, 2h-Zeitfenster und Kompass kalibrieren.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-de.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/pt/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-pt.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Pré-visualização real ao vivo (28s): Onboarding, Clima do dia, 30 Dias, Bússola e Sinergias</video:title>
+      <video:description>Captura real no iPhone do QiMétéo 1.0.6: veja em 28 segundos como a sua data e hora exatas de nascimento calibram cada dia e cada janela de 2 horas.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-pt.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/ja/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-ja.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — 28秒ライブ実機プレビュー：オンボーディング・今日の気象・30日択日・羅盤・相性</video:title>
+      <video:description>iPhone上のQiMétéo 1.0.6実機キャプチャ動画（28秒）：生年月日と出生時刻から今日のスコア、2時間吉時、吉方位、30日カレンダーを導く流れをご覧いただけます。*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-ja.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://qimeteo.app/zh/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
@@ -97,24 +396,60 @@
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-zh.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — 28秒真机实录预览：引导页、今日气象、30天择日、罗盘与合盘</video:title>
+      <video:description>iPhone 真机实录 QiMétéo 1.0.6（28秒）：直观了解个人出生年月日时如何校准每日分数、2小时奇门吉时、罗盘方位与30天吉日。*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-zh.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://qimeteo.app/zh-hant/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
@@ -124,45 +459,458 @@
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
     <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-zh-hant.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — 28秒實機錄影預覽：引導頁、今日天氣、30天擇日、羅盤與合盤</video:title>
+      <video:description>iPhone 實機錄製 QiMétéo 1.0.6（28秒）：直觀了解個人出生年月日時如何校準每日分數、2小時奇門吉時、羅盤方位與30天吉日。*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-zh-hant.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/ru/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-ru.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Живое превью приложения (28 сек.): онбординг, прогноз дня, 30 дней, компас и синергия</video:title>
+      <video:description>Реальная запись экрана QiMétéo 1.0.6 на iPhone: узнайте за 28 секунд, как дата и час рождения калибруют прогноз дня, 2-часовые окна и компас.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-ru.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/hi/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-hi.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — 28-सेकंड लाइव इन-ऐप प्रीव्यू: ऑनबोर्डिंग, आज का पूर्वानुमान, 30-दिन प्लानर, कंपास और सिनर्जी</video:title>
+      <video:description>iPhone पर QiMétéo 1.0.6 की वास्तविक रिकॉर्डिंग (28 सेकंड): देखें कैसे आपकी जन्म तिथि और समय से दैनिक स्कोर, 2-घंटे के स्लॉट और दिशा तय होते हैं।*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-hi.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/ko/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-en.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — 28초 실제 구동 프리뷰: 온보딩, 오늘의 기상, 30일 택일, 나침반 &amp; 시너지</video:title>
+      <video:description>iPhone에서 촬영한 QiMétéo 1.0.6 실제 화면(28초): 생년월일시가 오늘의 점수, 2시간 기문 길시, 나침반 방위와 30일 일정을 어떻게 조율하는지 확인하세요.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-en.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/vi/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-en.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Video trải nghiệm thực tế 28 giây: Onboarding, Thời tiết hôm nay, Lịch 30 ngày, La bàn &amp; Tương hợp</video:title>
+      <video:description>Quay màn hình thực tế QiMétéo 1.0.6 trên iPhone (28 giây): xem ngày và giờ sinh cá nhân hóa điểm số mỗi ngày, khung giờ 2h và hướng la bàn ra sao.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-en.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/th/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-en.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — วิดีโอตัวอย่างใช้งานจริง 28 วินาที: เริ่มต้นใช้งาน สภาพอากาศวันนี้ ปฏิทิน 30 วัน เข็มทิศ &amp; ความสมพงศ์</video:title>
+      <video:description>บันทึกหน้าจอจริงของ QiMétéo 1.0.6 บน iPhone (28 วินาที): ดูว่าวันและเวลาเกิดของคุณคำนวณคะแนนรายวัน ช่วงเวลา 2 ชม. และทิศมงคลอย่างไร*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-en.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://qimeteo.app/ro/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://qimeteo.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://qimeteo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://qimeteo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://qimeteo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://qimeteo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://qimeteo.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-SG" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MY" href="https://qimeteo.app/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-MO" href="https://qimeteo.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://qimeteo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://qimeteo.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://qimeteo.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://qimeteo.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://qimeteo.app/th/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://qimeteo.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qimeteo.app/en/"/>
+    <video:video>
+      <video:thumbnail_loc>https://qimeteo.app/assets/videos/poster-en.webp</video:thumbnail_loc>
+      <video:title>QiMétéo (iOS) — Previzualizare reală live (28s): Onboarding, Meteo zilnic, Planificator 30 zile, Busolă &amp; Sinergii</video:title>
+      <video:description>Captură reală pe iPhone a aplicației QiMétéo 1.0.6 (28s): vezi cum data și ora exactă a nașterii calibrează scorul zilei, ferestrele de 2h și busola.*</video:description>
+      <video:content_loc>https://qimeteo.app/assets/videos/preview-en.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://qimeteo.app/llms.txt</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://qimeteo.app/llms-full.txt</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://qimeteo.app/support.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://qimeteo.app/privacy.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://qimeteo.app/terms.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
